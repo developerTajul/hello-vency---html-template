@@ -2,6 +2,7 @@
     position: relative;
     border-radius: 16px;
     overflow: hidden;
+
     .overlay{
         background: #161616;
         opacity: 0;
@@ -26,6 +27,7 @@
         visibility: hidden;
         opacity: 0;
         @include transition;
+
         .icon{
             transform: scale(0.3);
             @include transition;
