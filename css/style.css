@@ -7419,11 +7419,6 @@ button.testimonial-arrow-btn:hover:before {
     margin-top: 24px;
   }
 }
-@media (max-width: 1199px) {
-  .price-card-wrapper {
-    margin-bottom: 24px;
-  }
-}
 .price-card-wrapper .bg-shape {
   width: 100%;
   height: 230px;
