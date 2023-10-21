@@ -1,0 +1,13 @@
+.about-info-card {
+    &.style-2 {
+      .section-title{
+        margin-bottom: 24px;
+      }
+      .list-item-wrapper{
+        margin-bottom: 40px;
+        ul{
+          margin-bottom: 0;
+        }
+      }
+    }
+}

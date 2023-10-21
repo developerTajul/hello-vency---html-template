@@ -1,0 +1,91 @@
+.contact-info-area {
+    .icon-card{
+        &.style-3{
+            @include rmaxwd(991){
+                margin-top: 24px;
+            }
+            .icon{
+                width: 92px;
+                height: 92px;
+            }
+        }
+    }
+}
+.contact-form-area {
+    background-color: $background-3;
+    .comment-respond {
+        margin-left: 26px;
+        padding: 40px;
+        margin-top: 0;
+        border-radius: 12px;
+        box-shadow: 0px 24px 64px 0px rgba(199, 206, 218, 0.25);
+        @include rmaxwd(991){
+            margin-top: 24px;
+            margin-left: 0;
+        }
+        textarea{
+            margin-bottom: 0;
+        }
+        .g-6 {
+            --bs-gutter-x: 24px;
+            --bs-gutter-y: 24px;
+            @include sm{
+                --bs-gutter-x: 12px;
+                --bs-gutter-y: 12px;
+            }
+          }
+    }
+    .video-popup-card{
+        border-radius: 16px;
+        @media only screen and (min-width: 992px) and (max-width: 1399px){
+            height: 100%;
+        }
+        .video-popup-image{
+            @media only screen and (min-width: 992px) and (max-width: 1399px){
+                height: 100%;
+            }
+        }
+        img{
+            max-height: 601px;
+        }
+    }
+}
+.contact-map-area {
+    padding-top: 144px;
+    padding-bottom: 134px;
+
+    @include rmaxwd(991) {
+        padding: 100px 0;
+    }
+    @include rmaxwd(767) {
+        padding: 70px 0;
+    }
+    .map-wodget {
+        iframe {
+            height: 380px;
+        }
+    }
+}
+// contact-page
+.contact-title {
+    text-align: center;
+    h2 {
+        font-size: 48px;
+        color: $secondary-color;
+        margin-bottom: 0;
+
+        @media only screen and (min-width: 992px) and (max-width: 1199px) {
+            font-size: 48px;
+        }
+        @include md {
+            font-size: 38px;
+            line-height: 44px;
+        }
+        @include sm {
+            font-size: 32px;
+            line-height: 30px;
+        }
+    }
+}
+
+

@@ -1,0 +1,138 @@
+// Header-area
+.header-area{
+  &.style-2{
+    // margin-bottom: -112px;
+  }
+}
+
+// Service-area
+.service-area{
+  &.style-2{
+    .service-area-inner{
+      .service-btn{
+        margin-top: 0 !important;
+      }
+      .icon-card-wrapper{
+        
+        .icon-card{
+          &.style-2{
+            margin: 0;
+          }
+        }
+      }
+    }
+  }
+}
+// Counter Area Two
+.counter-up-area {
+  &.style-2 {
+    position: relative;
+    overflow: hidden;
+  }
+}
+// Portfolio-slider-area style-2
+.portfolio-slider-area{
+    &.style-2{
+      .section-title{
+        .title{
+          padding-right: 0;
+        }
+      }
+    }
+}
+// Why-choose-area 
+.why-choose-area{
+  &.style-2{
+    background-color: $background-3;
+    position: relative;
+    .about-info-card{
+      margin-top: 6px;
+      .section-title{
+        text-align: start;
+        align-items: start;
+      }
+      .list-item-wrapper{
+        margin-top: 0;
+      }
+      @include rmaxwd(991){
+        margin-top: 40px;
+      }
+    }
+  }
+}
+// Team-area Style-1
+.team-area{
+  &.style-1{
+    .section-title{
+      margin-bottom: 56px;
+    }
+    .theme-btn{
+      margin-top: 56px;
+    }
+      @include lg{
+        .team-member-card{
+          padding: 30px;
+        }
+      }
+  }
+}
+// Appointment Booking Area
+// .appointment-area {
+//   &.style-2 {
+//     margin-bottom: -261px;
+//     position: relative;
+//     z-index: 2;
+
+//     @include md() {
+//       margin-top: 80px;
+//     }
+//     @include sm() {
+//       margin-top: 70px;
+//     }
+//     .form-image-mr {
+//       padding-right: 56px !important;
+//     }
+//     .form-image-wrapper {
+//       background-size: cover;
+//       background-repeat: no-repeat;
+//       background-position: center center;
+//       width: 100%;
+//       height: 100%;
+//     }
+//     .appointment-area-two-inner {
+//       margin: 0;
+//     }
+//   }
+// }
+
+// FAQ Area
+.faq-area {
+  &.style-2 {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    .content-wrapper{
+      position: relative;
+      @include rmaxwd (991){
+        margin-bottom: 30px;
+      }
+      .btn-wrapper{
+        @include rmaxwd(991){
+          text-align: center;
+        }
+      }
+      .sketch{
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        transform: translate(0, 50%);
+        
+      }
+    }
+    .section-title{
+      margin-bottom: 40px;
+      position: relative;
+    }
+  }
+}

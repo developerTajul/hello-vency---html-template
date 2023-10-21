@@ -1,0 +1,42 @@
+.support-card{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px;
+    @include sm{
+        display: inline-flex;
+    }
+    p{
+        padding: 10px 150px;
+        border: 1px solid $black-3;
+        border-radius: 50px;
+        z-index: 3;
+        background: $white;
+        margin: 0;
+        font-family: $body-font;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 32px; 
+        color: $black-2;
+        span{
+            color: #015DFF;
+        }
+        @include sm{
+            padding: 10px 20px;
+            text-align: center;
+        }
+        @include md{
+            text-align: center;
+            padding: 10px 50px;
+        }
+    }
+    &:before{
+        content: "";
+        width: 100%;
+        height: 1px;
+        background-color: $black-3;
+        position: absolute;
+
+    }
+}

@@ -1,0 +1,54 @@
+.why-choose-area{
+    &.style-1{
+        .about-image-card{
+            .visitor{
+                @include sm{
+                    // transform: translate(-18%, 21%);
+                    display: none;
+                }
+                @include md{
+                    // transform: translate(-18%, 21%);
+                    display: none;
+                }
+                @media only screen and (min-width: 992px) and (max-width: 1700px){
+                    // transform: translate(-17%, 20%);
+                    display: none;
+                }
+            }
+            .status{
+                @include sm{
+                    // right: 32%;
+                    // top: 50%;
+                    // transform: translate(63%, -50%);
+                    display: none;
+                }
+                @include md{
+                    display: none;
+                    // right: 32%;
+                    // top: 50%;
+                    // transform: translate(63%, -50%);
+                }
+            }
+        }
+    }
+    &.style-2{
+        .about-image-card{
+            .main-img{
+                img{
+                    border-radius: 16px;
+                    overflow: hidden;
+                }
+            }
+        }
+    }
+    &.style-3{
+        .about-image-card{
+            .main-img{
+                img{
+                    border-radius: 16px;
+                    overflow: hidden;
+                }
+            }
+        } 
+    }
+}

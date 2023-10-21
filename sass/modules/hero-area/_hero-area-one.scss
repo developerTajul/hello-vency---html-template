@@ -1,0 +1,189 @@
+.hero-area{
+        padding-top: 40px;
+        background-size: cover !important;
+        background-position: center !important;
+        background-repeat: no-repeat !important;
+        margin: 0 60px;
+        border-radius: 40px;
+        @include rmaxwd(1700){
+            margin: 0;
+            border-radius: 0;
+        }
+    .content-wrapper{
+        .hero-title{
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            z-index: 10;
+            position: relative;
+            @include sm{
+                text-align: center;
+                gap: 0;
+            }
+            @include md{
+                text-align: center;
+            }
+            .short-title {
+                margin-bottom: 12px;
+                span{
+                  border-radius: 8px;
+                  background: #E6EFFF;
+                  font-family: $heading-font;
+                  font-size: 20px;
+                  font-weight: 500;
+                  line-height: 28px;
+                  display: inline-block;
+                  padding: 6px 12px;
+                  color: #015DFF;
+                  @include sm{
+                    font-size: 16px;
+                  }
+                }
+                @include sm {
+                  font-size: 20px;
+                }
+              }
+            .title{
+                position: relative;
+                letter-spacing: -1.34px;
+                .underline{
+                    background-size: cover;
+                    background-position: bottom;
+                    background-repeat: no-repeat;
+                    position: relative;
+                    img{
+                      position: absolute;
+                      bottom: -12px;
+                    }
+                  }
+            }
+            .desc{
+                color: $black-2;
+            }
+        }
+        .btn-wrapper{
+            display: flex;
+            align-items: center;
+            gap: 24px;
+            margin-top: 35px;
+            @include rmaxwd(991){
+                margin-top: 9px;
+                justify-content: center;
+            }
+            .video-popup-btn{
+                .icon{
+                    box-shadow: 0 0 0 0 rgb(189 239 251);
+                }
+            }
+        }
+    }
+    .hero-image{
+        margin-right: -154px;
+        position: relative;
+        margin-left: -24px;
+        @include sm{
+            margin-left: 0;
+        }
+        .main-img{
+            animation: MoveLeftRight 2s linear infinite alternate;
+            img{
+                min-height: 803px;
+                @include rmaxwd(1700){
+                    min-height: auto;
+                }
+            }
+        }
+        @include rmaxwd(1900){
+            margin-right: 0;
+        }
+        .work-activity{
+            position: absolute;
+            bottom: 78px;
+            left: -41px;
+            animation: MoveUpDown 2s linear infinite alternate;
+            img{
+                // height: 214px;
+                box-shadow: 0px 24px 64px 0px rgba(199, 206, 218, 0.25);
+                @include lg{
+                    transform: scale(0.8);
+                }
+            }
+            @include rmaxwd(767){
+                display: none;
+            }
+            @include md{
+                left: 0;
+            }
+            @include lg{
+                bottom: 24px;
+                left: 0;
+                animation: unset;
+            }
+            @media only screen and (min-width: 1200px) and (max-width: 1700px){
+                bottom: 32px;
+                left: 0;
+                animation: unset;
+            }
+        }
+        .profits{
+            padding: 24px 20px;
+            background-color: $white;
+            border-radius: 16px;
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            position: absolute;
+            top: 0;
+            right: 0;
+            transform: translate(-45%, 150%);
+            @keyframes profitsMove {
+                0% { transform: translate(-45%, 130%); }
+                100% { transform: translate(-45%, 150%); }
+              }
+            animation: profitsMove 2s linear infinite alternate;
+            @include sm{
+                display: none;
+            }
+            @include lg{
+                right: 0;
+                top: 0;
+                animation: unset;
+                transform: unset;
+            }
+            @media only screen and (min-width: 1200px) and (max-width: 1900px){
+                animation: unset;
+                transform: unset;
+            }
+            .icon{
+              width: 55px;  
+              height: 55px;
+              border-radius: 50px;
+              background-color: $secondary-color;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              i{
+                font-size: 30px;
+                color: $black; 
+              }
+            }
+            .content{
+                display: flex;
+                flex-direction: column;
+                span{
+                    margin-bottom: 2px;
+                    color: #6B6B76;
+                    font-family: $body-font;
+                    font-size: 13px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height:  23px 
+                }
+                h5{
+                    margin-bottom: 0;
+                    line-height: 26px;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,166 @@
+.testimonial-slider-area{
+    &.style-2{
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-color: $background-3;
+        .section-title{
+            margin-bottom: 56px;
+        }
+        .slick-active + .slick-active + .slick-active {
+            .icon{
+                i{
+                    color: #FFE3EE;
+                }
+            }
+           }
+        .testimonial-card{
+            &.style-2{
+                &.slick-slide{
+                  @include rmaxwd(1400){
+                    margin: 0 20px 80px 20px;
+                  }
+                  &.slick-center{
+                    margin-bottom: 80px;
+                  }
+                }
+              }
+            .icon{
+                i{
+                    color: $secondary-color;
+                }
+            }
+            &.slick-center{
+                margin-top: 0 !important;
+                background-color: $primary-color;
+                .icon{
+                    i{
+                        color: $white;
+                        @include transition;
+                    }
+                }
+            } 
+
+            // &.slick-active {
+            //     &:nth-child(1) {
+            //         background-color: red !important;
+            //     }
+            //     // &:first-child{
+            //     //     background-color: ;
+            //     //     padding: 100px;
+            //     //     .icon{
+            //     //         i{
+            //     //             color: $secondary-color;
+            //     //         }
+            //     //     }
+            //     // }
+            //     // &:last-child{
+            //     //     .icon{
+            //     //         i{
+            //     //             color: FFE3EE;
+            //     //         }
+            //     //     }
+            //     // }
+            // }
+            &.slick-slide{
+                margin: 98px 20px 0 20px;
+                @include transition;
+            }
+        }
+        .testimonial-slider-two{
+            .slick-list{
+                padding: 0 !important;
+            }
+            .testimonial-arrow-btn{
+              i{
+                position: unset;
+              }
+              .swip{
+                height: 20px;
+              }
+              &:hover{
+                .swip{
+                  .title-wrapper{
+                    transform: translateY(-20px);
+                  }
+                }
+              }
+                &.active{
+                    background-color: $primary-color;
+                    @include transition;
+                }
+                
+                &.prev-btn{
+                    position: absolute;
+                    bottom: 0;
+                    right: 50%;
+                    margin-right: 24px;
+                    // transform: translate(-50%, 0);
+                }
+                &.next-btn{
+                    position: absolute;
+                    bottom: 0;
+                    left: 50%;
+                    // transform: translate(50%, 0);
+                }
+            }
+            .slick-dots {
+                display: flex;
+                gap: 20px;
+                flex-direction: column;
+                position: absolute;
+                top: 50%;
+                right: 46px;
+                transform: translateY(-50%);
+                z-index: 2;
+                flex-direction: column;
+          
+                @include sm {
+                  position: relative;
+                  flex-direction: row;
+                  align-items: center;
+                  justify-content: center;
+                  margin-right: 30px;
+                  bottom: 0px;
+                  top: unset;
+                  left: unset;
+                  right: unset;
+                  transform: none;
+                }
+          
+                li {
+                  display: inline-block;
+                  line-height: 0;
+                  outline: 1px solid transparent;
+                  border: 4px solid transparent;
+                  border-radius: 50px;
+                  @include transition;
+          
+                  button {
+                    font-size: 0;
+                    padding: 0;
+                    width: 11px;
+                    height: 11px;
+                    background-color: $black-2;
+                    border-radius: 50px;
+                    position: relative;
+                    @include transition;
+          
+                    &:hover {
+                      background-color: $orange-color;
+                      @include transition;
+                    }
+                  }
+                  &.slick-active {
+                    @include transition;
+                    outline: 1px solid $black;
+          
+                    button {
+                      @include transition;
+                    }
+                  }
+                }
+              }
+        }
+    }
+}

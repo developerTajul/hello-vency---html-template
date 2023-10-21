@@ -1,0 +1,47 @@
+.counter-up-area {
+  &.style-2 {
+    .counter-card-wrapper{
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      margin: 0;
+      border-bottom: 1px solid $black-3;
+      gap: 0;
+      @include md {
+        // grid-template-columns: repeat(2, 1fr);
+      }
+      @include sm {
+        grid-template-columns: repeat(1, 1fr);
+      }
+    }
+
+    .counter-item {
+      text-align: left;
+      border-right: 1px solid $black-3;
+      padding: 20px 0;
+      @include sm{
+        border-right: none;
+        border-bottom: 1px solid $black-3;
+      }
+      @include md{
+        // border-bottom: 1px solid $black-3;
+      }
+      &:nth-child(2){
+        @include md{
+          // border-right: none;;
+        }
+      }
+      &:last-child{
+        border-right: none;
+        @include md{
+          // border-right: 1px solid $black-3;
+          // margin-top: 24px;
+          // border-bottom: none;
+        }
+      }
+
+      .counter-title {
+        align-items: center;
+      }
+    }
+  }
+}

@@ -1,0 +1,35 @@
+.location-area{
+    &.style-1{
+        padding: 120px 0;
+          @include sm{
+            padding: 80px 0;
+          }
+          @include md{
+            padding: 80px 0;
+          }
+          @include lg{ 
+            padding: 80px 0;
+          }
+          .content-wrapper{
+            @include sm{
+              text-align: center;
+            }
+          }
+          .accordion{
+            margin-top: 32px;
+            .accordion-item{
+              .accordion-body{
+                text-align: start;
+              }
+            }
+          }
+          .image{
+            border-radius: 16px;
+            overflow: hidden;
+            img{
+                width: 100%;
+            }
+          }
+
+    }
+}

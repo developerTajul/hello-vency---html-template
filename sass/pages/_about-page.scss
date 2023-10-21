@@ -1,0 +1,44 @@
+// Why-choose-area 
+.why-choose-area{
+  &.style-3{
+    padding-bottom: 120px;
+    position: relative;
+    @include sm{
+      padding-bottom: 80px;
+    }
+    @include md{
+      padding-bottom: 100px;
+    }
+    .about-info-card{
+      &.style-2{
+        .section-title{
+          margin-bottom: 0;
+        }
+      }
+      @include rmaxwd(991){
+        margin-bottom: 40px;
+      }
+    }
+  }
+}
+
+// Review-slider-area
+.review-slider-area{
+  &.style-1{
+    // padding: 120px 0;
+    padding-bottom: 86px;
+    background-color: $background;
+    .review-card{
+      width: 384px !important;
+    }
+      @include sm{
+        padding: 80px 0;
+      }
+      @include md{
+        padding: 80px 0;
+      }
+      @include lg{ 
+        padding: 80px 0;
+      }
+  }
+}

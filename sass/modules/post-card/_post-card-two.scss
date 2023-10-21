@@ -1,0 +1,44 @@
+.post-card {
+    &.style-2 {
+        padding: 24px 24px 34px 24px;
+        border: 1px solid $black-3;
+        border-radius: 16px;
+        @include transition;
+      .content{
+        @include sm{
+            gap: 12px;
+        }
+        .tag-wrapper{
+            display: flex;
+            justify-content: space-between;
+        }
+        .post-meta{
+            @include rmaxwd(767){
+                flex-direction: column;
+                gap: 0;
+                align-items: start;
+            }
+        }
+        .title{
+            padding-top: 24px;
+            padding-bottom: 0;
+            border-top: 1px solid $black-3;
+            border-bottom: none;
+        }
+        .post-btn{
+            font-family: $heading-font;
+            font-size: 20px;
+            font-weight: 500;
+            line-height: 28px;
+            text-decoration-line: underline;
+            color: $black-2;
+            &:hover{
+                color: $primary-color;
+            }
+        }
+      }
+      &:hover{
+        box-shadow: 0px 20px 40px 0px rgba(199, 206, 218, 0.20);
+      }
+    }
+}

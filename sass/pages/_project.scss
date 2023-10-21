@@ -1,0 +1,44 @@
+.project-card-wrapper{
+    .project-btn-wrapper{
+        display: flex;
+        justify-content: center;
+        gap: 16px;
+        margin: 56px 0;
+        margin-bottom: 0;
+        @include rmaxwd(1199){
+          flex-wrap: wrap;
+          justify-content: start;
+        }
+        button{
+                padding: 8px 32px;
+                border: 1px solid #E7E7E7;
+                border-radius: 8px;
+                color: $black;
+                font-family: $heading-font;
+                font-size: 18px;
+                font-weight: 500;
+                line-height: 170%;
+                background-color: $white;
+                @include sm{
+                  padding: 8px 24px;
+                }
+                &:hover{
+                  background-color: $primary-color;
+                }
+                &.active{
+                  background-color: $primary-color;
+                }
+        }
+    }
+    .btn-wrapper{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 56px;
+    }
+    .project-card{
+      @include rmaxwd(1199){
+        margin-top: 24px;
+      }
+    }
+}

@@ -1,0 +1,105 @@
+.about-image-card {
+  &.style-3 {
+    .visitor{
+      position: absolute;
+      left: 0;
+      bottom: 45px;
+      transform: translate(-50%, 0%);
+      @keyframes VisitorMove {
+        0% { transform: translate(-52%, 0%); }
+        100% { transform: translate(-52%, -10%); }
+      }
+      animation: VisitorMove 2s linear infinite alternate;
+      
+      @include rmaxwd(1199){
+        display: none;
+      }
+      // @include md{
+      //   transform: translate(0);
+      //   bottom: 24px;
+      // }
+      // @include lg{
+      //   transform: translate(0);
+      //   bottom: 0;
+      // }
+    }
+    .status{
+      position: absolute;
+      right: 0;
+      top: 0;
+      transform: translate(50%, 50%);
+      @keyframes StatusMove {
+        0% { transform: translate(50%, 30%); }
+        100% { transform: translate(50%, 50%); }
+      }
+      animation: StatusMove 3s linear infinite alternate;
+      @include rmaxwd(1199){
+        display: none;
+      }
+      // @include md{
+      //   transform: translate(-50%, 50%);
+      // }
+      // @include lg{
+      //   transform: translate(0);
+      // }
+    }
+  }
+  &.style-4{
+    .collaboration{
+      &.style-2{
+        position: absolute;
+        right: 0;
+        top: 0;
+        left: unset;
+        transform: translate(50%, 50%);
+        @keyframes CollMoveTwo {
+          0% { transform: translate(50%, 30%); }
+          100% { transform: translate(50%, 50%); }
+        }
+        animation: CollMoveTwo 2s linear infinite alternate;
+        @include sm{
+          transform: translate(0);
+        }
+        @include md{
+          transform: translate(-50%, 50%);
+        }
+        @include lg{
+          transform: translate(0);
+        }
+      }
+    }
+    .team-card{
+      &.style-2{
+        position: absolute;
+        left: 0;
+        bottom: 45px;
+        top: unset;
+        right: unset;
+        transform: translate(-27%, 0%);
+        @keyframes TeamMoveTwo {
+          0% { transform: translate(-27%, 0%); }
+          100% { transform: translate(-27%, -10%); }
+        }
+        animation: TeamMoveTwo 3s linear infinite alternate;
+        @include sm{
+          transform: translate(0);
+          bottom: 0;
+        }
+        @include md{
+          transform: translate(0);
+          bottom: 24px;
+        }
+        @include lg{
+          transform: translate(0);
+          bottom: 0;
+        }
+      }
+    }
+    .main-img{
+      @include md{
+        display: flex;
+        justify-content: center;
+      }
+    }
+  }
+}

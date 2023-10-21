@@ -1,0 +1,135 @@
+.about-image-card {
+  position: relative;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: contain;
+  border-radius: 32px;
+  .sketch{
+    position: absolute;
+    top: 15%;
+    left: -24px;
+    transform: translate(-50%, -50%);
+    @include sm{
+      display: none;
+    }
+  }
+  .main-img{
+    animation: MoveLeftRight 2s linear infinite alternate;
+    @include rmaxwd(1199){
+      animation: unset;
+    }
+    img{
+      margin-left: -12px;
+      height: 603px;
+      object-fit: cover;
+      overflow: visible;
+      @include rmaxwd(991){
+        // width: 740px;
+        // object-fit: cover;
+        height: auto;
+        margin-left: 0;
+
+      }
+      @include lg{
+        margin-left: 0;
+        // object-fit: cover;
+      }
+      @include xl{
+        // object-fit: cover;
+      }
+    }
+  }
+  .team-card{
+    position: absolute;
+    bottom: 50px;
+    left: 0;
+    background-color: $white;
+    border-radius: 16px;
+    padding: 24px;
+    box-shadow: 0px 24px 64px 0px rgba(199, 206, 218, 0.25);
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    transform: translate(-30%, 0);
+    @keyframes teamMove {
+      0% { transform: translate(-30%, 0); }
+      100% { transform: translate(-30%, 10%); }
+    }
+    animation: teamMove 2s linear infinite alternate;
+    h5{
+      margin: 0;
+    }
+    @include rmaxwd(991){
+      display: none;
+    }
+    @include lg{
+      animation: unset !important;
+      left: 0;
+    }
+    @include xl{
+      bottom: 12px;
+    }
+    @media only screen and (min-width: 1199px) and (max-width: 1399px){
+      left: 24px;
+    }
+    .users{
+      display: flex;
+      span{
+        margin-left: -16px;
+        border: 2px solid $white;
+        border-radius: 50px;
+        overflow: hidden;
+        width: 50px;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: $heading-font;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 28px;
+        color: $black;
+        &:first-child{
+          margin-left: 0;
+        }
+        &:last-child{
+          background-color: $primary-color;
+
+        }
+      }
+    }
+  }
+  .collaboration{
+    padding: 24px;
+    padding-right: 21px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(50%, 50%);
+    background-color: $white;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 24px 64px 0px rgba(199, 206, 218, 0.25);
+    @keyframes collabMove {
+      0% { transform: translate(50%, 50%); }
+      100% { transform: translate(50%, 65%); }
+    }
+    animation: collabMove 2s linear infinite alternate;
+    @include rmaxwd(1199){
+      display: none;
+    }
+    @include xl{
+      left: 12px;
+      transform: translate(50%, 50%);
+    }
+    p{
+      color: #6B6B76;
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 23.4px;
+      display: inline-block;
+      margin: 0;
+    }
+  }
+}

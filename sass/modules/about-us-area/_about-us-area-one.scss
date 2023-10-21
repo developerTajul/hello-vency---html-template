@@ -1,0 +1,19 @@
+// About Us Area
+.about-us-area{
+    &.style-2{
+        .section-title{
+            .title{
+                margin-bottom: 0;
+                .underline{
+                    img{
+                        object-fit: cover;
+                        width: 206px;
+                    }
+                }
+            }
+        }
+        .video-popup-card{
+            margin-top: 56px;
+        }
+    }
+}

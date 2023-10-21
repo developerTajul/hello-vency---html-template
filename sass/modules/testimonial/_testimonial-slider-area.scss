@@ -1,0 +1,132 @@
+.testimonial-slider-area{
+    &.style-1{
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        .testimonial-slider{
+            margin-top: 56px;
+            @include sm{
+              margin-top: 21px;
+              margin-bottom: 40px;
+            }
+            .testimonial-arrow-btn{
+              i{
+                position: unset;
+              }
+              
+                
+                &.prev-btn{
+                    position: absolute;
+                    top: 50%;
+                    left: 0;
+                    @include sm{
+                      top: unset;
+                      bottom: 0;
+                      right: 50%;
+                      left: unset;
+                      transform: translate(0px, 72px);
+                    }
+                    .swip{
+                      height: 20px;
+                      .title-wrapper{
+                        display: flex;
+                        margin-left: 12px;
+                        gap: 32px;
+                      }
+                    }
+                    &:hover{
+                      .swip{
+                        .title-wrapper{
+                          transform: translateX(-54px);
+                        }
+                      }
+                    }
+                }
+                &.next-btn{
+                    position: absolute;
+                    top: 50%;
+                    right: 0;
+                    margin-left: 12px;
+                    @include sm{
+                      top: unset;
+                      bottom: 0;
+                      left: 50%;
+                      transform: translate(0px, 72px);
+                    }
+                    .swip{
+                      height: 20px;
+                      .title-wrapper{
+                        display: flex;
+                        margin-left: -40px;
+                        gap: 32px;
+                      }
+                    }
+                    &:hover{
+                      .swip{
+                        .title-wrapper{
+                          transform: translateX(54px);
+                        }
+                      }
+                    }
+                }
+            }
+            .slick-dots {
+                display: flex;
+                gap: 20px;
+                flex-direction: column;
+                position: absolute;
+                top: 50%;
+                right: 46px;
+                transform: translateY(-50%);
+                z-index: 2;
+                flex-direction: column;
+          
+                @include sm {
+                  position: relative;
+                  flex-direction: row;
+                  align-items: center;
+                  justify-content: center;
+                  margin-right: 30px;
+                  bottom: 0px;
+                  top: unset;
+                  left: unset;
+                  right: unset;
+                  transform: none;
+                }
+          
+                li {
+                  display: inline-block;
+                  line-height: 0;
+                  outline: 1px solid transparent;
+                  border: 4px solid transparent;
+                  border-radius: 50px;
+                  @include transition;
+          
+                  button {
+                    font-size: 0;
+                    padding: 0;
+                    width: 11px;
+                    height: 11px;
+                    background-color: $black-2;
+                    border-radius: 50px;
+                    position: relative;
+                    @include transition;
+          
+                    &:hover {
+                      background-color: $orange-color;
+                      @include transition;
+                    }
+                  }
+                  &.slick-active {
+                    @include transition;
+                    outline: 1px solid $black;
+          
+                    button {
+                      @include transition;
+                    }
+                  }
+                }
+              }
+        }
+    }
+}

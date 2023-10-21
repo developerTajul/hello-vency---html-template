@@ -1,0 +1,17 @@
+.portfolio-slider-area{
+  &.style-2{
+    background-color: $background;
+    .section-title{
+      margin-bottom: 56px;
+      .title{
+        margin-bottom: 0;
+      }
+    }
+    .btn-wrapper{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 56px;
+    }
+  }
+}

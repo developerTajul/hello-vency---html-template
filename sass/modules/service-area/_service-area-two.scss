@@ -1,0 +1,83 @@
+.service-area{
+    &.style-1{
+        &.style-2{
+            background-size: cover;
+            @include sm{
+                padding-bottom: 80px;
+            }
+            @include md{
+                padding-bottom: 80px;
+            }
+            .content-wrapper{
+                position: relative;
+                margin-top: 60px;
+                @include sm{
+                    margin-top: 0;
+                }
+                .section-title{
+                    margin-bottom: 42px;
+                }
+                .service-btn{
+                    @include sm{
+                        text-align: center;
+                        margin-top: 0;
+                        margin-bottom: 24px;
+                    }
+                    @include md{
+                        text-align: center;
+                    }
+                }
+                .sketch-2{
+                    position: absolute;
+                    bottom: 0;
+                    right: 0;
+                    transform: translate(0, 50%);
+                    animation: ServiceLeftRight 2s linear infinite alternate;
+                    @-webkit-keyframes ServiceLeftRight {
+                        0% { transform: translate(0, 50%); }
+                        100% { transform: translate(15px, 50%); }
+                      }
+                      @keyframes ServiceLeftRight {
+                        0% { transform: translate(0, 50%); }
+                        100% { transform: translate(15px, 50%); }
+                      }
+                    @include rmaxwd(1199){
+                        display: none;
+                    }
+                    // @include md{
+                    //     transform: scale(-1);
+                    //     bottom: 24px;
+                    //     right: 24px;
+                    // }
+                    // @include lg{
+                    //     transform: scaleY(-1);
+                    //     bottom: 24px;
+                    //     right: 24px;
+                    // }
+                }
+            }
+            .icon-card-wrapper{
+                display: flex;
+                align-items: center;
+                gap: 40px;
+                margin-left: 47px;
+                margin-top: 0;
+                @include sm{
+                    margin-left: 0;
+                    flex-direction: column;
+                    gap: 0;
+                }
+            }
+            .duo-wrapper{
+                display: flex;
+                flex-direction: column;
+                gap: 40px;
+                width: 50%;
+                @include sm{
+                    gap: 0;
+                    width: 100%;
+                }
+            }
+        }
+    }
+}

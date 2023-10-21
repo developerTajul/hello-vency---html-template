@@ -1,0 +1,68 @@
+.team-member-card {
+  position: relative;
+  padding: 56px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid $black-3;
+  border-radius: 16px;
+  overflow: hidden;
+  @include transition;
+  &:hover{
+    box-shadow: 0px 24px 64px 0px rgba(199, 206, 218, 0.25);
+    .sketch{
+      visibility: visible;
+      transform: translate(0%, 0%);
+      opacity: 1;
+    }
+  }
+  .sketch{
+    position: absolute;
+    top: 0;
+    right: 0;
+    opacity: 0;
+    visibility: hidden;
+    transform: translate(50%, -50%);
+    @include transition;
+  }
+  .image{
+    border-radius: 50%;
+    margin-bottom: 32px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &.blue{
+      background-color: #9CD9F1;
+    }
+    &.primary{
+      background-color: $primary-color;
+    }
+    &.pink{
+      background-color: #FFCBDF;
+    }
+    &.green{
+      background-color: #92DABB;
+    }
+  }
+  .content{
+    text-align: center;
+    .title{
+      margin-bottom: 4px;
+      a{
+        &:hover{
+          color: $blue-color;
+        }
+      }
+    }
+    .desc{
+      font-family: $body-font;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 27.2px ;
+      color: $black-2;
+      margin-bottom: 0;
+    }
+  }
+}

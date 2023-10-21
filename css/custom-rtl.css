@@ -1,0 +1,67 @@
+.service-area .icon-card-wrapper .icon-card .sketch img{
+    transform: rotate(-90deg);
+}
+.about-us-area .about-image-card .sketch{
+    left: -20px;
+    transform: translate(-50%, -50%);
+    right: unset;
+}
+.team-area .team-member-card .sketch img{
+    transform: rotate(-90deg);
+}
+.pricing-area .price-card-wrapper .price-card .shape img{
+    transform: rotate(-90deg);
+}
+.location-area .accordion-item .accordion-button::after{
+    margin-right: auto;
+    margin-left: unset;
+}
+.page-breadcrumb-area .shape{
+    transform: translate(95px, 0px);
+}
+.page-breadcrumb-area .shape img{
+    transform: scaleX(-1);
+}
+.slick-slide { 
+    /* float: left !important;  */
+}
+/* Home-1 why-choose-area */
+.why-choose-area .sketch img{
+    transform: scaleX(-1);
+}
+/* Home-2 testimonial-slider */
+.testimonial-slider-area .testimonial-slider-two .testimonial-card .sketch img{
+    transform: rotate(-90deg);
+}
+
+/* Portfolio-card Home-1 */
+.portfolio-card .content .icon a{
+    transform: scaleX(-1);
+}
+/* Testimonial-slider */
+.testimonial-slider-area .testimonial-arrow-btn{
+    transform: scaleX(-1);
+}
+
+/* Hero area */
+.hero-area .sketch-3{
+    transform: scaleX(-1);
+}
+
+/* Review-slider-area About-page */
+.review-slider-area .review-btn{
+    transform: scaleX(-1);
+}
+/* faq-area accordion */
+.accordion .accordion-item .accordion-button:after{
+    margin-right: auto;
+    margin-left: unset;
+}
+/* Pagination */
+.basic-pagination .next{
+    transform: scaleX(-1);
+}
+/* Contact-info-area */
+.contact-info-area .icon-card-wrapper .icon-card .sketch{
+    transform: scaleX(-1);
+}

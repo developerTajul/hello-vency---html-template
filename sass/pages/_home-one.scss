@@ -1,0 +1,245 @@
+// Hero-area style-1
+.hero-area{
+    position: relative;
+    .sketch{
+      position: absolute;
+      top: 50px;
+      left: 32px;
+      transform: translate(50%, 50%);
+      animation:  ZoomInOut 2s linear infinite alternate;
+      @include sm{
+        display: none;
+      }
+    }
+    .sketch-2{
+      position: absolute;
+      top: 0;
+      right: 50px;
+      animation:  ZoomInOut 2s linear infinite alternate;
+      @include sm{
+        display: none;
+      }
+    }
+    .content-wrapper{
+      margin-bottom: 47px;
+      @include rmaxwd(991){
+        margin-bottom: 32px;
+      }
+    }
+    .video-popup-btn{
+      .swip{
+        @include sm{
+          display: none;
+        }
+      }
+    }
+}
+
+// About-us-area style-1
+.about-us-area {
+  &.style-1 {
+    .about-image-card{
+      .main-img{
+        @include md{
+          transform: translate(15%, 0);
+        }
+      }
+    }
+    .about-info-card{
+      margin-left: -4px;
+      .section-title{
+        margin-top: -5px;
+        .title{
+          br{
+            @include rwd (991){
+              display: none;
+            }
+          }
+        }
+        .desc{
+          padding-right: 12px;
+          line-height: 32px;
+          @include sm{
+            margin-top: 0;
+          }
+        }
+      }
+      @include rmaxwd(991){
+        margin-top: 48px;
+      }
+    }
+
+  }
+}
+// Support-banner
+.support-banner{
+  // padding-bottom: 119px;
+}
+
+
+// portfolio-slider-area style-1
+.portfolio-slider-area{
+  &.style-1{
+    background-color: #FBF8EE ;
+    .section-title{
+      .title{
+        .underline{
+          img{
+            bottom: 0;
+          }
+        }
+      }
+    }
+    .theme-btn{
+      margin-right: 5px;
+    }
+    .section-title{
+      .title{
+        padding-right: 30px;
+        @include sm{
+          padding-right: 0;
+        }
+      }
+    }
+  }
+}
+// Testimonial-slider-area style-1
+// .testimonial-slider-area{
+//   padding: 121px 0;
+//   @include sm{
+//     padding-top:  80px;
+//     padding-bottom: 80px;
+//   }
+//   @include md{
+//     padding-top: 100px;
+//     padding-bottom: 100px;
+//   }
+// }
+// Client-logo-area 
+.client-logo-area{
+  padding-top: 120px;
+  @include sm{
+    padding-top: 100px;
+  }
+}
+// Why-choose-area 
+.why-choose-area{
+  &.style-1{
+    // padding: 120px 0;
+    background-color: $background-3;
+    position: relative;
+    // @include sm{
+    //   padding: 80px 0;
+    // }
+    // @include md{
+    //   padding: 100px 0;
+    // }
+    .sketch{
+      position: absolute;
+      bottom: 70px;
+      right: 104px;
+      transform: translate(-50%, -50%);
+      animation: WhyChooseLeftRight 2s linear infinite alternate;
+      @-webkit-keyframes WhyChooseLeftRight {
+        0% { transform: translate(-50%, -50%); }
+        100% { transform: translate(-40%, -50%); }
+      }
+      @keyframes WhyChooseLeftRight {
+        0% { transform: translate(-50%, -50%); }
+        100% { transform: translate(-40%, -50%); }
+      }
+      @include rmaxwd(991){
+        display: none;
+      }
+    }
+    .about-info-card{
+      margin-left: 9px;
+      margin-top: 5px;
+      margin-right: 9px;
+      .desc{
+        padding-right: 20px;
+      }
+      @include rmaxwd(991){
+        margin-top: 40px;
+      }
+    }
+    .btn-wrapper{
+      @include rmaxwd(991){
+        text-align: center;
+      }
+      .theme-btn{
+        @include sm{
+        }
+      }
+    }
+  }
+}
+// Latest-post-area
+// .latest-post-area{
+//   &.style-1{
+//     padding: 120px 0;
+//     @include sm{
+//       padding: 80px 0;
+//     }
+//     @include md{
+//       padding: 100px 0;
+//     }
+//   }
+// }
+// FAQ-area
+.faq-area{
+  &.style-1{
+    // padding: 120px 0;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    &:before{
+      width: 100%;
+      height: 100%;
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      background-image: url('../images/shape/faq-bg.png');
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+    .accordion{
+      margin-top: 56px;
+      .accordion-item{
+        z-index: 1;
+      }
+    }
+      // @include sm{
+      //   padding: 80px 0;
+      // }
+      // @include md{
+      //   padding: 100px 0;
+      // }
+    // .faq-bg{
+    //   width: 100%;
+    //   height: 100%;
+    //   position: absolute;
+    //   left: 0;
+    //   right: 0;
+    //   top: 0;
+    //   background-size: cover;
+    //   background-position: center;
+    //   background-repeat: no-repeat;
+    // }
+  }
+}
+// Newsletter-area style-1
+.subscribe-form-area{
+  &.style-1{
+    padding: 120px 0;
+    @include sm{
+      padding: 80px 0;
+    }
+    @include md{
+      padding: 100px 0;
+    }
+  }
+}

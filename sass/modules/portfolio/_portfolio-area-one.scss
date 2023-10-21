@@ -1,0 +1,39 @@
+.portfolio-slider-area{
+    &.style-1{
+        .portfolio-slider{
+            margin-top: 56px;
+            margin-left: calc((100% - 1302px) / 2);
+            overflow: hidden;
+            @include sm{
+            margin-left: 24px;
+            }
+            @include md{
+            margin-left: calc((100% - 720px) / 2);
+            }
+            @include lg{
+            margin-left: calc((100% - 960px) / 2);
+            }
+            @include xl{
+            margin-left: calc((100% - 1140px) / 2);
+            }
+            .slick-list{
+                margin-right: -190px;
+                @include rmaxwd(991){
+                    margin-right: 0px;
+                }
+                .slick-track{
+                    margin-left: -20px;
+                    @include sm{
+                        margin-left: 0;
+                    }
+                    .portfolio-card{
+                        margin: 0 20px;
+                        @include sm{
+                            margin: 0 5px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
