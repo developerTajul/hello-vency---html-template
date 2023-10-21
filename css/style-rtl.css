@@ -10222,7 +10222,7 @@ ul.children {
 
 .team-member-card {
   position: relative;
-  padding: 56px;
+  padding: 56px 30px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -10373,9 +10373,6 @@ ul.children {
   transition: all 0.5s ease-out;
 }
 
-.portfolio-slider-area.style-2 {
-  background-color: #FBF5E5;
-}
 .portfolio-slider-area.style-2 .section-title {
   margin-bottom: 56px;
 }
@@ -10573,15 +10570,6 @@ ul.children {
   }
 }
 
-.client-logo-area {
-  padding-top: 120px;
-}
-@media only screen and (min-width: 0px) and (max-width: 767px) {
-  .client-logo-area {
-    padding-top: 100px;
-  }
-}
-
 .why-choose-area.style-1 {
   position: relative;
 }
@@ -10667,7 +10655,6 @@ ul.children {
 }
 
 .why-choose-area.style-2 {
-  background-color: #FBF8EE;
   position: relative;
 }
 .why-choose-area.style-2 .about-info-card {
