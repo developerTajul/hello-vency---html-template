@@ -3,7 +3,6 @@
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-        background-color: $background-3;
         .section-title{
             margin-bottom: 56px;
         }
@@ -16,6 +15,8 @@
            }
         .testimonial-card{
             &.style-2{
+              border: 0;
+
                 &.slick-slide{
                   @include rmaxwd(1400){
                     margin: 0 20px 80px 20px;

@@ -10998,9 +10998,6 @@ ul.children {
   }
 }
 
-.process-step-area.style-1 {
-  background-color: #FBF5E5;
-}
 .process-step-area.style-1 .section-title {
   margin-bottom: 96px;
 }
@@ -12818,13 +12815,15 @@ ul.children {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-color: #FBF8EE;
 }
 .testimonial-slider-area.style-2 .section-title {
   margin-bottom: 56px;
 }
 .testimonial-slider-area.style-2 .slick-active + .slick-active + .slick-active .icon i {
   color: #FFE3EE;
+}
+.testimonial-slider-area.style-2 .testimonial-card.style-2 {
+  border: 0;
 }
 @media (max-width: 1400px) {
   .testimonial-slider-area.style-2 .testimonial-card.style-2.slick-slide {
@@ -13261,6 +13260,16 @@ ul.children {
       -ms-flex-direction: column;
           flex-direction: column;
   gap: 120px;
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .image-card-wrapper {
+    gap: 100px;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .image-card-wrapper {
+    gap: 80px;
+  }
 }
 .image-card-wrapper .image-card .section-title {
   text-align: start;

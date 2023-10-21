@@ -3,6 +3,12 @@
     flex-direction: column;
     gap: 120px;
 
+    @include md {
+        gap: 100px;
+    }
+    @include sm {
+        gap: 80px;
+    }
     .image-card {
         .section-title{
             text-align: start;
