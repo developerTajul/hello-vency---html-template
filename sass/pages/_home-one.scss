@@ -80,7 +80,7 @@
 // portfolio-slider-area style-1
 .portfolio-slider-area{
   &.style-1{
-    background-color: #FBF8EE ;
+
     .section-title{
       .title{
         .underline{
@@ -126,7 +126,6 @@
 .why-choose-area{
   &.style-1{
     // padding: 120px 0;
-    background-color: $background-3;
     position: relative;
     // @include sm{
     //   padding: 80px 0;
@@ -189,45 +188,16 @@
 // FAQ-area
 .faq-area{
   &.style-1{
-    // padding: 120px 0;
     position: relative;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    &:before{
-      width: 100%;
-      height: 100%;
-      content: "";
-      position: absolute;
-      top: 0;
-      left: 0;
-      background-image: url('../images/shape/faq-bg.png');
-      background-position: center;
-      background-size: cover;
-      background-repeat: no-repeat;
-    }
+
     .accordion{
       margin-top: 56px;
       .accordion-item{
         z-index: 1;
       }
     }
-      // @include sm{
-      //   padding: 80px 0;
-      // }
-      // @include md{
-      //   padding: 100px 0;
-      // }
-    // .faq-bg{
-    //   width: 100%;
-    //   height: 100%;
-    //   position: absolute;
-    //   left: 0;
-    //   right: 0;
-    //   top: 0;
-    //   background-size: cover;
-    //   background-position: center;
-    //   background-repeat: no-repeat;
-    // }
   }
 }

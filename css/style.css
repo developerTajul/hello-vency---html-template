@@ -319,11 +319,11 @@ input:focus {
 }
 
 .background-gray {
-  background-color: #eef5f8;
+  background-color: #ECF2FF;
 }
 
 .background-light-gray {
-  background-color: #f3f7fc;
+  background-color: #FBF8EE;
 }
 
 .page-bg {
@@ -6051,6 +6051,7 @@ button.testimonial-arrow-btn:hover:before {
   color: #474747;
   -webkit-box-shadow: 0px 20px 40px 0px rgba(199, 206, 218, 0.2);
           box-shadow: 0px 20px 40px 0px rgba(199, 206, 218, 0.2);
+  gap: 0 20px;
 }
 .accordion .accordion-item .accordion-button.collapsed {
   border-radius: 12px;
@@ -10557,9 +10558,6 @@ ul.children {
   }
 }
 
-.portfolio-slider-area.style-1 {
-  background-color: #FBF8EE;
-}
 .portfolio-slider-area.style-1 .section-title .title .underline img {
   bottom: 0;
 }
@@ -10585,7 +10583,6 @@ ul.children {
 }
 
 .why-choose-area.style-1 {
-  background-color: #FBF8EE;
   position: relative;
 }
 .why-choose-area.style-1 .sketch {
@@ -10644,18 +10641,6 @@ ul.children {
   position: relative;
   background-size: cover;
   background-position: center;
-  background-repeat: no-repeat;
-}
-.faq-area.style-1:before {
-  width: 100%;
-  height: 100%;
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  background-image: url("../images/shape/faq-bg.png");
-  background-position: center;
-  background-size: cover;
   background-repeat: no-repeat;
 }
 .faq-area.style-1 .accordion {
@@ -12549,9 +12534,14 @@ ul.children {
 .portfolio-slider-area.style-1 .portfolio-slider .slick-list {
   margin-right: -190px;
 }
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .portfolio-slider-area.style-1 .portfolio-slider .slick-list {
+    margin-right: 0;
+  }
+}
 @media (max-width: 991px) {
   .portfolio-slider-area.style-1 .portfolio-slider .slick-list {
-    margin-right: 0px;
+    margin-right: 0;
   }
 }
 .portfolio-slider-area.style-1 .portfolio-slider .slick-list .slick-track {
