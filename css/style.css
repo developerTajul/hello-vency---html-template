@@ -13669,6 +13669,7 @@ ul.children {
 }
 .project-card-wrapper .project-btn-wrapper button.active {
   background-color: #FFCC7E;
+  border-color: #FFCC7E;
 }
 .project-card-wrapper .btn-wrapper {
   display: -webkit-box;
