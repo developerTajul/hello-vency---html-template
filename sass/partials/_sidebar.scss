@@ -299,7 +299,6 @@
       background-color: $black;
       top: 0;
       height: auto;
-      border-radius: 50%;
       line-height: 0;
       border: 0;
       margin-left: 0 !important;
@@ -376,11 +375,12 @@
         }
       }
       a {
-        color: $text-color;
+        color: $black;
         position: relative;
         display: inline-block;
         text-transform: capitalize;
         font-size: 18px;
+        font-weight: 400;
         text-decoration: none;
         @include transition;
 

@@ -9014,7 +9014,6 @@ button.testimonial-arrow-btn:hover:before {
   background-color: #161616;
   top: 0;
   height: auto;
-  border-radius: 50%;
   line-height: 0;
   border: 0;
   margin-left: 0 !important;
@@ -9097,11 +9096,12 @@ button.testimonial-arrow-btn:hover:before {
 }
 .widget ul li a,
 .widget ol li a {
-  color: #5e6f92;
+  color: #161616;
   position: relative;
   display: inline-block;
   text-transform: capitalize;
   font-size: 18px;
+  font-weight: 400;
   text-decoration: none;
   -webkit-transition: all 0.5s ease-out;
   transition: all 0.5s ease-out;
