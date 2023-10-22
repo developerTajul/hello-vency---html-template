@@ -194,6 +194,8 @@ input:focus {
 }
 .page-area,
 .blog-area {
+  padding-top: 120px;
+  padding-bottom: 120px;
 
   @include rmaxwd(991) {
     padding-top: 100px;

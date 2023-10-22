@@ -341,6 +341,11 @@ input:focus {
   padding-bottom: 124px;
 }
 
+.page-area,
+.blog-area {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
 @media (max-width: 991px) {
   .page-area,
   .blog-area {
