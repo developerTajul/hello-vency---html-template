@@ -206,7 +206,6 @@
   }
   .post-content-wrapper {
     // padding: 32px;
-    margin-top: 32px;
 
     @include sm {
       margin-top: 16px;
@@ -411,6 +410,8 @@
     // padding: 32px;
     padding-bottom: 0;
     border-radius: 16px;
+    margin-bottom: 32px;
+
     @include sm{
       padding: 0;
     }
