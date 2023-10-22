@@ -7853,7 +7853,13 @@ button.testimonial-arrow-btn:hover:before {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  color: #ffffff;
+  color: #161616;
+}
+.breadcrumb-list ul li.active {
+  color: #161616;
+}
+.breadcrumb-list ul li.active a {
+  color: #161616;
 }
 .breadcrumb-list ul li a {
   font-family: "Questrial", sans-serif;

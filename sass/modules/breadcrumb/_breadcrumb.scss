@@ -63,12 +63,12 @@
       display: inline-flex;
       gap:0 12px;
       align-items: center;
-      color: $white;
+      color: $black;
       &.active {
-        // color: $orange-color;
+        color: $black;
 
         a {
-          // color: $orange-color;
+          color: $black;
         }
       }
       a {
