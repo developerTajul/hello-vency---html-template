@@ -119,7 +119,7 @@ body {
   font-size: 18px;
   font-weight: 400;
   font-family: "Questrial", sans-serif;
-  color: #5e6f92;
+  color: #474747;
   vertical-align: baseline;
   line-height: 30px;
   font-smoothing: antialiased;
@@ -218,7 +218,7 @@ h6 {
 }
 
 label {
-  color: #5e6f92;
+  color: #474747;
   cursor: pointer;
   font-size: 16px;
   font-weight: 400;
@@ -2241,11 +2241,11 @@ table td {
 table th#today,
 table td#today {
   background: #FFCC7E;
-  color: #ffffff;
+  color: #161616;
 }
 table th#today a,
 table td#today a {
-  color: #ffffff;
+  color: #161616;
 }
 
 .page-content .size-full.alignright {
@@ -2590,7 +2590,7 @@ nav.wp-calendar-nav {
   display: flex;
 }
 nav.wp-calendar-nav a {
-  color: #5e6f92;
+  color: #474747;
 }
 nav.wp-calendar-nav a:hover {
   color: #FFCC7E;
@@ -6550,7 +6550,7 @@ button.testimonial-arrow-btn:hover:before {
   font-size: 16px;
   font-weight: 600;
   text-transform: capitalize;
-  color: #5e6f92;
+  color: #474747;
   margin-top: 20px;
   font-style: normal;
   -webkit-transition: all 0.5s ease-out;
@@ -6905,7 +6905,7 @@ button.testimonial-arrow-btn:hover:before {
 .single-post-item .content-header span {
   font-size: 18px;
   font-weight: 400;
-  color: #5e6f92;
+  color: #474747;
   text-transform: capitalize;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -6930,7 +6930,7 @@ button.testimonial-arrow-btn:hover:before {
       -ms-flex-align: center;
           align-items: center;
   gap: 10px;
-  color: #5e6f92;
+  color: #474747;
   -webkit-transition: all 0.5s ease-out;
   transition: all 0.5s ease-out;
 }
@@ -7506,7 +7506,7 @@ button.testimonial-arrow-btn:hover:before {
   font-weight: 400;
   font-size: 18px;
   line-height: 31px;
-  color: #5e6f92;
+  color: #474747;
 }
 .price-card-wrapper .price-card .divider {
   position: relative;
@@ -7934,7 +7934,7 @@ button.testimonial-arrow-btn:hover:before {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  color: #5e6f92;
+  color: #474747;
   background-color: #ffffff;
   border-radius: 6px;
   height: 53px;
@@ -8274,7 +8274,7 @@ button.testimonial-arrow-btn:hover:before {
   font-size: 18px;
   line-height: 30px;
   font-weight: 400;
-  color: #5e6f92;
+  color: #474747;
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .time-card-wrapper .time-card-item .time-card-desc .desc {
@@ -8821,7 +8821,7 @@ button.testimonial-arrow-btn:hover:before {
 }
 .widget .wp-block-latest-comments li a,
 .widget .wp-block-latest-posts li a {
-  color: #5e6f92;
+  color: #474747;
 }
 .widget .wp-block-latest-comments li a.wp-block-latest-comments__comment-author, .widget .wp-block-latest-comments li a.wp-block-latest-comments__comment-link,
 .widget .wp-block-latest-posts li a.wp-block-latest-comments__comment-author,
@@ -8899,7 +8899,7 @@ button.testimonial-arrow-btn:hover:before {
   border: 1px solid transparent;
   padding: 0 10px;
   border-radius: 5px;
-  color: #5e6f92;
+  color: #474747;
   margin-bottom: 0;
 }
 .widget .has-login-form .login-username label,
@@ -8914,7 +8914,7 @@ button.testimonial-arrow-btn:hover:before {
   border: 1px solid #31373f;
   padding: 0 10px;
   border-radius: 5px;
-  color: #5e6f92;
+  color: #474747;
 }
 .widget .has-login-form .login-remember label {
   display: -webkit-box;
@@ -9001,7 +9001,7 @@ button.testimonial-arrow-btn:hover:before {
   padding: 0 25px;
   height: 60px;
   width: 100%;
-  color: #5e6f92;
+  color: #474747;
   font-size: 15px;
   border-color: transparent !important;
 }
@@ -9070,6 +9070,7 @@ button.testimonial-arrow-btn:hover:before {
   display: block;
   padding: 16px 0;
   border-bottom: 1px solid #dfe2e9;
+  color: #161616;
   /* Recent Comment Widget */
 }
 .widget ul li:first-child,
@@ -9883,7 +9884,7 @@ button.testimonial-arrow-btn:hover:before {
   font-size: 16px;
   line-height: 30px;
   margin-bottom: 20px;
-  color: #5e6f92;
+  color: #474747;
 }
 .latest-comments li .comments-box .comments-text .avatar-name {
   margin-bottom: 10px;
