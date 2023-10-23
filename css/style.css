@@ -9810,7 +9810,7 @@ button.testimonial-arrow-btn:hover:before {
   margin-bottom: 5px;
   font-weight: 700;
   font-family: "Outfit", sans-serif;
-  color: #BDEFFB;
+  color: #161616;
 }
 .wp-block-comments .wp-block-comment-template li .wp-block-columns .wp-block-comment-edit-link a {
   color: #FFCC7E;
@@ -9826,13 +9826,14 @@ button.testimonial-arrow-btn:hover:before {
   border-radius: 6px;
   font-size: 14px;
   font-weight: 700;
-  color: #BDEFFB;
-  border: 1px solid rgb(255, 103, 49);
+  color: #161616;
+  border: 1px solid #161616;
   padding: 4px 26px;
   display: inline-block;
 }
 .wp-block-comments .wp-block-comment-template li .wp-block-columns .wp-block-comment-reply-link a:hover {
-  background-color: rgb(255, 103, 49);
+  background-color: black;
+  border-color: #161616;
   color: #ffffff;
   -webkit-transition: all 0.5s ease-out;
   transition: all 0.5s ease-out;
