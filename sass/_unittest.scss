@@ -529,6 +529,9 @@ iframe,
 object {
   max-width: 100%;
 }
+figure.wp-block-embed {
+  overflow: hidden;
+}
 // Form Validation
 .comment-respond {
   &.style-two {
