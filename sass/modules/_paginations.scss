@@ -34,9 +34,9 @@
     }
 
     &:hover {
-      background: $orange-color !important;
-      color: $white;
-      border-color: $orange-color;
+      background: $primary-color !important;
+      color: $black;
+      border-color: $primary-color;
       @include transition;
     }
   }
@@ -110,7 +110,7 @@
     &.current {
       background: $primary-color !important;
       color: $black;
-      border-color: $orange-color;
+      border-color: $primary-color;
       @include transition;
     }
     &.next{
