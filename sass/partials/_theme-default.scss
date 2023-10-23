@@ -120,8 +120,7 @@ a:focus {
   text-decoration: none;
   @include transition;
 }
-a,
-button {
+a {
   color: $primary-color;
   outline: medium none;
   @include transition;

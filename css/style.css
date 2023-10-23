@@ -255,15 +255,13 @@ a:focus {
   transition: all 0.5s ease-out;
 }
 
-a,
-button {
+a {
   color: #FFCC7E;
   outline: medium none;
   -webkit-transition: all 0.5s ease-out;
   transition: all 0.5s ease-out;
 }
-a:hover,
-button:hover {
+a:hover {
   color: #161616;
   -webkit-transition: all 0.5s ease-out;
   transition: all 0.5s ease-out;
