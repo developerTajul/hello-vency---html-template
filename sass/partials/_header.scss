@@ -135,6 +135,9 @@
   transition: all 0.4s ease 0s;
   background-color: transparent;
 
+  .retina-logo {
+    display: none;
+  }
   &.sticky-header {
     width: 100%;
     z-index: 999;
@@ -220,9 +223,6 @@
       img {
         @include transition;
       }
-    }
-    .retina-logo {
-      display: none;
     }
   }
 }

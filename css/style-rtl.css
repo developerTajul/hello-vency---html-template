@@ -3422,6 +3422,9 @@ body.admin-bar .header-menu-area.sticky_menu {
   transition: all 0.4s ease 0s;
   background-color: transparent;
 }
+.header-menu-area .retina-logo {
+  display: none;
+}
 .header-menu-area.sticky-header {
   width: 100%;
   z-index: 999;
@@ -3509,9 +3512,6 @@ body.admin-bar .header-menu-area.sticky_menu {
 .header-menu-area .logo .sticky-logo img {
   -webkit-transition: all 0.5s ease-out;
   transition: all 0.5s ease-out;
-}
-.header-menu-area .logo .retina-logo {
-  display: none;
 }
 
 .main-menu ul {
