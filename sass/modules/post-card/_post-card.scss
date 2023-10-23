@@ -153,7 +153,9 @@
       }
       .wp-calendar-table {
         td {
-          color: $primary-color;
+          a {
+            color: $primary-color;
+          }
         }
       }
       a {
