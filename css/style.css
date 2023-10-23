@@ -2228,6 +2228,7 @@ table caption {
   border: 1px solid #dfe2e9;
   padding: 6px 10px;
   border-top: 0;
+  color: #474747;
 }
 table th,
 table td {
@@ -8718,7 +8719,7 @@ button.testimonial-arrow-btn:hover:before {
   /* Default Widget */
 }
 .widget:last-child {
-  margin-bottom: 40px;
+  margin-bottom: 0;
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .widget {
@@ -9940,8 +9941,9 @@ button.testimonial-arrow-btn:hover:before {
   }
 }
 .latest-comments li .comments-box .comments-text .comment-reply-link:hover {
-  background-color: rgb(255, 103, 49);
-  color: #ffffff;
+  background-color: #FFCC7E;
+  color: #161616;
+  border-color: #FFCC7E;
   -webkit-transition: all 0.5s ease-out;
   transition: all 0.5s ease-out;
 }

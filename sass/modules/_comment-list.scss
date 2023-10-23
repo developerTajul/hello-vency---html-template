@@ -188,8 +188,9 @@
           }
 
           &:hover {
-            background-color: $orange-color;
-            color: $white;
+            background-color: $primary-color;
+            color: $black;
+            border-color: $primary-color;
             @include transition;
           }
         }
