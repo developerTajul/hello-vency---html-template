@@ -6669,7 +6669,6 @@ button.testimonial-arrow-btn:hover:before {
   font-weight: 400;
   line-height: 32px;
   padding-right: 42px;
-  color: #474747;
 }
 @media (max-width: 991px) {
   .single-post-item .post-content p {
