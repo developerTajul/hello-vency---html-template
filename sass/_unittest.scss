@@ -806,7 +806,7 @@ body {
   }
   &.postid-24 {
     .blog-details-wrapper {
-      .single-post-item .wp-block-buttons>.wp-block-button a {
+      .single-post-item .wp-block-buttons>.wp-block-button:first-child a{
         color: $white;
       }
     }
