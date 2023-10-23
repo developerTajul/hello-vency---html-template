@@ -9894,8 +9894,8 @@ button.testimonial-arrow-btn:hover:before {
   display: inline-block;
 }
 .wp-block-comments .wp-block-comment-template li .wp-block-columns .wp-block-comment-reply-link a:hover {
-  background-color: black;
-  border-color: #161616;
+  background-color: #FFCC7E;
+  border-color: #FFCC7E;
   color: #ffffff;
   -webkit-transition: all 0.5s ease-out;
   transition: all 0.5s ease-out;
