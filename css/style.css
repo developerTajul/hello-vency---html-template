@@ -6706,9 +6706,8 @@ button.testimonial-arrow-btn:hover:before {
   font-size: 20px;
   font-weight: 500;
   line-height: 28px;
-  background-color: #BDEFFB;
+  background-color: #FFCC7E;
   padding: 4px 12px;
-  background: #FFF0D8;
   border-radius: 8px;
 }
 .single-post-item .blog-post-tag .post-tag-list a.secondary {
@@ -6716,8 +6715,7 @@ button.testimonial-arrow-btn:hover:before {
 }
 .single-post-item .blog-post-tag .post-tag-list a:hover {
   color: #ffffff;
-  background: #FFCC7E;
-  border-color: #FFCC7E;
+  background-color: #161616;
   -webkit-transition: all 0.5s ease-out;
   transition: all 0.5s ease-out;
 }
