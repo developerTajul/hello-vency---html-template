@@ -36,13 +36,14 @@ ul {
     background-color: $primary-color ;
     border: none;
     padding: 10px 40px;
-    color: $white;
+    color: $black;
     cursor: pointer;
     font-weight: 600;
     @include transition;
 
     &:hover {
-      background-color: $secondary-color;
+      background-color: $black;
+      color: $white;
     }
   }
 }
