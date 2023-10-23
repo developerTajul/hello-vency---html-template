@@ -20,6 +20,13 @@
 
   &:last-child {
     margin-bottom: 0;
+
+    @include sm {
+      margin-bottom: 80px;
+    }
+    @include md {
+      margin-bottom: 100px;
+    }
   }
   @include sm {
     padding: 30px;

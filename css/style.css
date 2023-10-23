@@ -8891,6 +8891,16 @@ button.testimonial-arrow-btn:hover:before {
   margin-bottom: 0;
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
+  .widget:last-child {
+    margin-bottom: 80px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .widget:last-child {
+    margin-bottom: 100px;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
   .widget {
     padding: 30px;
   }
