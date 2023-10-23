@@ -8919,10 +8919,6 @@ button.testimonial-arrow-btn:hover:before {
   line-height: 28px;
   font-weight: 400;
 }
-.widget .wp-block-latest-comments li a:hover,
-.widget .wp-block-latest-posts li a:hover {
-  color: #FFCC7E;
-}
 .widget .wp-block-latest-comments li .wp-block-latest-comments__comment-excerpt p,
 .widget .wp-block-latest-posts li .wp-block-latest-comments__comment-excerpt p {
   font-size: 16px;
@@ -9333,9 +9329,6 @@ button.testimonial-arrow-btn:hover:before {
 }
 .widget_rss ul li a.rsswidget {
   color: #474747;
-}
-.widget_rss ul li a.rsswidget:hover {
-  color: #FFCC7E;
 }
 
 .wp-block-latest-posts .wp-block-rss__item-title,
