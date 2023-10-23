@@ -35,7 +35,7 @@
 
     &:hover {
       background: $primary-color !important;
-      color: $black;
+      color: $black !important;
       border-color: $primary-color;
       @include transition;
     }
@@ -102,14 +102,14 @@
     }
     &:hover {
       background: $primary-color !important;
-      color: $black;
+      color: $black !important;
       border-color: $primary-color;
       @include transition;
     }
 
     &.current {
       background: $primary-color !important;
-      color: $black;
+      color: $black !important;
       border-color: $primary-color;
       @include transition;
     }

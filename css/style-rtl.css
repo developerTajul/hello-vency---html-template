@@ -8042,7 +8042,7 @@ button.testimonial-arrow-btn:hover:before {
 .comment-navigation .nav-next a:hover,
 .comment-navigation .nav-previous a:hover {
   background: #FFCC7E !important;
-  color: #161616;
+  color: #161616 !important;
   border-color: #FFCC7E;
   -webkit-transition: all 0.5s ease-out;
   transition: all 0.5s ease-out;
@@ -8148,7 +8148,7 @@ button.testimonial-arrow-btn:hover:before {
 .wp-block-query-pagination-numbers .page-numbers:hover,
 .wp-block-query-pagination-numbers .post-page-numbers:hover {
   background: #FFCC7E !important;
-  color: #161616;
+  color: #161616 !important;
   border-color: #FFCC7E;
   -webkit-transition: all 0.5s ease-out;
   transition: all 0.5s ease-out;
@@ -8160,7 +8160,7 @@ button.testimonial-arrow-btn:hover:before {
 .wp-block-query-pagination-numbers .page-numbers.current,
 .wp-block-query-pagination-numbers .post-page-numbers.current {
   background: #FFCC7E !important;
-  color: #161616;
+  color: #161616 !important;
   border-color: #FFCC7E;
   -webkit-transition: all 0.5s ease-out;
   transition: all 0.5s ease-out;
