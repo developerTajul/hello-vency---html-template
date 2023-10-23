@@ -205,7 +205,9 @@
         @include transition;
       }
     }
-
+    .retina-logo {
+      display: none;
+    }
     .sticky-logo {
       display: none;
 
