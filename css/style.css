@@ -2596,6 +2596,84 @@ nav.wp-calendar-nav a:hover {
   color: #FFCC7E;
 }
 
+/* Search Widget */
+.search-form {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+}
+.search-form button {
+  width: 62px;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+}
+
+.wp-block-search__no-button.wp-block-search input {
+  border-radius: 10px;
+}
+
+.wp-block-search {
+  margin-bottom: -2px;
+}
+
+.wp-block-search,
+.search-form {
+  display: inline-block;
+  width: 100%;
+  overflow: hidden;
+  background-color: transparent;
+  border: 1px solid transparent;
+}
+.wp-block-search .wp-block-search__inside-wrapper,
+.search-form .wp-block-search__inside-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0 !important;
+  background-color: #ffffff;
+  border-radius: 50px;
+}
+.wp-block-search label,
+.search-form label {
+  display: block;
+  font-family: "Outfit", sans-serif;
+  font-size: 38px;
+  font-weight: 500;
+  line-height: 46px;
+  letter-spacing: -0.76px;
+  position: relative;
+  margin-bottom: 32px;
+  color: #161616;
+}
+.wp-block-search input,
+.search-form input {
+  background-color: #ffffff;
+  padding: 0 25px;
+  height: 60px;
+  width: 100%;
+  color: #474747;
+  font-size: 15px;
+  border-color: transparent !important;
+}
+.wp-block-search button,
+.search-form button {
+  color: #ffffff;
+  padding: 0 20px;
+  position: relative;
+  right: 0;
+  background-color: #161616;
+  top: 0;
+  height: auto;
+  line-height: 0;
+  border: 0;
+  margin-left: 0 !important;
+}
+.wp-block-search button i,
+.search-form button i {
+  font-size: 24px;
+  color: #ffffff;
+}
+
 /*
  Media
 ============================*/
@@ -8806,7 +8884,6 @@ button.testimonial-arrow-btn:hover:before {
   /* Social Widget */
   /* Select Option  */
   /* Login Widget */
-  /* Search Widget */
   /* Tagcloud Widget */
   /* Default Widget */
 }
@@ -9036,79 +9113,6 @@ button.testimonial-arrow-btn:hover:before {
           align-items: center;
   gap: 10px;
   border-radius: 50px;
-}
-.widget .search-form {
-  display: -webkit-box !important;
-  display: -ms-flexbox !important;
-  display: flex !important;
-}
-.widget .search-form button {
-  width: 62px;
-  -ms-flex-negative: 0;
-      flex-shrink: 0;
-}
-.widget .wp-block-search__no-button.wp-block-search input {
-  border-radius: 10px;
-}
-.widget .wp-block-search {
-  margin-bottom: -2px;
-}
-.widget .wp-block-search,
-.widget .search-form {
-  display: inline-block;
-  width: 100%;
-  overflow: hidden;
-  background-color: transparent;
-  border: 1px solid transparent;
-}
-.widget .wp-block-search .wp-block-search__inside-wrapper,
-.widget .search-form .wp-block-search__inside-wrapper {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  padding: 0 !important;
-  background-color: #ffffff;
-  border-radius: 50px;
-}
-.widget .wp-block-search label,
-.widget .search-form label {
-  display: block;
-  font-family: "Outfit", sans-serif;
-  font-size: 38px;
-  font-weight: 500;
-  line-height: 46px;
-  letter-spacing: -0.76px;
-  position: relative;
-  margin-bottom: 32px;
-  color: #161616;
-}
-.widget .wp-block-search input,
-.widget .search-form input {
-  background-color: #ffffff;
-  padding: 0 25px;
-  height: 60px;
-  width: 100%;
-  color: #474747;
-  font-size: 15px;
-  border-color: transparent !important;
-}
-.widget .wp-block-search button,
-.widget .search-form button {
-  color: #ffffff;
-  padding: 0 20px;
-  position: relative;
-  right: 0;
-  background-color: #161616;
-  top: 0;
-  height: auto;
-  line-height: 0;
-  border: 0;
-  margin-left: 0 !important;
-}
-.widget .wp-block-search button i,
-.widget .search-form button i {
-  font-size: 24px;
-  color: #ffffff;
 }
 .widget .tagcloud,
 .widget .wp-block-tag-cloud {

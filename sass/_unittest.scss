@@ -430,8 +430,78 @@ nav.wp-calendar-nav {
   }
 }
 
+/* Search Widget */
+.search-form {
+  display: flex !important;
 
+  button {
+    width: 62px;
+    flex-shrink: 0;
+  }
+}
+.wp-block-search__no-button {
+  &.wp-block-search {
+    input {
+      border-radius: 10px;
+    }
+  }
+}
 
+.wp-block-search {
+  margin-bottom: -2px;
+}
+.wp-block-search,
+.search-form {
+  display: inline-block;
+  width: 100%;
+  overflow: hidden;
+  // border-radius: 50px;
+  background-color: transparent;
+  border: 1px solid transparent;
+
+  .wp-block-search__inside-wrapper {
+    display: flex;
+    padding: 0 !important;
+    background-color: $white;
+    border-radius: 50px;
+  }
+  label {
+    display: block;
+    font-family: $heading-font;
+    font-size: 38px;
+    font-weight: 500;
+    line-height: 46px;
+    letter-spacing: -0.76px;
+    position: relative;
+    margin-bottom: 32px;
+    color: $black;
+  }
+  input {
+    background-color: $white;
+    padding: 0 25px;
+    height: 60px;
+    width: 100%;
+    color: $text-color;
+    font-size: 15px;
+    border-color: transparent !important;
+  }
+  button {
+    color: $white;
+    padding: 0 20px;
+    position: relative;
+    right: 0;
+    background-color: $black;
+    top: 0;
+    height: auto;
+    line-height: 0;
+    border: 0;
+    margin-left: 0 !important;
+    i{
+      font-size: 24px;
+      color: $white;
+    }
+  }
+}
   /*
    Media
   ============================*/
