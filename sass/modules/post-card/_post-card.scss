@@ -151,6 +151,11 @@
       .list-item-wrapper{
          margin-top: 16px;
       }
+      .wp-calendar-table {
+        td {
+          color: $primary-color;
+        }
+      }
       a {
         color: $black;
 
