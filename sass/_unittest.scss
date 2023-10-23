@@ -296,6 +296,10 @@ blockquote {
     line-height: 32px;
     margin: 0 !important;
     padding: 0;
+
+    a {
+      color: rgb(255, 103, 49);
+    }
   }
   @include sm {
     padding-left: 30px;
