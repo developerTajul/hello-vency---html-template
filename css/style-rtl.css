@@ -6682,11 +6682,11 @@ button.testimonial-arrow-btn:hover:before {
   font-weight: 700;
   display: inline-block;
   font-family: "Outfit", sans-serif;
-  color: #BDEFFB;
+  color: #161616;
   margin-bottom: 0;
   margin-left: 30px;
   text-transform: uppercase;
-  margin-top: 8px;
+  margin-top: 4px;
   float: right;
 }
 .single-post-item .blog-post-tag .post-tag-list {
