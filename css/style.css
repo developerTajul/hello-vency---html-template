@@ -7051,6 +7051,8 @@ button.testimonial-arrow-btn:hover:before {
   display: -ms-flexbox;
   display: flex;
   gap: 12px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 .single-post-item .content-header .info span i {
   font-size: 10px;
@@ -7093,6 +7095,8 @@ button.testimonial-arrow-btn:hover:before {
       -ms-flex-align: center;
           align-items: center;
   gap: 12px;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
 }
 .single-post-item .content-header span img {
   border-radius: 50%;
@@ -7110,6 +7114,8 @@ button.testimonial-arrow-btn:hover:before {
           align-items: center;
   gap: 10px;
   color: #474747;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
   -webkit-transition: all 0.5s ease-out;
   transition: all 0.5s ease-out;
 }
