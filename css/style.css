@@ -2201,14 +2201,15 @@ ul {
   background-color: #FFCC7E;
   border: none;
   padding: 10px 40px;
-  color: #ffffff;
+  color: #161616;
   cursor: pointer;
   font-weight: 600;
   -webkit-transition: all 0.5s ease-out;
   transition: all 0.5s ease-out;
 }
 .post-password-form input[type=submit]:hover {
-  background-color: #BDEFFB;
+  background-color: #161616;
+  color: #ffffff;
 }
 
 /* Table */
@@ -2451,9 +2452,11 @@ blockquote p {
   font-size: 18px;
   font-weight: 400;
   line-height: 32px;
-  margin: 0;
-  margin-top: 0 !important;
+  margin: 0 !important;
   padding: 0;
+}
+blockquote p a {
+  color: rgb(255, 103, 49);
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   blockquote {
@@ -2517,6 +2520,9 @@ blockquote footer {
 .post-content .wp-block-file {
   margin-top: 20px;
   margin-bottom: 20px;
+}
+.post-content .wp-block-file .wp-block-file__button {
+  color: #ffffff !important;
 }
 .post-content .wp-block-group__inner-container p {
   margin-top: 0 !important;
@@ -2882,6 +2888,13 @@ body.admin-bar .header-menu-area.sticky_menu {
 }
 .post-template-default.postid-555 .blog-details-wrapper .single-post-item .post-content .gallery {
   margin-top: 20px;
+}
+.post-template-default.postid-1786 .blog-details-wrapper .single-post-item .post-title {
+  margin-bottom: 20px;
+}
+.post-template-default.postid-1780 .blog-details-wrapper .single-post-item .wp-block-button {
+  margin-top: 20px;
+  margin-bottom: 40px;
 }
 
 .error-404.not-found {
@@ -6408,9 +6421,6 @@ button.testimonial-arrow-btn:hover:before {
     padding-right: 12px;
   }
 }
-.blog-details-wrapper .comment-respond {
-  margin-top: 24px;
-}
 .blog-details-wrapper .post-comments {
   margin-top: 70px;
 }
@@ -6527,7 +6537,7 @@ button.testimonial-arrow-btn:hover:before {
 .blog-details-wrapper .single-post-item .post-content .list-item-wrapper {
   margin-top: 16px;
 }
-.blog-details-wrapper .single-post-item .post-content .wp-calendar-table td {
+.blog-details-wrapper .single-post-item .post-content .wp-calendar-table td a {
   color: #FFCC7E;
 }
 .blog-details-wrapper .single-post-item .post-content a {
@@ -6538,6 +6548,9 @@ button.testimonial-arrow-btn:hover:before {
 }
 .blog-details-wrapper .single-post-item .blog-post-tag .social-share {
   padding-bottom: 20px;
+}
+.blog-details-wrapper .single-post-item blockquote p {
+  margin-bottom: 0;
 }
 .blog-details-wrapper .wp-block-calendar {
   margin-bottom: 30px;
@@ -6629,7 +6642,7 @@ button.testimonial-arrow-btn:hover:before {
 .single-post-item.format-quote blockquote cite a:hover {
   -webkit-transition: all 0.5s ease-out;
   transition: all 0.5s ease-out;
-  color: #FFCC7E;
+  color: #161616;
 }
 .single-post-item.sticky {
   border: 2px solid #FFCC7E;
@@ -6696,8 +6709,6 @@ button.testimonial-arrow-btn:hover:before {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding-top: 15px;
-  margin-top: 30px;
   margin-bottom: 20px;
   width: 100%;
   margin-top: 23px;
