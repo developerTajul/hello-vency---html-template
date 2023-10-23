@@ -468,11 +468,6 @@ input.theme-btn.style-2:hover {
           justify-content: center;
   content: "\f105";
   font-family: "Font Awesome 6 Pro";
-  width: 44px;
-  height: 44px;
-  border-radius: 6px;
-  background-color: #FFCC7E;
-  color: #fff;
   font-size: 16px;
 }
 
