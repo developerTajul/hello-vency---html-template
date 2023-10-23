@@ -431,6 +431,16 @@ nav.wp-calendar-nav {
 }
 
 /* Search Widget */
+.no-results {
+  .search-form input {
+    background-color: #f6f9ff;
+    width: 50%;
+
+    @include sm {
+      width: 100%;
+    }
+  }
+}
 .search-form {
   display: flex !important;
 

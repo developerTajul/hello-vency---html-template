@@ -2597,6 +2597,16 @@ nav.wp-calendar-nav a:hover {
 }
 
 /* Search Widget */
+.no-results .search-form input {
+  background-color: #f6f9ff;
+  width: 50%;
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .no-results .search-form input {
+    width: 100%;
+  }
+}
+
 .search-form {
   display: -webkit-box !important;
   display: -ms-flexbox !important;
