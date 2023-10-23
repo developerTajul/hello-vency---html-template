@@ -158,11 +158,17 @@
           }
         }
       }
-      a {
-        color: $black;
+      .wp-block-latest-posts,
+      .wp-block-categories,
+      .wp-block-page-list,
+      .wp-block-rss,
+      .wp-block-tag-cloud {
+        a {
+          color: $black;
 
-        &:hover {
-          color: $primary-color;
+          &:hover {
+            color: $primary-color;
+          }
         }
       }
     }
