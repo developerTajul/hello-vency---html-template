@@ -153,6 +153,10 @@
       }
       a {
         color: $black;
+
+        &:hover {
+          color: $primary-color;
+        }
       }
     }
     .blog-post-tag {

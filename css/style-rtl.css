@@ -6529,6 +6529,9 @@ button.testimonial-arrow-btn:hover:before {
 .blog-details-wrapper .single-post-item .post-content a {
   color: #161616;
 }
+.blog-details-wrapper .single-post-item .post-content a:hover {
+  color: #FFCC7E;
+}
 .blog-details-wrapper .single-post-item .blog-post-tag .social-share {
   padding-bottom: 20px;
 }
