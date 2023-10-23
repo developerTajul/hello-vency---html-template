@@ -49,15 +49,10 @@
     margin: 0;
   }
 
-  .contacts-email{
-    // margin-left: 24px;
-    @include sm{
-      margin-left: 0;
-      // margin-top: 20px;
-    }
-    @media only screen and (min-width: 768px) and (max-width: 1199px){
-      margin-left: 0;
-    }
+  .contacts-email,
+  .contacts-name,
+  .single-input-field {
+    margin-bottom: 12px;
   }
   label {
     display: block;

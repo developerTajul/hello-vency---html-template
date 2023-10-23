@@ -10016,15 +10016,10 @@ ul.children {
 .comment-respond p {
   margin: 0;
 }
-@media only screen and (min-width: 0px) and (max-width: 767px) {
-  .comment-respond .contacts-email {
-    margin-right: 0;
-  }
-}
-@media only screen and (min-width: 768px) and (max-width: 1199px) {
-  .comment-respond .contacts-email {
-    margin-right: 0;
-  }
+.comment-respond .contacts-email,
+.comment-respond .contacts-name,
+.comment-respond .single-input-field {
+  margin-bottom: 12px;
 }
 .comment-respond label {
   display: block;
