@@ -2516,6 +2516,7 @@ blockquote footer {
 }
 .post-content .wp-block-file {
   margin-top: 20px;
+  margin-bottom: 20px;
 }
 .post-content .wp-block-group__inner-container p {
   margin-top: 0 !important;

@@ -348,6 +348,11 @@ blockquote {
   }
   .wp-block-file {
     margin-top: 20px;
+    margin-bottom: 20px;
+
+    .wp-block-file__button {
+      color: $fff !important;
+    }
   }
   .wp-block-group__inner-container {
     p {
