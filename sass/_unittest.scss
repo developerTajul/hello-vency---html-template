@@ -804,6 +804,13 @@ body {
       }
     }
   }
+  &.postid-24 {
+    .blog-details-wrapper {
+      .single-post-item .wp-block-buttons>.wp-block-button a {
+        color: $white;
+      }
+    }
+  }
 }
 
 // 404 Not Found Page

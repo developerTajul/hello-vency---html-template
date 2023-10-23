@@ -2896,6 +2896,9 @@ body.admin-bar .header-menu-area.sticky_menu {
   margin-top: 20px;
   margin-bottom: 40px;
 }
+.post-template-default.postid-24 .blog-details-wrapper .single-post-item .wp-block-buttons > .wp-block-button a {
+  color: #ffffff;
+}
 
 .error-404.not-found {
   margin-top: -20px;
