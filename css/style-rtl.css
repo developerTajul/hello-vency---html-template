@@ -9899,7 +9899,7 @@ button.testimonial-arrow-btn:hover:before {
 .wp-block-comments .wp-block-comment-template li .wp-block-columns .wp-block-comment-reply-link a:hover {
   background-color: #FFCC7E;
   border-color: #FFCC7E;
-  color: #ffffff;
+  color: #161616;
   -webkit-transition: all 0.5s ease-out;
   transition: all 0.5s ease-out;
 }
