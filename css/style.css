@@ -6544,14 +6544,16 @@ button.testimonial-arrow-btn:hover:before {
 .blog-details-wrapper .single-post-item .post-content .wp-block-categories a,
 .blog-details-wrapper .single-post-item .post-content .wp-block-page-list a,
 .blog-details-wrapper .single-post-item .post-content .wp-block-rss a,
-.blog-details-wrapper .single-post-item .post-content .wp-block-tag-cloud a {
+.blog-details-wrapper .single-post-item .post-content .wp-block-tag-cloud a,
+.blog-details-wrapper .single-post-item .post-content .wp-block-archives a {
   color: #474747;
 }
 .blog-details-wrapper .single-post-item .post-content .wp-block-latest-posts a:hover,
 .blog-details-wrapper .single-post-item .post-content .wp-block-categories a:hover,
 .blog-details-wrapper .single-post-item .post-content .wp-block-page-list a:hover,
 .blog-details-wrapper .single-post-item .post-content .wp-block-rss a:hover,
-.blog-details-wrapper .single-post-item .post-content .wp-block-tag-cloud a:hover {
+.blog-details-wrapper .single-post-item .post-content .wp-block-tag-cloud a:hover,
+.blog-details-wrapper .single-post-item .post-content .wp-block-archives a:hover {
   color: #FFCC7E;
 }
 .blog-details-wrapper .single-post-item .blog-post-tag .social-share {
