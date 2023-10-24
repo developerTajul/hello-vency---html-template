@@ -114,6 +114,7 @@ a:focus,
 .button:focus {
   text-decoration: none;
   outline: none;
+  color: inherit;
 }
 a:focus {
   color: $black;
