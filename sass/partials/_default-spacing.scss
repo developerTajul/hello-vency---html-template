@@ -425,7 +425,7 @@
 }
 
 .pt-80 {
-  padding-top: 80px;
+  padding-top: 80px !important;
 }
 
 .pt-85 {
@@ -457,7 +457,7 @@
 }
 
 .pt-100 {
-  padding-top: 100px;
+  padding-top: 100px !important;
 }
 
 .pt-105 {
@@ -621,7 +621,7 @@
 }
 
 .pb-80 {
-  padding-bottom: 80px;
+  padding-bottom: 80px !important;
 }
 
 .pb-85 {
@@ -637,7 +637,7 @@
 }
 
 .pb-100 {
-  padding-bottom: 100px;
+  padding-bottom: 100px !important;
 }
 
 .pb-105 {
@@ -1131,8 +1131,8 @@
 }
 
 .py-80 {
-  padding-top: 80px;
-  padding-bottom: 80px;
+  padding-top: 80px !important;
+  padding-bottom: 80px !important;
 }
 
 .py-85 {
@@ -1151,8 +1151,8 @@
 }
 
 .py-100 {
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding-top: 100px !important;
+  padding-bottom: 100px !important;
 }
 
 .py-105 {
@@ -1645,34 +1645,34 @@
 // new
 .py-sm-80{
   @include sm{
-    padding-top: 80px;
-    padding-bottom: 80px;
+    padding-top: 80px !important;
+    padding-bottom: 80px !important;
   }
 }
 .py-md-100{
   @include md{
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 100px !important;
+    padding-bottom: 100px !important;
   }
 }
 .pt-sm-80{
   @include sm{
-    padding-top: 80px;
+    padding-top: 80px !important;
   }
 }
 .pt-md-100{
   @include md{
-    padding-top: 100px;
+    padding-top: 100px !important;
   }
 }
 .pb-sm-80{
   @include sm{
-    padding-bottom: 80px;
+    padding-bottom: 80px !important;
   }
 }
 .pb-md-100{
   @include md{
-    padding-bottom: 80px;
+    padding-bottom: 80px !important;
   }
 }
 

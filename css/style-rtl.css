@@ -911,7 +911,7 @@ input.theme-btn {
 }
 
 .pt-80 {
-  padding-top: 80px;
+  padding-top: 80px !important;
 }
 
 .pt-85 {
@@ -943,7 +943,7 @@ input.theme-btn {
 }
 
 .pt-100 {
-  padding-top: 100px;
+  padding-top: 100px !important;
 }
 
 .pt-105 {
@@ -1108,7 +1108,7 @@ input.theme-btn {
 }
 
 .pb-80 {
-  padding-bottom: 80px;
+  padding-bottom: 80px !important;
 }
 
 .pb-85 {
@@ -1124,7 +1124,7 @@ input.theme-btn {
 }
 
 .pb-100 {
-  padding-bottom: 100px;
+  padding-bottom: 100px !important;
 }
 
 .pb-105 {
@@ -1613,8 +1613,8 @@ input.theme-btn {
 }
 
 .py-80 {
-  padding-top: 80px;
-  padding-bottom: 80px;
+  padding-top: 80px !important;
+  padding-bottom: 80px !important;
 }
 
 .py-85 {
@@ -1633,8 +1633,8 @@ input.theme-btn {
 }
 
 .py-100 {
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding-top: 100px !important;
+  padding-bottom: 100px !important;
 }
 
 .py-105 {
@@ -2125,39 +2125,39 @@ input.theme-btn {
 
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .py-sm-80 {
-    padding-top: 80px;
-    padding-bottom: 80px;
+    padding-top: 80px !important;
+    padding-bottom: 80px !important;
   }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .py-md-100 {
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 100px !important;
+    padding-bottom: 100px !important;
   }
 }
 
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .pt-sm-80 {
-    padding-top: 80px;
+    padding-top: 80px !important;
   }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .pt-md-100 {
-    padding-top: 100px;
+    padding-top: 100px !important;
   }
 }
 
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .pb-sm-80 {
-    padding-bottom: 80px;
+    padding-bottom: 80px !important;
   }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .pb-md-100 {
-    padding-bottom: 80px;
+    padding-bottom: 80px !important;
   }
 }
 
