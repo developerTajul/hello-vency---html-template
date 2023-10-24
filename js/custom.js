@@ -163,6 +163,7 @@
         slidesToScroll: 1,
         loop: true,
         dots: false,
+        swipeToSlide: true,
         speed: 1500,
         rtl: false,
         prevArrow:
