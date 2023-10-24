@@ -242,7 +242,7 @@
       &.active {
         position: relative;
         > a {
-          color: $black-2;
+          color: $blue-color;
 
           &:after {
             // visibility: visible;
@@ -276,7 +276,7 @@
               > a {
                 position: relative;
                 z-index: 2;
-                color: $white;
+                color: $blue-color;
 
                 //&:before {
                 //  border-color: $white;

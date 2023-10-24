@@ -3637,7 +3637,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   position: relative;
 }
 .main-menu ul li.active > a {
-  color: #474747;
+  color: #0066D9;
 }
 .main-menu ul li.dropdown > a {
   padding-left: 32px;
@@ -3655,7 +3655,7 @@ body.admin-bar .header-menu-area.sticky_menu {
 .main-menu ul li ul.submenu li.active > a {
   position: relative;
   z-index: 2;
-  color: #ffffff;
+  color: #0066D9;
 }
 .main-menu ul li ul.submenu li.active > a:after {
   height: 100%;
