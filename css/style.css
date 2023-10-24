@@ -330,6 +330,10 @@ input:focus {
   background-color: #FBF8EE;
 }
 
+.background-dep-gray {
+  background-color: #FFCC7E;
+}
+
 .page-bg {
   background-color: #161616;
 }
