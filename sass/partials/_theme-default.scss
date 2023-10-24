@@ -126,7 +126,7 @@ a {
   @include transition;
 
   &:hover {
-    color: $black;
+    color: $blue-color;
     @include transition;
   }
 }
@@ -184,7 +184,7 @@ input:focus {
   background-color: #FBF8EE;
 }
 .background-dep-gray {
-  background-color: #FFCC7E;
+  background-color: #FBF5E5;
 }
 .page-bg {
   background-color: $black;

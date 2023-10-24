@@ -262,7 +262,7 @@ a {
   transition: all 0.5s ease-out;
 }
 a:hover {
-  color: #161616;
+  color: #0066D9;
   -webkit-transition: all 0.5s ease-out;
   transition: all 0.5s ease-out;
 }
@@ -331,7 +331,7 @@ input:focus {
 }
 
 .background-dep-gray {
-  background-color: #FFCC7E;
+  background-color: #FBF5E5;
 }
 
 .page-bg {
