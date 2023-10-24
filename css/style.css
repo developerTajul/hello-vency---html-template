@@ -10138,6 +10138,9 @@ ul.children {
 .comment-respond p {
   margin: 0;
 }
+.comment-respond p br {
+  display: none;
+}
 .comment-respond .contacts-email,
 .comment-respond .contacts-name,
 .comment-respond .single-input-field {
