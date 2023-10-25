@@ -7840,14 +7840,6 @@ button.testimonial-arrow-btn:hover:before {
   z-index: 2;
   position: relative;
 }
-@media (max-width: 991px) {
-  .section-title {
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    text-align: center;
-  }
-}
 @media (max-width: 767px) {
   .section-title.mb-70, .section-title.mb-75 {
     margin-bottom: 50px;

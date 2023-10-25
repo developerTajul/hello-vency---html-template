@@ -4,10 +4,7 @@
   flex-direction: column;
   z-index: 2;
   position: relative;
-  @include rmaxwd (991){
-    align-items: center;
-    text-align: center;
-  }
+
   &.mb-70,
   &.mb-75 {
     @include rmaxwd(767) {
