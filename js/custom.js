@@ -157,7 +157,7 @@
        $(".client-logo-wrapper").slick({
         slidesToShow: 5,
         infinite: true,
-        autoplay: true,
+        autoplay: false,
         draggable: true,
         arrows: false,
         slidesToScroll: 1,

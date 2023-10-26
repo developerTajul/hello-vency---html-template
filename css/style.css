@@ -6307,14 +6307,6 @@ button.testimonial-arrow-btn:hover:before {
   margin-bottom: 0;
 }
 
-.client-logo-area .client-logo-wrapper {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
 .client-logo-area .client-logo-wrapper .client-logo {
   -ms-flex-negative: 0;
       flex-shrink: 0;
@@ -6345,6 +6337,9 @@ button.testimonial-arrow-btn:hover:before {
   -webkit-transform: rotate(0deg);
           transform: rotate(0deg);
   display: block;
+}
+.client-logo-area .client-logo-wrapper .client-logo .client-swip img {
+  margin: 0 auto;
 }
 .client-logo-area .client-logo-wrapper .client-logo:hover .client-swip .title-wrapper {
   -webkit-transform: translateY(-45px);

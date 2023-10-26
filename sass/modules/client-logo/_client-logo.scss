@@ -1,7 +1,8 @@
 .client-logo-area {
   .client-logo-wrapper{
-    display: flex;
-    justify-content: center;
+    //display: flex;
+    //justify-content: center;
+
     .client-logo{
       flex-shrink: 0;
       @include sm{
@@ -23,6 +24,9 @@
           transform-origin: left center;
           transform: rotate(0deg);
           display: block;
+        }
+        img {
+          margin: 0 auto;
         }
     }
       &:hover{
