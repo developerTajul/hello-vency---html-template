@@ -5122,26 +5122,10 @@ body.admin-bar .header-menu-area.sticky_menu {
 .about-image-card .team-card h5 {
   margin: 0;
 }
-@media (max-width: 991px) {
+@media (max-width: 1399px) {
   .about-image-card .team-card {
-    display: none;
-  }
-}
-@media only screen and (min-width: 992px) and (max-width: 1199px) {
-  .about-image-card .team-card {
-    -webkit-animation: unset !important;
-            animation: unset !important;
-    right: 0;
-  }
-}
-@media only screen and (min-width: 1200px) and (max-width: 1900px) {
-  .about-image-card .team-card {
-    bottom: 12px;
-  }
-}
-@media only screen and (min-width: 1199px) and (max-width: 1399px) {
-  .about-image-card .team-card {
-    right: 24px;
+    right: 100px;
+    bottom: 20px;
   }
 }
 .about-image-card .team-card .users {
