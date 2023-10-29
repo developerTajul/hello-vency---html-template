@@ -8808,6 +8808,7 @@ button.testimonial-arrow-btn:hover:before {
   gap: 0 8px;
   padding-top: 8px;
   color: #161616;
+  text-align: left;
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .list-item-wrapper ul li {

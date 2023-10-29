@@ -10,6 +10,7 @@
             gap: 0 8px;
             padding-top: 8px;
             color: $black;
+            text-align: left;
             @include sm{
                 align-items: start;
             }
