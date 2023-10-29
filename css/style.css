@@ -11358,6 +11358,9 @@ ul.children {
 .footer-widget {
   margin-bottom: 30px;
 }
+.footer-widget .subscribe-area .footer-widget-title {
+  color: #121212;
+}
 .footer-widget .widget_latest_post ul li {
   padding: 12px 0;
 }
