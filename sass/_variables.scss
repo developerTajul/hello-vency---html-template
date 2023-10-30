@@ -39,16 +39,16 @@ $iconmoon: "icomoon";
     --bs-gutter-y: 40px;
 
     @include sm {
-      --bs-gutter-x: 24px;
-      --bs-gutter-y: 24px;
+      --bs-gutter-x: 12px;
+      --bs-gutter-y: 12px;
     }
     @include md {
-      --bs-gutter-x: 24px;
-      --bs-gutter-y: 24px;
+      --bs-gutter-x: 12px;
+      --bs-gutter-y: 12px;
     }
   @include lg {
-    --bs-gutter-x: 24px;
-    --bs-gutter-y: 24px;
+    --bs-gutter-x: 12px;
+    --bs-gutter-y: 12px;
   }
 }
   .custom-container{
