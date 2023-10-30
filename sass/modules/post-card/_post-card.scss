@@ -30,9 +30,10 @@
 }
 .blog-details-wrapper {
   padding-right: 38px;
-  @include sm{
-    padding-right: 12px;
-  }
+
+    @include rmaxwd(991) {
+      padding-right: 0;
+    }
   //.comment-respond {
   //  margin-top: 24px;
   //}
