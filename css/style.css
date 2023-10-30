@@ -8018,6 +8018,11 @@ button.testimonial-arrow-btn:hover:before {
   display: -ms-inline-flexbox;
   display: inline-flex;
   gap: 0 12px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 .breadcrumb-list ul li {
   list-style: none;
@@ -8029,7 +8034,7 @@ button.testimonial-arrow-btn:hover:before {
       -ms-flex-align: center;
           align-items: center;
   font-family: "Questrial", sans-serif;
-  font-size: 16px;
+  font-size: 18px;
   text-align: center;
   color: #161616;
   text-transform: capitalize;
@@ -8037,6 +8042,8 @@ button.testimonial-arrow-btn:hover:before {
   font-weight: 400;
   margin-bottom: 0;
   text-decoration: unset;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
 }
 .breadcrumb-list ul li.active {
   color: #161616;
@@ -8046,7 +8053,7 @@ button.testimonial-arrow-btn:hover:before {
 }
 .breadcrumb-list ul li a {
   font-family: "Questrial", sans-serif;
-  font-size: 16px;
+  font-size: 18px;
   text-align: center;
   color: #161616;
   text-transform: capitalize;
@@ -8054,6 +8061,8 @@ button.testimonial-arrow-btn:hover:before {
   font-weight: 400;
   margin-bottom: 0;
   text-decoration: unset;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
   -webkit-transition: all 0.5s ease-out;
   transition: all 0.5s ease-out;
 }
