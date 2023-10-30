@@ -3536,7 +3536,8 @@ body.admin-bar .header-menu-area.sticky_menu {
   transition: all 0.4s ease 0s;
   background-color: transparent;
 }
-.header-menu-area .retina-logo {
+.header-menu-area .retina-logo,
+.header-menu-area .sticky-logo {
   display: none;
 }
 .header-menu-area.sticky-header {

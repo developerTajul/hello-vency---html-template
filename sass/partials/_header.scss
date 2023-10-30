@@ -135,7 +135,8 @@
   transition: all 0.4s ease 0s;
   background-color: transparent;
 
-  .retina-logo {
+  .retina-logo,
+  .sticky-logo {
     display: none;
   }
   &.sticky-header {
