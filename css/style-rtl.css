@@ -9453,6 +9453,8 @@ button.testimonial-arrow-btn:hover:before {
       flex-shrink: 0;
   overflow: hidden;
   border-radius: 6px;
+  width: 105px;
+  height: 105px;
 }
 .widget_latest_post ul li .latest-post-thumb img {
   -webkit-transform: scale(1);
