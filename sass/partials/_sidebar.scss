@@ -150,7 +150,7 @@
       width: 60px;
       height: 60px;
       background-color: $primary-color;
-      color: $white;
+      color: $black;
       @include transition;
       border-radius: 50px;
       flex-shrink: 0;
@@ -179,7 +179,6 @@
       &:hover {
         color: $white;
         @include transition;
-        background-color: $orange-color;
       }
     }
   }

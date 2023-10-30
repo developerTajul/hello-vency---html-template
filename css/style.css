@@ -9022,7 +9022,7 @@ button.testimonial-arrow-btn:hover:before {
   width: 60px;
   height: 60px;
   background-color: #FFCC7E;
-  color: #ffffff;
+  color: #161616;
   -webkit-transition: all 0.5s ease-out;
   transition: all 0.5s ease-out;
   border-radius: 50px;
@@ -9062,7 +9062,6 @@ button.testimonial-arrow-btn:hover:before {
   color: #ffffff;
   -webkit-transition: all 0.5s ease-out;
   transition: all 0.5s ease-out;
-  background-color: rgb(255, 103, 49);
 }
 .widget select {
   max-width: 100%;
