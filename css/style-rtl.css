@@ -7130,6 +7130,28 @@ button.testimonial-arrow-btn:hover:before {
   position: relative;
   margin: 40px 0 80px 0;
 }
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .author-info {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .author-info {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+}
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .author-info {
     text-align: center;
