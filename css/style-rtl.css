@@ -52,20 +52,20 @@
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .g-6 {
-    --bs-gutter-x: 12px;
-    --bs-gutter-y: 12px;
+    --bs-gutter-x: 24px;
+    --bs-gutter-y: 24px;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .g-6 {
-    --bs-gutter-x: 12px;
-    --bs-gutter-y: 12px;
+    --bs-gutter-x: 24px;
+    --bs-gutter-y: 24px;
   }
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .g-6 {
-    --bs-gutter-x: 12px;
-    --bs-gutter-y: 12px;
+    --bs-gutter-x: 24px;
+    --bs-gutter-y: 24px;
   }
 }
 
