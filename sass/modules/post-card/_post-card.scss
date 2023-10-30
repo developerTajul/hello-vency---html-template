@@ -556,7 +556,8 @@
       @include sm{
         margin-left: 0;
       }
-      .tag{
+      .tag,
+      .tag-item {
         padding: 4px 12px;
         background-color: #FFF0D8;
         border-radius: 8px;
