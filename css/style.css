@@ -7047,14 +7047,6 @@ button.testimonial-arrow-btn:hover:before {
   font-family: "Font Awesome 6 Pro";
   color: #474747;
 }
-.single-post-item .content-header .tag-wrapper {
-  margin-left: auto;
-}
-@media only screen and (min-width: 0px) and (max-width: 767px) {
-  .single-post-item .content-header .tag-wrapper {
-    margin-left: 0;
-  }
-}
 .single-post-item .content-header .tag-wrapper .tag,
 .single-post-item .content-header .tag-wrapper .tag-item {
   padding: 4px 12px;

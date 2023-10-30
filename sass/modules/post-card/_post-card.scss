@@ -552,10 +552,7 @@
       }
     }
     .tag-wrapper{
-      margin-left: auto;
-      @include sm{
-        margin-left: 0;
-      }
+
       .tag,
       .tag-item {
         padding: 4px 12px;
