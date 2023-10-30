@@ -39,6 +39,12 @@
         }
       }
     }
+  .g-6 {
+    @include rmaxwd(1399) {
+      --bs-gutter-x: 24px;
+      --bs-gutter-y: 24px;
+    }
+  }
 }
 // Why-choose-area 
 .why-choose-area{

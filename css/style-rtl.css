@@ -10781,6 +10781,12 @@ ul.children {
 .portfolio-slider-area.style-2 .section-title .title {
   padding-left: 0;
 }
+@media (max-width: 1399px) {
+  .portfolio-slider-area .g-6 {
+    --bs-gutter-x: 24px;
+    --bs-gutter-y: 24px;
+  }
+}
 
 .why-choose-area.style-2 {
   position: relative;
