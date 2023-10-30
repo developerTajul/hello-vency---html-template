@@ -6841,6 +6841,7 @@ button.testimonial-arrow-btn:hover:before {
   color: #BDEFFB;
   margin-left: 5px;
   text-transform: uppercase;
+  display: none;
 }
 .single-post-item .blog-post-tag {
   width: 100%;
