@@ -103,19 +103,6 @@
     }
   }
 }
-// Testimonial-slider-area style-1
-// .testimonial-slider-area{
-//   padding: 121px 0;
-//   @include sm{
-//     padding-top:  80px;
-//     padding-bottom: 80px;
-//   }
-//   @include md{
-//     padding-top: 100px;
-//     padding-bottom: 100px;
-//   }
-// }
-// Client-logo-area
 // Why-choose-area 
 .why-choose-area{
   &.style-1{
@@ -192,6 +179,20 @@
       .accordion-item{
         z-index: 1;
       }
+    }
+  }
+}
+
+// Service Area
+.service-area {
+  &.style-1 {
+    @include sm {
+      padding-top: 67px !important;
+      padding-bottom: 67px !important;
+    }
+    @include md {
+      padding-top: 87px !important;
+      padding-bottom: 87px !important;
     }
   }
 }
