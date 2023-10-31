@@ -10696,6 +10696,18 @@ ul.children {
   }
 }
 
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .portfolio-slider-area.style-1 {
+    padding-top: 66px;
+    padding-bottom: 80px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .portfolio-slider-area.style-1 {
+    padding-top: 86px;
+    padding-bottom: 100px;
+  }
+}
 .portfolio-slider-area.style-1 .section-title .title .underline img {
   bottom: 0;
 }

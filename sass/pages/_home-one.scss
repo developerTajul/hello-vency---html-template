@@ -91,6 +91,14 @@
 .portfolio-slider-area{
   &.style-1{
 
+    @include sm {
+      padding-top: 66px;
+      padding-bottom: 80px;
+    }
+    @include md {
+      padding-top: 86px;
+      padding-bottom: 100px;
+    }
     .section-title{
       .title{
         .underline{
