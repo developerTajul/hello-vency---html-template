@@ -27,9 +27,9 @@
             @include lg{
                 padding: 32px;
             }
-            @include xl{
-                padding: 64px;
-            }
+            //@include xl{
+            //    padding: 64px;
+            //}
         }
     }
     .meta-user {
