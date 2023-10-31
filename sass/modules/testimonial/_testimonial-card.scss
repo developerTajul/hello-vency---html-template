@@ -8,7 +8,7 @@
     border-radius: 12px;
 
     @include sm {
-        padding: 35px;
+        margin-bottom: 10px;
     }
     .content {
         text-align: center;
@@ -21,6 +21,10 @@
             line-height: 34px;
             padding: 0 170px;
             color: $black-2;
+
+            @include sm {
+                font-size: 20px;
+            }
             @include rmaxwd(991){
                 padding: 0;
             }
