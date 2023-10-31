@@ -86,19 +86,12 @@
   // padding-bottom: 119px;
 }
 
-
+// Portfolio Slider Section
+.por
 // portfolio-slider-area style-1
 .portfolio-slider-area{
   &.style-1{
 
-    @include sm {
-      padding-top: 66px !important;
-      padding-bottom: 80px !important;
-    }
-    @include md {
-      padding-top: 86px !important;
-      padding-bottom: 100px !important;
-    }
     .section-title{
       .title{
         .underline{
