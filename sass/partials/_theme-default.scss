@@ -243,6 +243,9 @@ input.theme-btn {
     display: inline-flex;
     align-items: center;
   }
+  @include sm {
+    padding: 12px 34px;
+  }
   &:hover {
     color: $white;
     background-color: $black;
