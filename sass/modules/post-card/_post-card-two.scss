@@ -8,10 +8,10 @@
         @include sm{
             gap: 12px;
         }
-        .tag-wrapper{
-            display: flex;
-            justify-content: space-between;
-        }
+        //.tag-wrapper{
+        //    display: flex;
+        //    justify-content: space-between;
+        //}
         .post-meta{
             @include rmaxwd(767){
                 flex-direction: column;

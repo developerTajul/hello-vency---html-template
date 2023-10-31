@@ -7562,14 +7562,6 @@ button.testimonial-arrow-btn:hover:before {
     gap: 12px;
   }
 }
-.post-card.style-2 .content .tag-wrapper {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
 @media (max-width: 767px) {
   .post-card.style-2 .content .post-meta {
     -webkit-box-orient: vertical;
