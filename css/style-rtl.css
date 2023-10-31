@@ -410,6 +410,13 @@ input.theme-btn i {
       -ms-flex-align: center;
           align-items: center;
 }
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .theme-btn,
+  .wp-block-loginout a,
+  input.theme-btn {
+    padding: 12px 34px;
+  }
+}
 .theme-btn:hover,
 .wp-block-loginout a:hover,
 input.theme-btn:hover {
@@ -5954,7 +5961,7 @@ body.admin-bar .header-menu-area.sticky_menu {
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .testimonial-card {
-    padding: 35px;
+    margin-bottom: 10px;
   }
 }
 .testimonial-card .content {
@@ -5969,6 +5976,11 @@ body.admin-bar .header-menu-area.sticky_menu {
   padding: 0 170px;
   color: #474747;
 }
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .testimonial-card .content .text {
+    font-size: 20px;
+  }
+}
 @media (max-width: 991px) {
   .testimonial-card .content .text {
     padding: 0;
@@ -5977,11 +5989,6 @@ body.admin-bar .header-menu-area.sticky_menu {
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .testimonial-card .content .text {
     padding: 32px;
-  }
-}
-@media only screen and (min-width: 1200px) and (max-width: 1900px) {
-  .testimonial-card .content .text {
-    padding: 64px;
   }
 }
 .testimonial-card .meta-user {
@@ -6226,10 +6233,7 @@ button.testimonial-arrow-btn:hover:before {
   gap: 0 20px;
 }
 .accordion .accordion-item .accordion-button.collapsed {
-  background-color: #ffffff;
-  -webkit-box-shadow: none;
-          box-shadow: none;
-  border-radius: 12px 12px 0 0;
+  border-radius: 12px;
 }
 .accordion .accordion-item .accordion-button:after {
   content: "\f107";
@@ -10763,6 +10767,19 @@ ul.children {
   z-index: 1;
 }
 
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .service-area.style-1 {
+    padding-top: 67px !important;
+    padding-bottom: 67px !important;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .service-area.style-1 {
+    padding-top: 87px !important;
+    padding-bottom: 87px !important;
+  }
+}
+
 .service-area.style-2 .service-area-inner .service-btn {
   margin-top: 0 !important;
 }
@@ -11364,7 +11381,7 @@ ul.children {
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .footer .footer-sec .footer-bottom-border {
-    padding-bottom: 50px;
+    padding-bottom: 30px;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
