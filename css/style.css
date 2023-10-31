@@ -409,13 +409,6 @@ input.theme-btn i {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  border-radius: 6px;
-  color: #fff;
-  font-size: 16px;
-  line-height: 30px;
 }
 .theme-btn:hover,
 .wp-block-loginout a:hover,

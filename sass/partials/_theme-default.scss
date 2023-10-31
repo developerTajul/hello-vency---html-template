@@ -242,11 +242,6 @@ input.theme-btn {
   i {
     display: inline-flex;
     align-items: center;
-    justify-content: center;
-    border-radius: 6px;
-    color: #fff;
-    font-size: 16px;
-    line-height: 30px;
   }
   &:hover {
     color: $white;
@@ -301,6 +296,7 @@ input.theme-btn {
   }
 
 }
+
 input.theme-btn {
   display: inline-block !important;
   width: inherit !important;
