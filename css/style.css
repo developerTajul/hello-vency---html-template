@@ -6226,7 +6226,10 @@ button.testimonial-arrow-btn:hover:before {
   gap: 0 20px;
 }
 .accordion .accordion-item .accordion-button.collapsed {
-  border-radius: 12px;
+  background-color: #ffffff;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  border-radius: 12px 12px 0 0;
 }
 .accordion .accordion-item .accordion-button:after {
   content: "\f107";

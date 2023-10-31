@@ -19,13 +19,16 @@
       gap: 0 20px;
 
       &.collapsed{
-        border-radius: 12px;
+        background-color: $white;
+        box-shadow: none;
+        border-radius: 12px 12px 0 0 ;
       }
       &:after{
         content: "\f107";
         font-family: $font-awesome;
         background-image: none;
       }
+
     }
     .accordion-body{
       background-color: $white;
