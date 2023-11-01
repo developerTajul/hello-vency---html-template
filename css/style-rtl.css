@@ -7466,12 +7466,6 @@ button.testimonial-arrow-btn:hover:before {
   z-index: 3;
   gap: 24px;
 }
-.post-card .content .tag-wrapper {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  gap: 12px;
-}
 .post-card .content .tag-wrapper .tag-item {
   padding: 4px 12px;
   border-radius: 8px;
