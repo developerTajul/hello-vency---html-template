@@ -10859,6 +10859,13 @@ ul.children {
   }
 }
 
+@media (max-width: 991px) {
+  .review-slider-area.style-1 .section-title-wrapper {
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+}
 .review-slider-area.style-1 .review-card {
   width: 384px !important;
 }

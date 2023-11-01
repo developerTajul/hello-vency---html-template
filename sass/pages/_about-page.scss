@@ -20,7 +20,11 @@
 .review-slider-area{
   &.style-1{
     // padding: 120px 0;
-
+    .section-title-wrapper {
+      @include rmaxwd(991) {
+        align-items: flex-start;
+      }
+    }
     .review-card{
       width: 384px !important;
     }
