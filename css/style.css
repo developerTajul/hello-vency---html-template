@@ -10696,17 +10696,17 @@ ul.children {
   }
 }
 
-.por .portfolio-slider-area.style-1 .section-title .title .underline img {
+.portfolio-slider-area.style-1 .section-title .title .underline img {
   bottom: 0;
 }
-.por .portfolio-slider-area.style-1 .theme-btn {
+.portfolio-slider-area.style-1 .theme-btn {
   margin-right: 5px;
 }
-.por .portfolio-slider-area.style-1 .section-title .title {
+.portfolio-slider-area.style-1 .section-title .title {
   padding-right: 30px;
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
-  .por .portfolio-slider-area.style-1 .section-title .title {
+  .portfolio-slider-area.style-1 .section-title .title {
     padding-right: 0;
   }
 }
@@ -10777,19 +10777,6 @@ ul.children {
 }
 .faq-area.style-1 .accordion .accordion-item {
   z-index: 1;
-}
-
-@media only screen and (min-width: 0px) and (max-width: 767px) {
-  .service-area.style-1 {
-    padding-top: 66px !important;
-    padding-bottom: 54px !important;
-  }
-}
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-  .service-area.style-1 {
-    padding-top: 86px !important;
-    padding-bottom: 74px !important;
-  }
 }
 
 .service-area.style-2 .service-area-inner .service-btn {
