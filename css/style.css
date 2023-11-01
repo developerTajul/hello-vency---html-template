@@ -10652,18 +10652,6 @@ ul.children {
   }
 }
 
-@media only screen and (min-width: 0px) and (max-width: 767px) {
-  .about-us-area.style-1 {
-    padding-top: 66px !important;
-    padding-bottom: 66px !important;
-  }
-}
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-  .about-us-area.style-1 {
-    padding-top: 86px !important;
-    padding-bottom: 86px !important;
-  }
-}
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .about-us-area.style-1 .about-image-card .main-img {
     -webkit-transform: translate(15%, 0);

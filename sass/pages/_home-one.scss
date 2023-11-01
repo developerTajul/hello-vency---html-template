@@ -39,14 +39,14 @@
 .about-us-area {
   &.style-1 {
 
-    @include sm {
-      padding-top: 66px !important;
-      padding-bottom: 66px !important;
-    }
-    @include md {
-      padding-top: 86px !important;
-      padding-bottom: 86px !important;
-    }
+    //@include sm {
+    //  padding-top: 66px !important;
+    //  padding-bottom: 66px !important;
+    //}
+    //@include md {
+    //  padding-top: 86px !important;
+    //  padding-bottom: 86px !important;
+    //}
 
     .about-image-card{
       .main-img{
