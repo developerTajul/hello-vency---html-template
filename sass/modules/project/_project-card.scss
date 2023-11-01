@@ -24,6 +24,8 @@
             .tag-wrapper{
                 display: flex;
                 gap: 16px;
+                flex-wrap: wrap;
+
                 .single-tag{
                     padding: 4px 12px;
                     border-radius: 8px;

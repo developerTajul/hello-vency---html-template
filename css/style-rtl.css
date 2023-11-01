@@ -13860,6 +13860,8 @@ ul.children {
   display: -ms-flexbox;
   display: flex;
   gap: 16px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 .project-card.style-1 .content-wrapper .tag-wrapper .single-tag {
   padding: 4px 12px;
