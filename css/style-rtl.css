@@ -11373,7 +11373,7 @@ ul.children {
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .footer .footer-sec .footer-bottom-border {
-    padding-bottom: 70px;
+    padding-bottom: 0;
   }
 }
 
