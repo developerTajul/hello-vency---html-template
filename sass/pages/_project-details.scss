@@ -162,7 +162,11 @@
             flex-direction: column;
             gap: 24px;
         }
-
+        .section-title{
+            @media only screen and (min-width: 0px) and (max-width: 768px){
+                align-items: center;
+            }
+        }
       }
       .project-card{
         margin-top: 56px;

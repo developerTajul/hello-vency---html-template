@@ -5451,6 +5451,9 @@ body.admin-bar .header-menu-area.sticky_menu {
     -webkit-transform: translate(0);
             transform: translate(0);
     bottom: 0;
+    left: 0;
+    -webkit-animation: MoveUpDown 2s linear infinite alternate;
+            animation: MoveUpDown 2s linear infinite alternate;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -5458,13 +5461,18 @@ body.admin-bar .header-menu-area.sticky_menu {
     -webkit-transform: translate(0);
             transform: translate(0);
     bottom: 24px;
+    -webkit-animation: MoveUpDown 2s linear infinite alternate;
+            animation: MoveUpDown 2s linear infinite alternate;
   }
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .about-image-card.style-4 .team-card.style-2 {
     -webkit-transform: translate(0);
             transform: translate(0);
-    bottom: 0;
+    bottom: 12px;
+    left: 12px;
+    -webkit-animation: MoveUpDown 2s linear infinite alternate;
+            animation: MoveUpDown 2s linear infinite alternate;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -8849,6 +8857,13 @@ button.testimonial-arrow-btn:hover:before {
     gap: 24px;
   }
 }
+@media only screen and (min-width: 0px) and (max-width: 768px) {
+  .more-project-area .section-title-wrapper .section-title {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
 .more-project-area .project-card {
   margin-top: 56px;
 }
@@ -10893,6 +10908,14 @@ ul.children {
 }
 .why-choose-area.style-3 .about-info-card.style-2 .section-title {
   margin-bottom: 0;
+}
+@media only screen and (min-width: 0px) and (max-width: 768px) {
+  .why-choose-area.style-3 .about-info-card.style-2 .section-title {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+  }
 }
 @media (max-width: 991px) {
   .why-choose-area.style-3 .about-info-card {
@@ -13637,7 +13660,7 @@ ul.children {
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .review-slider {
-    margin-left: 24px;
+    margin-left: 16px;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -13683,6 +13706,7 @@ ul.children {
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .review-slider .slick-list .slick-track .review-card {
     margin: 0 5px;
+    width: 350px !important;
   }
 }
 .review-slider .testimonial-arrow-btn {
