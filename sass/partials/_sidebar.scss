@@ -554,7 +554,7 @@
         }
       }
       .latest-post-desc {
-        height: 100px;
+        max-height: 100px;
         overflow: hidden;
         .latest-post-title {
           margin-bottom: 8px;

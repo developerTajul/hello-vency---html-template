@@ -5009,6 +5009,16 @@ body.admin-bar .header-menu-area.sticky_menu {
   text-align: center;
   padding: 0 16px;
 }
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .icon-card.style-3 .content {
+    padding: 0;
+  }
+}
+@media only screen and (min-width: 1200px) and (max-width: 1900px) {
+  .icon-card.style-3 .content {
+    padding: 0;
+  }
+}
 .icon-card.style-3 .sketch {
   position: absolute;
   top: 0;
@@ -9506,7 +9516,7 @@ button.testimonial-arrow-btn:hover:before {
   transition: all 0.5s ease-out;
 }
 .widget_latest_post ul li .latest-post-desc {
-  height: 100px;
+  max-height: 100px;
   overflow: hidden;
 }
 .widget_latest_post ul li .latest-post-desc .latest-post-title {
