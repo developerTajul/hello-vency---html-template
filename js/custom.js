@@ -396,7 +396,7 @@ Slider
     });
    var $grid = $('.isotope-grid').isotope({
         itemSelector: '.isotope-item',
-        layoutMode: 'fitRows',
+        percentPosition: true,
         masonry: {
             columnWidth: '.isotope-item'
         }
