@@ -59,6 +59,7 @@ function watch() {
   // gulp.watch('css/style.css', miniCss);
   // gulp.watch('css/style.css', miniJs);
   gulp.watch('./*.html').on('change', browserSync.reload);
+  gulp.watch('./sass/**/*.scss').on('change', browserSync.reload);
   // gulp.watch('js/**/*.js').on('change', browserSync.reload);
 }
 exports.style = style;
