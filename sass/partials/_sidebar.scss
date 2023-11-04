@@ -549,6 +549,7 @@
         height: 105px;
 
         img {
+          width: 100%;
           transform: scale(1);
           @include transition;
         }

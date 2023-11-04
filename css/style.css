@@ -6517,7 +6517,7 @@ button.testimonial-arrow-btn:hover:before {
 }
 @media (max-width: 991px) {
   .blog-details-wrapper {
-    padding-right: 0;
+    padding-right: 12px;
   }
 }
 .blog-details-wrapper .post-comments {
@@ -9510,6 +9510,7 @@ button.testimonial-arrow-btn:hover:before {
   height: 105px;
 }
 .widget_latest_post ul li .latest-post-thumb img {
+  width: 100%;
   -webkit-transform: scale(1);
           transform: scale(1);
   -webkit-transition: all 0.5s ease-out;
@@ -13825,6 +13826,10 @@ ul.children {
   .project-card-wrapper .project-btn-wrapper {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .project-card-wrapper .project-btn-wrapper {
     -webkit-box-pack: start;
         -ms-flex-pack: start;
             justify-content: start;
