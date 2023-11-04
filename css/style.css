@@ -7467,6 +7467,9 @@ button.testimonial-arrow-btn:hover:before {
   gap: 24px;
 }
 .post-card .content .tag-wrapper .tag-item {
+  float: right;
+}
+.post-card .content .tag-wrapper .tag-item a {
   padding: 4px 12px;
   border-radius: 8px;
   background: #FFF0D8;
@@ -7476,7 +7479,7 @@ button.testimonial-arrow-btn:hover:before {
   font-weight: 500;
   line-height: 140%;
 }
-.post-card .content .tag-wrapper .tag-item:hover {
+.post-card .content .tag-wrapper .tag-item a:hover {
   background-color: #161616;
   color: #FFF0D8;
 }
