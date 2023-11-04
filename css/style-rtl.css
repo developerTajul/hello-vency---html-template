@@ -5980,6 +5980,7 @@ body.admin-bar .header-menu-area.sticky_menu {
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .testimonial-card {
     margin-bottom: 10px;
+    padding: 0 12px;
   }
 }
 .testimonial-card .content {
@@ -10734,6 +10735,19 @@ ul.children {
   }
 }
 
+@media only screen and (min-width: 0px) and (max-width: 768px) {
+  .portfolio-slider-area.style-1 .section-title {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .portfolio-slider-area.style-1 .section-title .title {
+    padding-left: 0;
+  }
+}
 .portfolio-slider-area.style-1 .section-title .title .underline img {
   bottom: 0;
 }
@@ -11488,6 +11502,7 @@ ul.children {
 @media only screen and (min-width: 992px) and (max-width: 1399px) {
   .footer-widget .widget-instagram-feed {
     width: 170px;
+    grid-template-columns: repeat(3, 1fr);
   }
 }
 .footer-widget .footer-widget-info {
@@ -13425,6 +13440,7 @@ ul.children {
         -ms-flex-direction: column;
             flex-direction: column;
     gap: 0;
+    padding-right: 0;
   }
 }
 .service-area.style-2 .duo-wrapper {
