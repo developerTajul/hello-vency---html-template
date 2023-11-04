@@ -6860,7 +6860,6 @@ button.testimonial-arrow-btn:hover:before {
 .single-post-item .blog-post-tag span {
   font-size: 16px;
   font-weight: 700;
-  display: inline-block;
   font-family: "Outfit", sans-serif;
   color: #161616;
   margin-bottom: 0;
@@ -7029,8 +7028,9 @@ button.testimonial-arrow-btn:hover:before {
       -ms-flex-align: center;
           align-items: center;
   gap: 12px;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .single-post-item .content-header {
@@ -7045,6 +7045,17 @@ button.testimonial-arrow-btn:hover:before {
             align-items: flex-start;
   }
 }
+.single-post-item .content-header .post-meta-wrapper {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 12px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
 .single-post-item .content-header .info {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -7057,6 +7068,17 @@ button.testimonial-arrow-btn:hover:before {
   font-size: 10px;
   font-family: "Font Awesome 6 Pro";
   color: #474747;
+}
+.single-post-item .content-header .tag-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 8px;
 }
 .single-post-item .content-header .tag-wrapper .tag,
 .single-post-item .content-header .tag-wrapper .tag-item {
@@ -9451,6 +9473,7 @@ button.testimonial-arrow-btn:hover:before {
   padding: 32px 0;
 }
 .widget_latest_post ul li:hover .latest-post-thumb img {
+  width: 100%;
   -webkit-transform: scale(1.03);
           transform: scale(1.03);
   -webkit-transition: all 0.5s ease-out;
@@ -9481,6 +9504,10 @@ button.testimonial-arrow-btn:hover:before {
           transform: scale(1);
   -webkit-transition: all 0.5s ease-out;
   transition: all 0.5s ease-out;
+}
+.widget_latest_post ul li .latest-post-desc {
+  height: 100px;
+  overflow: hidden;
 }
 .widget_latest_post ul li .latest-post-desc .latest-post-title {
   margin-bottom: 8px;
@@ -13631,7 +13658,8 @@ ul.children {
   }
 }
 .review-slider .slick-list .slick-track {
-  padding: 48px;
+  padding-top: 48px;
+  padding-bottom: 16px;
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .review-slider .slick-list .slick-track {
