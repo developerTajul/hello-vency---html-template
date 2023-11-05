@@ -84,14 +84,20 @@
         @include sm{
           transform: translate(0);
           bottom: 0;
+          left: 0;
+          animation: MoveUpDown 2s linear infinite alternate;
         }
         @include md{
           transform: translate(0);
           bottom: 24px;
+          animation: MoveUpDown 2s linear infinite alternate;
         }
         @include lg{
           transform: translate(0);
-          bottom: 0;
+          bottom: 12px;
+          left: 12px;
+          animation: MoveUpDown 2s linear infinite alternate;
+          // animation: unset;
         }
       }
     }

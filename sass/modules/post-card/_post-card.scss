@@ -32,7 +32,7 @@
   padding-right: 38px;
 
     @include rmaxwd(991) {
-      padding-right: 0;
+      padding-right: 12px;
     }
   //.comment-respond {
   //  margin-top: 24px;
@@ -387,7 +387,6 @@
     span {
       font-size: 16px;
       font-weight: 700;
-      display: inline-block;
       font-family: $heading-font;
       color: $black;
       margin-bottom: 0;
@@ -530,13 +529,19 @@
     display: flex;
     align-items: center;
     gap: 12px;
-    flex-wrap: wrap;
-
+    justify-content: space-between;
+    
     @include sm {
       gap: 10px;
       flex-direction: column;
       width: 100%;
       align-items: flex-start;
+    }
+    .post-meta-wrapper{
+      display: inline-flex;
+      align-items: center;
+      gap:12px;
+      flex-wrap: wrap;
     }
     .info{
       display: flex;
@@ -554,7 +559,10 @@
       }
     }
     .tag-wrapper{
-
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 8px;
       .tag,
       .tag-item {
         padding: 4px 12px;
@@ -565,6 +573,7 @@
         font-weight: 500;
         line-height: 28px; 
         color: $black;
+        
         @include transition;
         &:hover{
           background-color: $black;

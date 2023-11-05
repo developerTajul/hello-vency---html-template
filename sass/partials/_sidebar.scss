@@ -521,6 +521,7 @@
       &:hover {
         .latest-post-thumb {
           img {
+            width: 100%;
             transform: scale(1.03);
             @include transition;
           }
@@ -548,11 +549,14 @@
         height: 105px;
 
         img {
+          width: 100%;
           transform: scale(1);
           @include transition;
         }
       }
       .latest-post-desc {
+        max-height: 100px;
+        overflow: hidden;
         .latest-post-title {
           margin-bottom: 8px;
           font-size: 18px;

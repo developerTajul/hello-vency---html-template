@@ -5009,6 +5009,16 @@ body.admin-bar .header-menu-area.sticky_menu {
   text-align: center;
   padding: 0 16px;
 }
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .icon-card.style-3 .content {
+    padding: 0;
+  }
+}
+@media only screen and (min-width: 1200px) and (max-width: 1900px) {
+  .icon-card.style-3 .content {
+    padding: 0;
+  }
+}
 .icon-card.style-3 .sketch {
   position: absolute;
   top: 0;
@@ -5441,6 +5451,9 @@ body.admin-bar .header-menu-area.sticky_menu {
     -webkit-transform: translate(0);
             transform: translate(0);
     bottom: 0;
+    right: 0;
+    -webkit-animation: MoveUpDown 2s linear infinite alternate;
+            animation: MoveUpDown 2s linear infinite alternate;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -5448,13 +5461,18 @@ body.admin-bar .header-menu-area.sticky_menu {
     -webkit-transform: translate(0);
             transform: translate(0);
     bottom: 24px;
+    -webkit-animation: MoveUpDown 2s linear infinite alternate;
+            animation: MoveUpDown 2s linear infinite alternate;
   }
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .about-image-card.style-4 .team-card.style-2 {
     -webkit-transform: translate(0);
             transform: translate(0);
-    bottom: 0;
+    bottom: 12px;
+    right: 12px;
+    -webkit-animation: MoveUpDown 2s linear infinite alternate;
+            animation: MoveUpDown 2s linear infinite alternate;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -5962,6 +5980,7 @@ body.admin-bar .header-menu-area.sticky_menu {
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .testimonial-card {
     margin-bottom: 10px;
+    padding: 0 12px;
   }
 }
 .testimonial-card .content {
@@ -6507,7 +6526,7 @@ button.testimonial-arrow-btn:hover:before {
 }
 @media (max-width: 991px) {
   .blog-details-wrapper {
-    padding-left: 0;
+    padding-left: 12px;
   }
 }
 .blog-details-wrapper .post-comments {
@@ -6860,7 +6879,6 @@ button.testimonial-arrow-btn:hover:before {
 .single-post-item .blog-post-tag span {
   font-size: 16px;
   font-weight: 700;
-  display: inline-block;
   font-family: "Outfit", sans-serif;
   color: #161616;
   margin-bottom: 0;
@@ -7029,8 +7047,9 @@ button.testimonial-arrow-btn:hover:before {
       -ms-flex-align: center;
           align-items: center;
   gap: 12px;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .single-post-item .content-header {
@@ -7045,6 +7064,17 @@ button.testimonial-arrow-btn:hover:before {
             align-items: flex-start;
   }
 }
+.single-post-item .content-header .post-meta-wrapper {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 12px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
 .single-post-item .content-header .info {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -7057,6 +7087,17 @@ button.testimonial-arrow-btn:hover:before {
   font-size: 10px;
   font-family: "Font Awesome 6 Pro";
   color: #474747;
+}
+.single-post-item .content-header .tag-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 8px;
 }
 .single-post-item .content-header .tag-wrapper .tag,
 .single-post-item .content-header .tag-wrapper .tag-item {
@@ -8817,6 +8858,13 @@ button.testimonial-arrow-btn:hover:before {
     gap: 24px;
   }
 }
+@media only screen and (min-width: 0px) and (max-width: 768px) {
+  .more-project-area .section-title-wrapper .section-title {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
 .more-project-area .project-card {
   margin-top: 56px;
 }
@@ -9451,6 +9499,7 @@ button.testimonial-arrow-btn:hover:before {
   padding: 32px 0;
 }
 .widget_latest_post ul li:hover .latest-post-thumb img {
+  width: 100%;
   -webkit-transform: scale(1.03);
           transform: scale(1.03);
   -webkit-transition: all 0.5s ease-out;
@@ -9477,10 +9526,15 @@ button.testimonial-arrow-btn:hover:before {
   height: 105px;
 }
 .widget_latest_post ul li .latest-post-thumb img {
+  width: 100%;
   -webkit-transform: scale(1);
           transform: scale(1);
   -webkit-transition: all 0.5s ease-out;
   transition: all 0.5s ease-out;
+}
+.widget_latest_post ul li .latest-post-desc {
+  max-height: 100px;
+  overflow: hidden;
 }
 .widget_latest_post ul li .latest-post-desc .latest-post-title {
   margin-bottom: 8px;
@@ -10681,6 +10735,19 @@ ul.children {
   }
 }
 
+@media only screen and (min-width: 0px) and (max-width: 768px) {
+  .portfolio-slider-area.style-1 .section-title {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .portfolio-slider-area.style-1 .section-title .title {
+    padding-left: 0;
+  }
+}
 .portfolio-slider-area.style-1 .section-title .title .underline img {
   bottom: 0;
 }
@@ -10855,6 +10922,14 @@ ul.children {
 }
 .why-choose-area.style-3 .about-info-card.style-2 .section-title {
   margin-bottom: 0;
+}
+@media only screen and (min-width: 0px) and (max-width: 768px) {
+  .why-choose-area.style-3 .about-info-card.style-2 .section-title {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+  }
 }
 @media (max-width: 991px) {
   .why-choose-area.style-3 .about-info-card {
@@ -11427,6 +11502,7 @@ ul.children {
 @media only screen and (min-width: 992px) and (max-width: 1399px) {
   .footer-widget .widget-instagram-feed {
     width: 170px;
+    grid-template-columns: repeat(3, 1fr);
   }
 }
 .footer-widget .footer-widget-info {
@@ -13364,6 +13440,7 @@ ul.children {
         -ms-flex-direction: column;
             flex-direction: column;
     gap: 0;
+    padding-right: 0;
   }
 }
 .service-area.style-2 .duo-wrapper {
@@ -13599,7 +13676,7 @@ ul.children {
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .review-slider {
-    margin-right: 24px;
+    margin-right: 16px;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -13631,7 +13708,8 @@ ul.children {
   }
 }
 .review-slider .slick-list .slick-track {
-  padding: 48px;
+  padding-top: 48px;
+  padding-bottom: 16px;
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .review-slider .slick-list .slick-track {
@@ -13644,6 +13722,7 @@ ul.children {
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .review-slider .slick-list .slick-track .review-card {
     margin: 0 5px;
+    width: 350px !important;
   }
 }
 .review-slider .testimonial-arrow-btn {
@@ -13787,6 +13866,10 @@ ul.children {
   .project-card-wrapper .project-btn-wrapper {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .project-card-wrapper .project-btn-wrapper {
     -webkit-box-pack: start;
         -ms-flex-pack: start;
             justify-content: start;

@@ -90,9 +90,15 @@
 // portfolio-slider-area style-1
 .portfolio-slider-area{
   &.style-1{
-
     .section-title{
+      @media only screen and (min-width: 0px) and (max-width: 768px){
+        align-items: center;
+        text-align: center;
+      }
       .title{
+        @media only screen and (min-width: 0px) and (max-width: 767px){
+          padding-right: 0;
+        }
         .underline{
           img{
             bottom: 0;

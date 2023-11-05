@@ -266,8 +266,8 @@
         .dropdown {
           > a {
             &:before {
-              visibility: visible;
-              transform: scale(1);
+              visibility: hidden;
+              transform: scale(0);
             }
           }
         }

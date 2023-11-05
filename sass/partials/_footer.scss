@@ -137,6 +137,7 @@
   .widget-instagram-feed {
     @media only screen and (min-width: 992px) and (max-width: 1399px) {
       width: 170px;
+      grid-template-columns: repeat(3, 1fr);
     }
   }
   // Footer Info Widget
