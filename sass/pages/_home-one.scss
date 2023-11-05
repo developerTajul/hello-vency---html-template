@@ -57,6 +57,10 @@
     }
     .about-info-card{
       margin-left: -4px;
+      @include xl{
+        margin-left: 0;
+        padding-left: 24px;
+      }
       .section-title{
         margin-top: -5px;
         .title{
@@ -76,17 +80,13 @@
       }
       @include rmaxwd(991){
         margin-top: 48px;
+        margin-left: 0;
       }
     }
 
   }
 }
-// Support-banner
-.support-banner{
-  // padding-bottom: 119px;
-}
 
-// Portfolio Slider Section
 // portfolio-slider-area style-1
 .portfolio-slider-area{
   &.style-1{
@@ -112,7 +112,7 @@
     .section-title{
       .title{
         padding-right: 30px;
-        @include sm{
+        @include rmaxwd(991){
           padding-right: 0;
         }
       }
@@ -158,6 +158,10 @@
       @include rmaxwd(991){
         margin-top: 40px;
       }
+      @include sm{
+        margin-left: 12px;
+        margin-right: 12px;
+      }
     }
     .btn-wrapper{
       @include rmaxwd(991){
@@ -171,17 +175,19 @@
   }
 }
 // Latest-post-area
-// .latest-post-area{
-//   &.style-1{
-//     padding: 120px 0;
-//     @include sm{
-//       padding: 80px 0;
-//     }
-//     @include md{
-//       padding: 100px 0;
-//     }
-//   }
-// }
+.latest-post-area{
+  &.style-1{
+    .section-title{
+      .desc{
+        br{
+          @include rmaxwd(991){
+            display: none;
+          }
+        }
+      }
+    }
+  }
+}
 // FAQ-area
 .faq-area{
   &.style-1{

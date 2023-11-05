@@ -9,6 +9,9 @@
               margin-top: 21px;
               margin-bottom: 40px;
             }
+            @media only screen and (min-width: 991px) and (max-width: 1900px){
+              margin-top: 32px;
+            }
             .testimonial-arrow-btn{
               i{
                 position: unset;

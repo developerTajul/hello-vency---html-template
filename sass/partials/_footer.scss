@@ -476,6 +476,13 @@
             line-height: 36px;
           }
         }
+        .desc{
+          br{
+            @include rmaxwd(991){
+              display: none;
+            }
+          }
+        }
     }
     @include sm {
       flex-direction: column;

@@ -11,6 +11,9 @@
         margin-bottom: 10px;
         padding: 0 12px;
     }
+    @include lg{
+        gap: 0;
+    }
     .content {
         text-align: center;
 
@@ -31,6 +34,9 @@
             }
             @include lg{
                 padding: 32px;
+            }
+            @include xl{
+                padding: 0 136px;
             }
             //@include xl{
             //    padding: 64px;
