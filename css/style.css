@@ -2447,6 +2447,9 @@ blockquote footer {
   justify-content: space-between;
   align-items: end;
 }
+blockquote .wp-block-quote.is-style-large {
+  padding: 16px;
+}
 
 .wp-block-pullquote {
   border-top: 5px solid #FFCC7E !important;
