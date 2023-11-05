@@ -314,9 +314,14 @@ blockquote {
     justify-content: space-between;
     align-items: end;
   }
-  .wp-block-quote{
+  &.wp-block-quote{
     &.is-style-large{
       padding: 16px;
+    }
+  }
+  &.has-text-color{
+    &.has-very-dark-gray-color{
+      max-width: 70%;
     }
   }
 }

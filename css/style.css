@@ -2447,8 +2447,11 @@ blockquote footer {
   justify-content: space-between;
   align-items: end;
 }
-blockquote .wp-block-quote.is-style-large {
+blockquote.wp-block-quote.is-style-large {
   padding: 16px;
+}
+blockquote.has-text-color.has-very-dark-gray-color {
+  max-width: 70%;
 }
 
 .wp-block-pullquote {
