@@ -478,15 +478,7 @@ nav.wp-calendar-nav {
   background-color: transparent;
   border: 1px solid transparent;
 
-  .wp-block-search__inside-wrapper {
-    display: flex;
-    padding: 0 !important;
-    background-color: $white;
-    border-radius: 50px;
-    .wp-block-search__input{
-      border: 1px solid #dfe2e9 !important;
-    }
-  }
+  
   label {
     display: block;
     font-family: $heading-font;
@@ -506,6 +498,15 @@ nav.wp-calendar-nav {
     color: $text-color;
     font-size: 15px;
     border-color: transparent !important;
+  }
+  .wp-block-search__inside-wrapper {
+    display: flex;
+    padding: 0 !important;
+    background-color: $white;
+    border-radius: 50px;
+    .wp-block-search__input{
+      border: 1px solid #dfe2e9 !important;
+    }
   }
   button {
     color: $white;
