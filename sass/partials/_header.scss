@@ -343,7 +343,7 @@
           &:hover {
             ul {
               visibility: visible;
-              top: -2px;
+              top: -17px;
             }
           }
         }
@@ -411,7 +411,7 @@
         }
       }
       ul {
-        left: 100%;
+        left: 114%;
         opacity: 0;
         border-top: 0px;
         @include transition;

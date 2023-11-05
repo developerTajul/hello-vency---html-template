@@ -3571,7 +3571,7 @@ body.admin-bar .header-menu-area.sticky_menu {
 }
 .main-menu ul li ul li:hover ul {
   visibility: visible;
-  top: -2px;
+  top: -17px;
 }
 .main-menu ul ul {
   background-color: #ffffff;
@@ -3630,7 +3630,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   border-bottom: 0px;
 }
 .main-menu ul ul ul {
-  left: 100%;
+  left: 114%;
   opacity: 0;
   border-top: 0px;
   transition: all 0.5s ease-out;
