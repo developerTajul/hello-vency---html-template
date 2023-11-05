@@ -60,8 +60,7 @@ table {
     color: $text-color;
   }
   th,
-  td,
-  {
+  td{
     background-color: transparent;
     border: 1px solid #dfe2e9;
     text-align: center;
@@ -484,6 +483,9 @@ nav.wp-calendar-nav {
     padding: 0 !important;
     background-color: $white;
     border-radius: 50px;
+    .wp-block-search__input{
+      border: 1px solid #dfe2e9 !important;
+    }
   }
   label {
     display: block;
