@@ -11,6 +11,9 @@
         @include sm{
           justify-content: start;
         }
+        @include lg{
+          gap: 8px;
+        }
         button{
                 padding: 8px 32px;
                 border: 1px solid #E7E7E7;
@@ -23,6 +26,9 @@
                 background-color: $white;
                 @include sm{
                   padding: 8px 24px;
+                }
+                @include lg{
+                  padding: 8px 28px;
                 }
                 &:hover{
                   background-color: $primary-color;

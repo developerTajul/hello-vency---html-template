@@ -163,6 +163,9 @@
             gap: 24px;
         }
         .section-title{
+            @include md{
+                align-items: center;
+            }
             @media only screen and (min-width: 0px) and (max-width: 768px){
                 align-items: center;
             }

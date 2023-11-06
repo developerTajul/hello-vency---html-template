@@ -5693,6 +5693,11 @@ button.testimonial-arrow-btn:hover:before {
   box-shadow: 0px 20px 40px 0px rgba(199, 206, 218, 0.2);
   gap: 0 20px;
 }
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .accordion .accordion-item .accordion-button {
+    gap: 0 8px;
+  }
+}
 .accordion .accordion-item .accordion-button.collapsed {
   border-radius: 12px;
 }
@@ -6165,6 +6170,12 @@ button.testimonial-arrow-btn:hover:before {
     margin-top: 16px;
   }
 }
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .single-post-item .post-title {
+    font-size: 28px;
+    line-height: 42px;
+  }
+}
 .single-post-item .post-title:hover a {
   color: #0066D9;
   transition: all 0.5s ease-out;
@@ -6179,6 +6190,11 @@ button.testimonial-arrow-btn:hover:before {
   padding-right: 42px;
 }
 @media (max-width: 991px) {
+  .single-post-item .post-content p {
+    padding-right: 0;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
   .single-post-item .post-content p {
     padding-right: 0;
   }
@@ -7887,6 +7903,11 @@ button.testimonial-arrow-btn:hover:before {
     gap: 24px;
   }
 }
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .more-project-area .section-title-wrapper .section-title {
+    align-items: center;
+  }
+}
 @media only screen and (min-width: 0px) and (max-width: 768px) {
   .more-project-area .section-title-wrapper .section-title {
     align-items: center;
@@ -7984,7 +8005,7 @@ button.testimonial-arrow-btn:hover:before {
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .widget {
-    padding: 30px;
+    padding: 24px;
   }
 }
 .widget ol,
@@ -8021,6 +8042,13 @@ button.testimonial-arrow-btn:hover:before {
   letter-spacing: -0.76px;
   position: relative;
   margin-bottom: 32px;
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .widget .wp-block-heading,
+  .widget .widget-title,
+  .widget .wp-block-search__label {
+    font-size: 32px;
+  }
 }
 .widget .wp-block-social-links .wp-social-link {
   padding: 0;
@@ -8182,6 +8210,24 @@ button.testimonial-arrow-btn:hover:before {
   flex-wrap: wrap;
   gap: 16px;
   align-items: center;
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .widget .tagcloud,
+  .widget .wp-block-tag-cloud {
+    gap: 8px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .widget .tagcloud,
+  .widget .wp-block-tag-cloud {
+    gap: 8px;
+  }
+}
+@media only screen and (min-width: 1200px) and (max-width: 1900px) {
+  .widget .tagcloud,
+  .widget .wp-block-tag-cloud {
+    gap: 8px;
+  }
 }
 .widget .tagcloud a,
 .widget .wp-block-tag-cloud a {
@@ -8447,6 +8493,11 @@ button.testimonial-arrow-btn:hover:before {
   align-items: center;
   padding: 32px 0;
 }
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .widget_latest_post ul li {
+    gap: 12px;
+  }
+}
 .widget_latest_post ul li:hover .latest-post-thumb img {
   width: 100%;
   transform: scale(1.03);
@@ -8470,6 +8521,12 @@ button.testimonial-arrow-btn:hover:before {
   border-radius: 6px;
   width: 105px;
   height: 105px;
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .widget_latest_post ul li .latest-post-thumb {
+    width: 80px;
+    height: 80px;
+  }
 }
 .widget_latest_post ul li .latest-post-thumb img {
   width: 100%;
@@ -8501,6 +8558,16 @@ button.testimonial-arrow-btn:hover:before {
   color: #0066D9;
   text-decoration: none;
   transition: all 0.5s ease-out;
+}
+@media only screen and (min-width: 1200px) and (max-width: 1900px) {
+  .widget_latest_post ul li .latest-post-desc .latest-post-title a {
+    font-size: 21px;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .widget_latest_post ul li .latest-post-desc .latest-post-title a {
+    font-size: 21px;
+  }
 }
 .widget_latest_post ul li .latest-post-desc .latest-post-meta {
   font-size: 16px;
@@ -12212,6 +12279,7 @@ ul.children {
 .review-slider {
   margin-top: 8px;
   margin-left: calc((100% - 1320px) / 2);
+  overflow: hidden;
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .review-slider {
@@ -12386,6 +12454,11 @@ ul.children {
     justify-content: start;
   }
 }
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .project-card-wrapper .project-btn-wrapper {
+    gap: 8px;
+  }
+}
 .project-card-wrapper .project-btn-wrapper button {
   padding: 8px 32px;
   border: 1px solid #E7E7E7;
@@ -12400,6 +12473,11 @@ ul.children {
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .project-card-wrapper .project-btn-wrapper button {
     padding: 8px 24px;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .project-card-wrapper .project-btn-wrapper button {
+    padding: 8px 28px;
   }
 }
 .project-card-wrapper .project-btn-wrapper button:hover {

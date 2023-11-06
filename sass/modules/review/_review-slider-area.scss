@@ -1,7 +1,7 @@
 .review-slider{
     margin-top: 8px;
     margin-left: calc((100% - 1320px) / 2);
-    // overflow: hidden;
+    overflow: hidden;
 
       @include sm{
       margin-left: 16px;

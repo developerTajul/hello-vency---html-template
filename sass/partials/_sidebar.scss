@@ -26,7 +26,7 @@
     }
   }
   @include sm {
-    padding: 30px;
+    padding: 24px;
   }
   ol,
   ul {
@@ -62,6 +62,9 @@
     letter-spacing: -0.76px;
     position: relative;
     margin-bottom: 32px;
+    @include sm{
+      font-size: 32px;
+    }
   }
 
   /* Social Widget Block */
@@ -244,7 +247,15 @@
     flex-wrap: wrap;
     gap: 16px;
     align-items: center;
-
+    @include sm{
+      gap: 8px;
+    }
+    @include md{
+      gap: 8px;
+    }
+    @include xl{
+      gap: 8px;
+    }
     a {
       color: $text-color;
       background-color: $white;
@@ -517,7 +528,9 @@
       margin-bottom: 0px;
       align-items: center;
       padding: 32px 0;
-
+      @include sm{
+        gap: 12px;
+      }
       &:hover {
         .latest-post-thumb {
           img {
@@ -547,7 +560,10 @@
         border-radius: 6px;
         width: 105px;
         height: 105px;
-
+        @include sm{
+          width: 80px;
+          height: 80px;
+        }
         img {
           width: 100%;
           transform: scale(1);
@@ -573,11 +589,17 @@
             position: relative;
             text-transform: capitalize;
             @include transition;
-
+            
             &:hover {
               color: $blue-color;
               text-decoration: none;
               @include transition;
+            }
+            @include xl{
+              font-size: 21px;
+            }
+            @include sm{
+              font-size: 21px;
             }
           }
         }

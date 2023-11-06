@@ -303,6 +303,10 @@
       line-height: 42px;
       margin-top: 16px;
     }
+    @include lg{
+      font-size: 28px;
+      line-height: 42px;
+    }
 
     &:hover {
       a {
@@ -322,6 +326,9 @@
       padding-right: 42px;
 
       @include rmaxwd(991){
+        padding-right: 0;
+      }
+      @include lg{
         padding-right: 0;
       }
     }
