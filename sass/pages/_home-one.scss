@@ -56,7 +56,8 @@
       }
     }
     .about-info-card{
-      margin-left: -4px;
+      // margin-left: -4px;
+      padding-left: 30px;
       @include xl{
         margin-left: 0;
         padding-left: 24px;
@@ -181,6 +182,9 @@
 // Latest-post-area
 .latest-post-area{
   &.style-1{
+    .section-title-wrapper{
+      justify-content: center;
+    }
     .section-title{
       .desc{
         br{
@@ -210,15 +214,10 @@
 }
 
 // Service Area
-//.service-area {
-//  &.style-1 {
-//    @include sm {
-//      padding-top: 66px !important;
-//      padding-bottom: 54px !important;
-//    }
-//    @include md {
-//      padding-top: 86px !important;
-//      padding-bottom: 74px !important;
-//    }
-//  }
-//}
+.service-area {
+ &.style-2 {
+   .icon-card-wrapper{
+    margin-top: 0;
+   }
+ }
+}

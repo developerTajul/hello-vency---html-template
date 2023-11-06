@@ -253,7 +253,7 @@ a {
   transition: all 0.5s ease-out;
 }
 a:hover {
-  color: #0066D9;
+  color: #FFCC7E;
   transition: all 0.5s ease-out;
 }
 
@@ -5872,6 +5872,7 @@ button.testimonial-arrow-btn:hover:before {
 .client-logo-area.style-2 .client-title h5 {
   color: #161616;
   margin-bottom: 0;
+  margin-top: -8px;
 }
 .client-logo-area.style-2 .client-logo-wrapper {
   padding: 40px 0;
@@ -6790,7 +6791,7 @@ button.testimonial-arrow-btn:hover:before {
   }
 }
 .post-card .content .title:hover a {
-  color: #0066D9;
+  color: #FFCC7E;
 }
 .post-card .date {
   margin-bottom: 0;
@@ -9581,7 +9582,7 @@ ul.children {
   }
 }
 .about-us-area.style-1 .about-info-card {
-  margin-left: -4px;
+  padding-left: 30px;
 }
 @media only screen and (min-width: 1200px) and (max-width: 1900px) {
   .about-us-area.style-1 .about-info-card {
@@ -9700,6 +9701,9 @@ ul.children {
     text-align: center;
   }
 }
+.latest-post-area.style-1 .section-title-wrapper {
+  justify-content: center;
+}
 @media (max-width: 991px) {
   .latest-post-area.style-1 .section-title .desc br {
     display: none;
@@ -9717,6 +9721,10 @@ ul.children {
 }
 .faq-area.style-1 .accordion .accordion-item {
   z-index: 1;
+}
+
+.service-area.style-2 .icon-card-wrapper {
+  margin-top: 0;
 }
 
 .service-area.style-2 .service-area-inner .service-btn {
@@ -12075,7 +12083,6 @@ ul.children {
   align-items: center;
   gap: 40px;
   margin-left: 47px;
-  margin-top: 0;
   padding-right: 0;
 }
 @media (max-width: 1199px) {
@@ -12108,6 +12115,9 @@ ul.children {
     gap: 0;
     width: 100%;
   }
+}
+.service-area.style-3 .icon-card-wrapper {
+  padding-right: 0;
 }
 
 .image-card-wrapper {
