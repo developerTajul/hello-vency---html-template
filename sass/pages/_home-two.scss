@@ -123,8 +123,12 @@
         margin-bottom: 30px;
       }
       .btn-wrapper{
-        @include rmaxwd(991){
-          text-align: center;
+
+        @include md{
+          // text-align: center;
+        }
+        @media only screen and (min-width: 0px) and (max-width: 768px){
+          text-align: start;
         }
       }
       .sketch{

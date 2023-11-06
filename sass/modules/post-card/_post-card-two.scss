@@ -18,6 +18,11 @@
                 gap: 0;
                 align-items: start;
             }
+            .time{
+              @media only screen and (min-width: 0px) and (max-width: 767px){
+                display: none;
+              }
+            }
         }
         .tag-item{
           float: right;

@@ -17,13 +17,13 @@
                 margin-bottom: 42px;
             }
             .service-btn{
-                @include sm{
-                    text-align: center;
+                @media only screen and (min-width: 0px) and (max-width: 768px){
+                    text-align: start;
                     margin-top: 0;
                     margin-bottom: 24px;
                 }
-                @include md{
-                    text-align: center;
+                @media only screen and (min-width: 769px) and (max-width: 991px){
+                    text-align: start;
                 }
             }
             .sketch-2{

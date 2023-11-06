@@ -349,6 +349,7 @@
 
     @include rmaxwd(991) {
       justify-content: flex-start;
+      gap: 8px;
     }
     @include md{
       gap: 12px;

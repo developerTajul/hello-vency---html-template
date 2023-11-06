@@ -4,11 +4,11 @@
         padding-bottom: 115px;
         margin: 0;
         border-radius: 0;
-        @include sm{
+        @media only screen and (min-width: 0px) and (max-width: 768px){
             padding-bottom: 80px;
             padding-top: 40px;
         }
-        @include md{
+        @media only screen and (min-width: 769px) and (max-width: 991px){
             padding-bottom: 100px;
         }
         .sketch{
@@ -104,7 +104,7 @@
                 p{
                     padding-right: 112px;
                     color: $black-2;
-                    @include sm{
+                    @media only screen and (min-width: 0px) and (max-width: 768px){
                         padding-right: 0;
                     }
                 }

@@ -5536,7 +5536,7 @@ body.admin-bar .header-menu-area.sticky_menu {
     padding: 30px;
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 769px) and (max-width: 991px) {
   .testimonial-card.style-2 {
     padding: 12px;
   }
@@ -6810,6 +6810,11 @@ button.testimonial-arrow-btn:hover:before {
     flex-direction: column;
     gap: 0;
     align-items: start;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .post-card.style-2 .content .post-meta .time {
+    display: none;
   }
 }
 .post-card.style-2 .content .tag-item {
@@ -9714,9 +9719,9 @@ ul.children {
     margin-bottom: 30px;
   }
 }
-@media (max-width: 991px) {
+@media only screen and (min-width: 0px) and (max-width: 768px) {
   .faq-area.style-2 .content-wrapper .btn-wrapper {
-    text-align: center;
+    text-align: start;
   }
 }
 .faq-area.style-2 .content-wrapper .sketch {
@@ -10458,6 +10463,7 @@ ul.children {
 @media (max-width: 991px) {
   .footer-bottom-menu ul {
     justify-content: flex-start;
+    gap: 8px;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -11114,13 +11120,13 @@ ul.children {
   margin: 0;
   border-radius: 0;
 }
-@media only screen and (min-width: 0px) and (max-width: 767px) {
+@media only screen and (min-width: 0px) and (max-width: 768px) {
   .hero-area.style-2 {
     padding-bottom: 80px;
     padding-top: 40px;
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 769px) and (max-width: 991px) {
   .hero-area.style-2 {
     padding-bottom: 100px;
   }
@@ -11236,7 +11242,7 @@ ul.children {
   padding-right: 112px;
   color: #474747;
 }
-@media only screen and (min-width: 0px) and (max-width: 767px) {
+@media only screen and (min-width: 0px) and (max-width: 768px) {
   .hero-area.style-2 .content-wrapper .hero-title p {
     padding-right: 0;
   }
@@ -11643,7 +11649,7 @@ ul.children {
     margin: 0 20px 80px 20px;
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 769px) and (max-width: 991px) {
   .testimonial-slider-area.style-2 .testimonial-card.style-2.slick-slide {
     margin: 0 12px 80px 12px;
   }
@@ -11965,16 +11971,16 @@ ul.children {
 .service-area.style-2 .content-wrapper .section-title {
   margin-bottom: 42px;
 }
-@media only screen and (min-width: 0px) and (max-width: 767px) {
+@media only screen and (min-width: 0px) and (max-width: 768px) {
   .service-area.style-2 .content-wrapper .service-btn {
-    text-align: center;
+    text-align: start;
     margin-top: 0;
     margin-bottom: 24px;
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 769px) and (max-width: 991px) {
   .service-area.style-2 .content-wrapper .service-btn {
-    text-align: center;
+    text-align: start;
   }
 }
 .service-area.style-2 .content-wrapper .sketch-2 {
