@@ -2484,6 +2484,12 @@ blockquote footer {
       -ms-flex-align: end;
           align-items: end;
 }
+blockquote.wp-block-quote.is-style-large {
+  padding: 16px;
+}
+blockquote.has-text-color.has-very-dark-gray-color {
+  max-width: 70%;
+}
 
 .wp-block-pullquote {
   border-top: 5px solid #FFCC7E !important;
@@ -2639,15 +2645,6 @@ nav.wp-calendar-nav a:hover {
   background-color: transparent;
   border: 1px solid transparent;
 }
-.wp-block-search .wp-block-search__inside-wrapper,
-.search-form .wp-block-search__inside-wrapper {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  padding: 0 !important;
-  background-color: #ffffff;
-  border-radius: 50px;
-}
 .wp-block-search label,
 .search-form label {
   display: block;
@@ -2669,6 +2666,19 @@ nav.wp-calendar-nav a:hover {
   color: #474747;
   font-size: 15px;
   border-color: transparent !important;
+}
+.wp-block-search .wp-block-search__inside-wrapper,
+.search-form .wp-block-search__inside-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0 !important;
+  background-color: #ffffff;
+  border-radius: 50px;
+}
+.wp-block-search .wp-block-search__inside-wrapper .wp-block-search__input,
+.search-form .wp-block-search__inside-wrapper .wp-block-search__input {
+  border: 1px solid #dfe2e9 !important;
 }
 .wp-block-search button,
 .search-form button {
@@ -3657,9 +3667,9 @@ body.admin-bar .header-menu-area.sticky_menu {
           transform: scale(1);
 }
 .main-menu ul li.dropdown .dropdown > a:before {
-  visibility: visible;
-  -webkit-transform: scale(1);
-          transform: scale(1);
+  visibility: hidden;
+  -webkit-transform: scale(0);
+          transform: scale(0);
 }
 .main-menu ul li ul.submenu li.active > a {
   position: relative;
@@ -3718,7 +3728,7 @@ body.admin-bar .header-menu-area.sticky_menu {
 }
 .main-menu ul li ul li:hover ul {
   visibility: visible;
-  top: -2px;
+  top: -17px;
 }
 .main-menu ul ul {
   background-color: #ffffff;
@@ -3784,7 +3794,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   border-bottom: 0px;
 }
 .main-menu ul ul ul {
-  right: 100%;
+  right: 114%;
   opacity: 0;
   border-top: 0px;
   -webkit-transition: all 0.5s ease-out;
@@ -5500,17 +5510,11 @@ body.admin-bar .header-menu-area.sticky_menu {
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .icon-card-wrapper {
-    gap: 30px;
-    padding-left: 0;
-    text-align: center;
-  }
-}
-@media only screen and (min-width: 0px) and (max-width: 500px) {
-  .icon-card-wrapper {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-    padding: 0 30px;
-    padding-left: 30px;
+    gap: 30px;
+    padding: 0;
+    text-align: center;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -5983,6 +5987,11 @@ body.admin-bar .header-menu-area.sticky_menu {
     padding: 0 12px;
   }
 }
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .testimonial-card {
+    gap: 0;
+  }
+}
 .testimonial-card .content {
   text-align: center;
 }
@@ -6008,6 +6017,11 @@ body.admin-bar .header-menu-area.sticky_menu {
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .testimonial-card .content .text {
     padding: 32px;
+  }
+}
+@media only screen and (min-width: 1200px) and (max-width: 1900px) {
+  .testimonial-card .content .text {
+    padding: 0 136px;
   }
 }
 .testimonial-card .meta-user {
@@ -7924,7 +7938,7 @@ button.testimonial-arrow-btn:hover:before {
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .section-title .title {
-    font-size: 38px;
+    font-size: 35px;
     line-height: 48px;
   }
 }
@@ -10712,6 +10726,12 @@ ul.children {
 .about-us-area.style-1 .about-info-card {
   margin-right: -4px;
 }
+@media only screen and (min-width: 1200px) and (max-width: 1900px) {
+  .about-us-area.style-1 .about-info-card {
+    margin-right: 0;
+    padding-right: 24px;
+  }
+}
 .about-us-area.style-1 .about-info-card .section-title {
   margin-top: -5px;
 }
@@ -10732,6 +10752,7 @@ ul.children {
 @media (max-width: 991px) {
   .about-us-area.style-1 .about-info-card {
     margin-top: 48px;
+    margin-right: 0;
   }
 }
 
@@ -10757,7 +10778,7 @@ ul.children {
 .portfolio-slider-area.style-1 .section-title .title {
   padding-left: 30px;
 }
-@media only screen and (min-width: 0px) and (max-width: 767px) {
+@media (max-width: 991px) {
   .portfolio-slider-area.style-1 .section-title .title {
     padding-left: 0;
   }
@@ -10813,11 +10834,29 @@ ul.children {
     margin-top: 40px;
   }
 }
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .why-choose-area.style-1 .about-info-card {
+    margin-right: 12px;
+    margin-left: 12px;
+  }
+}
+@media only screen and (min-width: 1200px) and (max-width: 1900px) {
+  .why-choose-area.style-1 .about-info-card {
+    padding-right: 60px;
+    margin: 0;
+  }
+}
 @media (max-width: 991px) {
   .why-choose-area.style-1 .btn-wrapper {
     text-align: center;
   }
 }
+@media (max-width: 991px) {
+  .latest-post-area.style-1 .section-title .desc br {
+    display: none;
+  }
+}
+
 .faq-area.style-1 {
   position: relative;
   background-size: cover;
@@ -11499,10 +11538,16 @@ ul.children {
     margin-bottom: 18px;
   }
 }
-@media only screen and (min-width: 992px) and (max-width: 1399px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
   .footer-widget .widget-instagram-feed {
     width: 170px;
     grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media only screen and (min-width: 1200px) and (max-width: 1900px) {
+  .footer-widget .widget-instagram-feed {
+    width: 170px;
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 .footer-widget .footer-widget-info {
@@ -11687,6 +11732,12 @@ ul.children {
   color: #c7cdda;
 }
 
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .footer-bottom-menu {
+    border-top: 1px solid;
+    padding-top: 16px;
+  }
+}
 .footer-bottom-menu ul {
   list-style: none;
   display: -webkit-box;
@@ -11711,6 +11762,11 @@ ul.children {
             justify-content: flex-start;
   }
 }
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .footer-bottom-menu ul {
+    gap: 12px;
+  }
+}
 .footer-bottom-menu ul li a {
   font-size: 16px;
   text-transform: capitalize;
@@ -11727,19 +11783,29 @@ ul.children {
 .footer-bottom-area {
   padding: 24px 0;
 }
-@media (max-width: 991px) {
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .footer-bottom-area {
+    padding: 16px 0;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
   .footer-bottom-area {
     padding: 30px 0;
   }
 }
 @media (max-width: 767px) {
   .footer-bottom-area .copyright-text {
-    margin-bottom: 20px;
+    margin-bottom: 16px;
   }
 }
 .footer-bottom-area .copyright-text p {
   color: #c7cdda;
   margin-bottom: 0;
+}
+@media (max-width: 991px) {
+  .footer-bottom-area .copyright-text p {
+    font-size: 15px;
+  }
 }
 .footer-bottom-area .copyright-text p a {
   color: #ffffff;
@@ -11861,6 +11927,11 @@ ul.children {
   .subscribe-area .subscribe-inner-area .section-title .title {
     font-size: 30px;
     line-height: 36px;
+  }
+}
+@media (max-width: 991px) {
+  .subscribe-area .subscribe-inner-area .section-title .desc br {
+    display: none;
   }
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
@@ -12693,6 +12764,11 @@ ul.children {
   background-color: #E7E7E7;
   position: absolute;
 }
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .support-card:before {
+    display: none;
+  }
+}
 
 .portfolio-slider-area.style-1 .portfolio-slider {
   margin-top: 56px;
@@ -12701,7 +12777,8 @@ ul.children {
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .portfolio-slider-area.style-1 .portfolio-slider {
-    margin-right: 24px;
+    margin-right: 12px;
+    margin-left: 12px;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -12882,6 +12959,11 @@ ul.children {
   .testimonial-slider-area.style-1 .testimonial-slider {
     margin-top: 21px;
     margin-bottom: 40px;
+  }
+}
+@media only screen and (min-width: 991px) and (max-width: 1900px) {
+  .testimonial-slider-area.style-1 .testimonial-slider {
+    margin-top: 32px;
   }
 }
 .testimonial-slider-area.style-1 .testimonial-slider .testimonial-arrow-btn i {

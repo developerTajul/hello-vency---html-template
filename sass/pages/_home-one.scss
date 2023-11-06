@@ -162,6 +162,10 @@
         margin-left: 12px;
         margin-right: 12px;
       }
+      @include xl{
+        padding-left: 60px;
+        margin: 0;
+      }
     }
     .btn-wrapper{
       @include rmaxwd(991){
