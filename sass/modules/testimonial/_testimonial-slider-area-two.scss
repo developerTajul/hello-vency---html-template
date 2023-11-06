@@ -48,7 +48,7 @@
                   &.slick-center{
                     margin-bottom: 80px;
                     @include md{
-                      min-width: 350px !important;
+                      // min-width: 350px !important;
                     }
                     @include xl{
                       min-width: 450px !important;
@@ -64,12 +64,6 @@
             &.slick-center{
                 margin-top: 0 !important;
                 background-color: $primary-color;
-                @include lg{
-                  width: 450px !important;
-                }
-                @include xl{
-                  // width: 450px;
-                }
                 .icon{
                     i{
                         color: $white;

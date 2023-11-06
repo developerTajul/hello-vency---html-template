@@ -11641,11 +11641,6 @@ ul.children {
 .testimonial-slider-area.style-2 .testimonial-card.style-2.slick-slide.slick-center {
   margin-bottom: 80px;
 }
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-  .testimonial-slider-area.style-2 .testimonial-card.style-2.slick-slide.slick-center {
-    min-width: 350px !important;
-  }
-}
 @media only screen and (min-width: 1200px) and (max-width: 1900px) {
   .testimonial-slider-area.style-2 .testimonial-card.style-2.slick-slide.slick-center {
     min-width: 450px !important;
@@ -11657,11 +11652,6 @@ ul.children {
 .testimonial-slider-area.style-2 .testimonial-card.slick-center {
   margin-top: 0 !important;
   background-color: #FFCC7E;
-}
-@media only screen and (min-width: 992px) and (max-width: 1199px) {
-  .testimonial-slider-area.style-2 .testimonial-card.slick-center {
-    width: 450px !important;
-  }
 }
 .testimonial-slider-area.style-2 .testimonial-card.slick-center .icon i {
   color: #ffffff;
