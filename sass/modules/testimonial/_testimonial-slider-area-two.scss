@@ -37,10 +37,16 @@
         .testimonial-card{
             &.style-2{
               border: 0;
+              @include md{
+                border: 1px solid #E7E7E7;
+              }
 
                 &.slick-slide{
                   @include rmaxwd(1400){
                     margin: 0 20px 80px 20px;
+                  }
+                  @include md{
+                    margin: 0 12px 80px 12px;
                   }
                   @media only screen and (min-width: 769px) and (max-width: 991px){
                     min-width: 350px !important;

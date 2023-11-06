@@ -7,11 +7,13 @@
         @include rmaxwd(991){
             padding: 30px;
         }
+        @include md{
+            padding: 12px;
+        }
         @media only screen and (min-width: 1400px) and (max-width: 1900px){
             padding: 30px;
         }
         @include lg{
-            
             padding: 40px 20px;
         }
         @include xl{
