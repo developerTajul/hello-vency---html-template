@@ -214,13 +214,20 @@ Slider
                 {
                     breakpoint: 1400,
                     settings: {
-                        slidesToShow: 2,
+                        slidesToShow: 3,
                     },
                 },
                 {
-                    breakpoint: 768,
+                    breakpoint: 991,
                     settings: {
                         slidesToShow: 2,
+                        centerMode: false
+                    },
+                },
+                {
+                    breakpoint: 769,
+                    settings: {
+                        slidesToShow: 1,
                     },
                 },
                 {

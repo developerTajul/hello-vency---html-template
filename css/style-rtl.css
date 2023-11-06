@@ -13525,6 +13525,11 @@ ul.children {
     padding-right: 0;
   }
 }
+@media only screen and (min-width: 1200px) and (max-width: 1900px) {
+  .service-area.style-2 .icon-card-wrapper {
+    margin-right: 0;
+  }
+}
 .service-area.style-2 .duo-wrapper {
   display: -webkit-box;
   display: -ms-flexbox;

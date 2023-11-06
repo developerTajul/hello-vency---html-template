@@ -10,6 +10,13 @@
         @media only screen and (min-width: 1400px) and (max-width: 1900px){
             padding: 30px;
         }
+        @include lg{
+            
+            padding: 40px 20px;
+        }
+        @include xl{
+            padding: 40px 20px;
+        }
         .sketch{
             position: absolute;
             top: 0;

@@ -6,6 +6,27 @@
         .section-title{
             margin-bottom: 56px;
         }
+        .custom-container{
+          @include lg{
+            margin: 0;
+          }
+          @include xl{
+            margin: 0;
+          }
+        }
+        .slick-list{
+          .slick-track{
+            @include md{
+              display: flex !important;
+            }
+            @include lg{
+              display: flex !important;
+            }
+            @include xl{
+              display: flex !important;
+            }
+          }
+        }
         .slick-active + .slick-active + .slick-active {
             .icon{
                 i{
@@ -21,8 +42,17 @@
                   @include rmaxwd(1400){
                     margin: 0 20px 80px 20px;
                   }
+                  @media only screen and (min-width: 769px) and (max-width: 991px){
+                    min-width: 350px !important;
+                  }
                   &.slick-center{
                     margin-bottom: 80px;
+                    @include md{
+                      min-width: 350px !important;
+                    }
+                    @include xl{
+                      min-width: 450px !important;
+                    }
                   }
                 }
               }
@@ -34,6 +64,12 @@
             &.slick-center{
                 margin-top: 0 !important;
                 background-color: $primary-color;
+                @include lg{
+                  width: 450px !important;
+                }
+                @include xl{
+                  // width: 450px;
+                }
                 .icon{
                     i{
                         color: $white;

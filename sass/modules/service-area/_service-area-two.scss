@@ -73,6 +73,9 @@
                 gap: 0;
                 padding-left: 0;
             }
+            @include xl{
+                margin-left: 0;
+            }
         }
         .duo-wrapper{
             display: flex;
