@@ -7932,7 +7932,7 @@ button.testimonial-arrow-btn:hover:before {
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .list-item-wrapper ul li:before {
-    margin-top: 6px;
+    margin-top: 4px;
   }
 }
 .list-item-wrapper.style-2 ul li {
@@ -10045,35 +10045,27 @@ ul.children {
   margin-bottom: 0;
 }
 
-.service-area.style-1.style-2 .service-area-inner .section-title {
-  margin-bottom: 56px;
-}
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-  .service-area.style-1.style-2 .service-area-inner .section-title {
-    margin-bottom: 32px;
-  }
-}
-.service-area.style-1.style-2 .service-area-inner .icon-card-wrapper {
+.service-area.style-2 .service-area-inner .icon-card-wrapper {
   margin-left: 0;
 }
-.service-area.style-1.style-2 .service-area-inner .icon-card-wrapper .g-6 {
+.service-area.style-2 .service-area-inner .icon-card-wrapper .g-6 {
   --bs-gutter-x: 40px;
   --bs-gutter-y: 40px;
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
-  .service-area.style-1.style-2 .service-area-inner .icon-card-wrapper .g-6 {
+  .service-area.style-2 .service-area-inner .icon-card-wrapper .g-6 {
     --bs-gutter-x: 0;
     --bs-gutter-y: 12px;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .service-area.style-1.style-2 .service-area-inner .icon-card-wrapper .g-6 {
+  .service-area.style-2 .service-area-inner .icon-card-wrapper .g-6 {
     --bs-gutter-x: 34px;
     --bs-gutter-y: 34px;
   }
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
-  .service-area.style-1.style-2 .service-area-inner .icon-card-wrapper .g-6 {
+  .service-area.style-2 .service-area-inner .icon-card-wrapper .g-6 {
     --bs-gutter-x: 16px;
     --bs-gutter-y: 16px;
   }
@@ -12129,6 +12121,11 @@ ul.children {
 .image-card .section-title .list-item-wrapper {
   margin-top: 20px;
 }
+@media only screen and (min-width: 0px) and (max-width: 768px) {
+  .image-card .section-title .list-item-wrapper {
+    margin-top: 0;
+  }
+}
 .image-card .section-title .theme-btn {
   margin-top: 30px;
 }
@@ -12215,7 +12212,6 @@ ul.children {
 .review-slider {
   margin-top: 8px;
   margin-left: calc((100% - 1320px) / 2);
-  overflow: hidden;
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .review-slider {
@@ -12270,14 +12266,13 @@ ul.children {
 }
 .review-slider .testimonial-arrow-btn {
   position: absolute;
-  top: -174px;
+  top: -70px;
+  right: 312px;
   display: none !important;
 }
-.review-slider .testimonial-arrow-btn.next-btn {
-  right: 0;
-}
 .review-slider .testimonial-arrow-btn.prev-btn {
-  right: 74px;
+  right: 384px;
+  transform: translate(0px);
 }
 
 .review-btn-wrapper {

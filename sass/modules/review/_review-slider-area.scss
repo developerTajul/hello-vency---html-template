@@ -1,7 +1,7 @@
 .review-slider{
     margin-top: 8px;
     margin-left: calc((100% - 1320px) / 2);
-    overflow: hidden;
+    // overflow: hidden;
 
       @include sm{
       margin-left: 16px;
@@ -43,18 +43,14 @@
       }
       .testimonial-arrow-btn{
         position: absolute;
-        top: -174px;
+        top: -70px;
+        right: 312px;
         display: none !important;
-        
-        &.next-btn{
-          right: 0;
-          // transform: translate(-50%, -50%);
-        }
-        &.prev-btn{
-          right: 74px;
-          // transform: translate(-0%, -50%);
-        }
 
+        &.prev-btn{
+          right: 384px;
+          transform: translate(0px)
+        }
       }
   }
 // Button

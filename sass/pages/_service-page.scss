@@ -70,39 +70,37 @@
 }
 
 .service-area{
-    &.style-1{
-        &.style-2{
-            .service-area-inner{
-                .section-title{
-                    margin-bottom: 56px;
-                    @include md{
-                        margin-bottom: 32px;
+    &.style-2{
+        .service-area-inner{
+            .section-title{
+                // margin-bottom: 56px;
+                @include md{
+                    // margin-bottom: 32px;
+                }
+            }
+            .icon-card-wrapper{
+                margin-left: 0;
+                .g-6 {
+                    --bs-gutter-x: 40px;
+                    --bs-gutter-y: 40px;
+                
+                    @include sm {
+                      --bs-gutter-x: 0;
+                      --bs-gutter-y: 12px;
+                    }
+                    @include md {
+                      --bs-gutter-x: 34px;
+                      --bs-gutter-y: 34px;
+                    }
+                    @include lg{
+                        --bs-gutter-x: 16px;
+                      --bs-gutter-y: 16px;
                     }
                 }
-                .icon-card-wrapper{
-                    margin-left: 0;
-                    .g-6 {
-                        --bs-gutter-x: 40px;
-                        --bs-gutter-y: 40px;
-                    
-                        @include sm {
-                          --bs-gutter-x: 0;
-                          --bs-gutter-y: 12px;
-                        }
-                        @include md {
-                          --bs-gutter-x: 34px;
-                          --bs-gutter-y: 34px;
-                        }
-                        @include lg{
-                            --bs-gutter-x: 16px;
-                          --bs-gutter-y: 16px;
-                        }
-                    }
-                    .icon-card{
-                        &.style-2{
-                            @include md{
-                                // margin-top: 24px;
-                            }
+                .icon-card{
+                    &.style-2{
+                        @include md{
+                            // margin-top: 24px;
                         }
                     }
                 }
