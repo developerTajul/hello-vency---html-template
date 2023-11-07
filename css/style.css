@@ -2135,7 +2135,7 @@ input.theme-btn {
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .pb-md-100 {
-    padding-bottom: 80px !important;
+    padding-bottom: 100px !important;
   }
 }
 
@@ -5354,6 +5354,11 @@ body.admin-bar .header-menu-area.sticky_menu {
   .counter-up-area.style-2 .counter-item {
     border-right: none;
     border-bottom: 1px solid #E7E7E7;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .counter-up-area.style-2 .counter-item:first-child {
+    padding-top: 0;
   }
 }
 .counter-up-area.style-2 .counter-item:last-child {
@@ -9584,6 +9589,11 @@ ul.children {
 .about-us-area.style-1 .about-info-card {
   padding-left: 30px;
 }
+@media (max-width: 991px) {
+  .about-us-area.style-1 .about-info-card {
+    padding-left: 0;
+  }
+}
 @media only screen and (min-width: 1200px) and (max-width: 1900px) {
   .about-us-area.style-1 .about-info-card {
     margin-left: 0;
@@ -9704,12 +9714,6 @@ ul.children {
 .latest-post-area.style-1 .section-title-wrapper {
   justify-content: center;
 }
-@media (max-width: 991px) {
-  .latest-post-area.style-1 .section-title .desc br {
-    display: none;
-  }
-}
-
 .faq-area.style-1 {
   position: relative;
   background-size: cover;
@@ -9768,6 +9772,9 @@ ul.children {
   }
 }
 
+.team-area.style-1 .section-title-wrapper {
+  justify-content: center;
+}
 .team-area.style-1 .section-title {
   margin-bottom: 56px;
 }
@@ -10959,7 +10966,7 @@ ul.children {
 }
 
 .hero-area {
-  padding-top: 40px;
+  padding-top: 80px;
   background-size: cover !important;
   background-position: center !important;
   background-repeat: no-repeat !important;
@@ -10975,7 +10982,7 @@ ul.children {
 .hero-area .content-wrapper .hero-title {
   display: flex;
   flex-direction: column;
-  gap: 12px;
+  gap: 8px;
   z-index: 10;
   position: relative;
 }
@@ -10989,9 +10996,6 @@ ul.children {
   .hero-area .content-wrapper .hero-title {
     text-align: center;
   }
-}
-.hero-area .content-wrapper .hero-title .short-title {
-  margin-bottom: 12px;
 }
 .hero-area .content-wrapper .hero-title .short-title span {
   border-radius: 8px;
@@ -11314,6 +11318,11 @@ ul.children {
     padding-right: 0;
   }
 }
+@media only screen and (min-width: 1200px) and (max-width: 1900px) {
+  .hero-area.style-2 .content-wrapper .hero-title p {
+    padding-right: 0;
+  }
+}
 .hero-area.style-2 .content-wrapper .btn-wrapper .video-popup-btn {
   position: relative;
   z-index: 10;
@@ -11365,6 +11374,7 @@ ul.children {
   .support-card p {
     padding: 10px 20px;
     text-align: center;
+    border-radius: 12px;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -11386,6 +11396,11 @@ ul.children {
   }
 }
 
+@media only screen and (min-width: 769px) and (max-width: 991px) {
+  .portfolio-slider-area.style-1 .section-title-wrapper {
+    align-items: self-start;
+  }
+}
 .portfolio-slider-area.style-1 .portfolio-slider {
   margin-top: 56px;
   margin-left: calc((100% - 1302px) / 2);
@@ -11399,7 +11414,7 @@ ul.children {
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .portfolio-slider-area.style-1 .portfolio-slider {
-    margin-left: calc((100% - 720px) / 2);
+    margin-left: calc((100% - 690px) / 2);
   }
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -11726,6 +11741,11 @@ ul.children {
     min-width: 350px !important;
   }
 }
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .testimonial-slider-area.style-2 .testimonial-card.style-2.slick-slide {
+    margin: 0;
+  }
+}
 .testimonial-slider-area.style-2 .testimonial-card.style-2.slick-slide.slick-center {
   margin-bottom: 80px;
 }
@@ -12042,7 +12062,6 @@ ul.children {
   .service-area.style-2 .content-wrapper .service-btn {
     text-align: start;
     margin-top: 0;
-    margin-bottom: 24px;
   }
 }
 @media only screen and (min-width: 769px) and (max-width: 991px) {
@@ -12097,6 +12116,7 @@ ul.children {
     flex-direction: column;
     gap: 0;
     padding-left: 0;
+    margin-top: 28px;
   }
 }
 @media only screen and (min-width: 1200px) and (max-width: 1900px) {

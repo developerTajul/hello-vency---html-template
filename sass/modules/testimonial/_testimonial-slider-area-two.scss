@@ -51,6 +51,9 @@
                   @media only screen and (min-width: 769px) and (max-width: 991px){
                     min-width: 350px !important;
                   }
+                  @include sm{
+                    margin: 0;
+                  }
                   &.slick-center{
                     margin-bottom: 80px;
                     @include md{

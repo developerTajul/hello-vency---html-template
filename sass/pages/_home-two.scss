@@ -68,6 +68,9 @@
 // Team-area Style-1
 .team-area{
   &.style-1{
+    .section-title-wrapper{
+      justify-content: center;
+    }
     .section-title{
       margin-bottom: 56px;
     }

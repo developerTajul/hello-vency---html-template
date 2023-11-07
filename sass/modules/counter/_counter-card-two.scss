@@ -30,6 +30,11 @@
           // border-right: none;;
         }
       }
+      &:first-child{
+        @include sm{
+          padding-top: 0;
+        }
+      }
       &:last-child{
         border-right: none;
         @include md{

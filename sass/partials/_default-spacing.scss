@@ -1,4 +1,5 @@
 /* Deafult Margin & Padding */
+
 /*-- Margin Top --*/
 
 .mt-5 {
@@ -1672,7 +1673,7 @@
 }
 .pb-md-100{
   @include md{
-    padding-bottom: 80px !important;
+    padding-bottom: 100px !important;
   }
 }
 

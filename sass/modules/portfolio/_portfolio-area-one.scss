@@ -1,5 +1,10 @@
 .portfolio-slider-area{
     &.style-1{
+        .section-title-wrapper{
+            @media only screen and (min-width: 769px) and (max-width: 991px){
+                align-items: self-start;
+            }
+        }
         .portfolio-slider{
             margin-top: 56px;
             margin-left: calc((100% - 1302px) / 2);
@@ -9,7 +14,7 @@
             margin-right: 12px;
             }
             @include md{
-            margin-left: calc((100% - 720px) / 2);
+            margin-left: calc((100% - 690px) / 2);
             }
             @include lg{
             margin-left: calc((100% - 960px) / 2);

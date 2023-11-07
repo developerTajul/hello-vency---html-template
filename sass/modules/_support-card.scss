@@ -25,6 +25,7 @@
         @include sm{
             padding: 10px 20px;
             text-align: center;
+            border-radius: 12px;
         }
         @include md{
             text-align: center;
