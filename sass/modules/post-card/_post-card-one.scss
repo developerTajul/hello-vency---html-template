@@ -44,6 +44,7 @@
       //gap: 12px;
   
       .tag-item{
+        a{
           padding: 4px 12px;
           border-radius: 8px;
           background: #FFF0D8;
@@ -56,6 +57,7 @@
             background-color: $black;
             color: #FFF0D8;
           }
+        }
       }
     }  
 
