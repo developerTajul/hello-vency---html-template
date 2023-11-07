@@ -9825,6 +9825,9 @@ ul.children {
 .why-choose-area.style-3 {
   position: relative;
 }
+.why-choose-area.style-3 .elementor-section {
+  overflow: visible !important;
+}
 .why-choose-area.style-3 .about-info-card.style-2 .section-title {
   margin-bottom: 0;
 }

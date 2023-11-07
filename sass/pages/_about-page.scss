@@ -2,7 +2,9 @@
 .why-choose-area{
   &.style-3{
     position: relative;
-
+    .elementor-section{
+      overflow: visible !important;
+    }
     .about-info-card{
       &.style-2{
         .section-title{
