@@ -6431,8 +6431,8 @@ button.testimonial-arrow-btn:hover:before {
   flex-wrap: wrap;
   gap: 8px;
 }
-.single-post-item .content-header .tag-wrapper .tag,
-.single-post-item .content-header .tag-wrapper .tag-item {
+.single-post-item .content-header .tag a,
+.single-post-item .content-header .tag-item a {
   padding: 4px 12px;
   background-color: #FFF0D8;
   border-radius: 8px;
@@ -6443,8 +6443,8 @@ button.testimonial-arrow-btn:hover:before {
   color: #161616;
   transition: all 0.5s ease-out;
 }
-.single-post-item .content-header .tag-wrapper .tag:hover,
-.single-post-item .content-header .tag-wrapper .tag-item:hover {
+.single-post-item .content-header .tag a:hover,
+.single-post-item .content-header .tag-item a:hover {
   background-color: #161616;
   color: #FFF0D8;
 }

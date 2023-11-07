@@ -570,8 +570,10 @@
       align-items: center;
       flex-wrap: wrap;
       gap: 8px;
-      .tag,
-      .tag-item {
+    }
+    .tag,
+    .tag-item {
+      a{
         padding: 4px 12px;
         background-color: #FFF0D8;
         border-radius: 8px;
@@ -580,7 +582,6 @@
         font-weight: 500;
         line-height: 28px; 
         color: $black;
-        
         @include transition;
         &:hover{
           background-color: $black;
