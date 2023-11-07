@@ -393,7 +393,7 @@ input.theme-btn i {
   display: inline-flex;
   align-items: center;
 }
-@media only screen and (min-width: 0px) and (max-width: 767px) {
+@media (max-width: 991px) {
   .theme-btn,
   .wp-block-loginout a,
   input.theme-btn {
@@ -9917,7 +9917,7 @@ ul.children {
   }
 }
 .contact-form-area .video-popup-card img {
-  max-height: 601px;
+  max-height: 608px;
 }
 
 .contact-map-area {
