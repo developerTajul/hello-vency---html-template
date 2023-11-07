@@ -11720,11 +11720,15 @@ ul.children {
 }
 .testimonial-slider-area.style-2 .testimonial-card.style-2 {
   border: 0;
+  transition: all 0.5s ease-out;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .testimonial-slider-area.style-2 .testimonial-card.style-2 {
     border: 1px solid #E7E7E7;
   }
+}
+.testimonial-slider-area.style-2 .testimonial-card.style-2.slick-slide {
+  transition: all 0.5s ease-out;
 }
 @media (max-width: 1400px) {
   .testimonial-slider-area.style-2 .testimonial-card.style-2.slick-slide {
@@ -11733,7 +11737,7 @@ ul.children {
 }
 @media only screen and (min-width: 769px) and (max-width: 991px) {
   .testimonial-slider-area.style-2 .testimonial-card.style-2.slick-slide {
-    margin: 0 12px 80px 12px;
+    margin: 0 12px 0px 12px;
   }
 }
 @media only screen and (min-width: 769px) and (max-width: 991px) {
@@ -11751,7 +11755,8 @@ ul.children {
 }
 @media only screen and (min-width: 1200px) and (max-width: 1900px) {
   .testimonial-slider-area.style-2 .testimonial-card.style-2.slick-slide.slick-center {
-    min-width: 450px !important;
+    min-width: 480px !important;
+    transition: all 0.5s ease-out;
   }
 }
 .testimonial-slider-area.style-2 .testimonial-card .icon i {
