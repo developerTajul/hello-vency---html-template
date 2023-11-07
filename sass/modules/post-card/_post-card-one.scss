@@ -35,31 +35,23 @@
     z-index: 3;
     gap: 24px; 
     // margin-top: 7px;
-
-    .tag-wrapper{
-
-      // display: inline-block;
-      // justify-content: space-between;
-      // align-items: center;
-      //gap: 12px;
-  
-      .tag-item{
-        a{
-          padding: 4px 12px;
-          border-radius: 8px;
-          background: #FFF0D8;
-          color: $black;
-          font-family: $heading-font;
-          font-size: 20px;
-          font-weight: 500;
-          line-height: 140%;
-          &:hover{
-            background-color: $black;
-            color: #FFF0D8;
-          }
+ 
+    .tag-item{
+      a{
+        padding: 4px 12px;
+        border-radius: 8px;
+        background: #FFF0D8;
+        color: $black;
+        font-family: $heading-font;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 140%;
+        &:hover{
+          background-color: $black;
+          color: #FFF0D8;
         }
       }
-    }  
+    }
 
     .post-meta {
       display: inline-flex;
