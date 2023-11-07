@@ -59,6 +59,11 @@
             }
             .desc{
                 color: $black-2;
+                br{
+                    @include lg{
+                        display: none;
+                    }
+                }
             }
         }
         .btn-wrapper{

@@ -62,6 +62,13 @@
             @include xl{
                 margin-left: 0;
             }
+            .icon-card{
+                &.style-2{
+                    @include sm{
+                        margin-top: 24px;
+                    }
+                }
+            }
         }
         .duo-wrapper{
             display: flex;

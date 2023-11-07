@@ -56,8 +56,9 @@
                   @media only screen and (min-width: 769px) and (max-width: 991px){
                     min-width: 350px !important;
                   }
-                  @include sm{
-                    margin: 0;
+                  @media only screen and (min-width: 0px) and (max-width: 768px){
+                    margin-left: 42px !important;
+                    margin-right: 42px !important;
                   }
                   &.slick-active{
                     @include xl{

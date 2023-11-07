@@ -13,11 +13,8 @@
     }
     .icon-card{
       &.style-2{
-        @include rmaxwd(991){
-          margin-top: 24px;
-        }
         @include sm{
-          margin-top: 8px;
+          // margin-top: 8px;
         }
       }
     }

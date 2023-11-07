@@ -11048,6 +11048,11 @@ ul.children {
 .hero-area .content-wrapper .hero-title .desc {
   color: #474747;
 }
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .hero-area .content-wrapper .hero-title .desc br {
+    display: none;
+  }
+}
 .hero-area .content-wrapper .btn-wrapper {
   display: flex;
   align-items: center;
@@ -11365,6 +11370,7 @@ ul.children {
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .support-card {
     display: inline-flex;
+    padding: 0 14px;
   }
 }
 .support-card p {
@@ -11763,9 +11769,10 @@ ul.children {
     min-width: 350px !important;
   }
 }
-@media only screen and (min-width: 0px) and (max-width: 767px) {
+@media only screen and (min-width: 0px) and (max-width: 768px) {
   .testimonial-slider-area.style-2 .testimonial-card.style-2.slick-slide {
-    margin: 0;
+    margin-left: 42px !important;
+    margin-right: 42px !important;
   }
 }
 @media only screen and (min-width: 1200px) and (max-width: 1900px) {
@@ -12061,17 +12068,6 @@ ul.children {
     margin-bottom: 0;
   }
 }
-@media (max-width: 991px) {
-  .service-area .icon-card-wrapper .icon-card.style-2 {
-    margin-top: 24px;
-  }
-}
-@media only screen and (min-width: 0px) and (max-width: 767px) {
-  .service-area .icon-card-wrapper .icon-card.style-2 {
-    margin-top: 8px;
-  }
-}
-
 .service-area.style-2 {
   background-size: cover;
 }
@@ -12155,6 +12151,11 @@ ul.children {
 @media only screen and (min-width: 1200px) and (max-width: 1900px) {
   .service-area.style-2 .icon-card-wrapper {
     margin-left: 0;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .service-area.style-2 .icon-card-wrapper .icon-card.style-2 {
+    margin-top: 24px;
   }
 }
 .service-area.style-2 .duo-wrapper {
