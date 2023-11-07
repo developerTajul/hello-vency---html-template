@@ -5,6 +5,9 @@
         background-size: cover;
         .section-title{
             margin-bottom: 56px;
+            @include rmaxwd(991){
+              margin-bottom: 32px;
+            }
         }
         .custom-container{
           @include lg{
@@ -48,13 +51,18 @@
                     margin: 0 20px 80px 20px;
                   }
                   @media only screen and (min-width: 769px) and (max-width: 991px){
-                    margin: 0 12px 0px 12px;
+                    margin: 0 12px 80px 12px;
                   }
                   @media only screen and (min-width: 769px) and (max-width: 991px){
                     min-width: 350px !important;
                   }
                   @include sm{
                     margin: 0;
+                  }
+                  &.slick-active{
+                    @include xl{
+                      min-width: 400px;
+                    }
                   }
                   &.slick-center{
                     margin-bottom: 80px;

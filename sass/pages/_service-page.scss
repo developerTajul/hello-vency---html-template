@@ -64,6 +64,11 @@
             overflow: hidden;
         }
     }
+    h3{
+        @include sm{
+            font-size: 36px;
+        }
+    }
     p {
         margin-bottom: 0;
     }
