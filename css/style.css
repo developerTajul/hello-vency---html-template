@@ -3529,6 +3529,9 @@ body.admin-bar .header-menu-area.sticky_menu {
   visibility: hidden;
   transform: scale(0);
 }
+.main-menu ul li:last-child a {
+  padding-right: 0;
+}
 .main-menu ul li ul.submenu li.active > a {
   position: relative;
   z-index: 2;
@@ -3668,7 +3671,7 @@ body.admin-bar .header-menu-area.sticky_menu {
 }
 @media only screen and (max-width: 1399px) {
   .header-btn {
-    display: none;
+    flex-grow: unset;
   }
 }
 .header-btn .header-single-btn {
