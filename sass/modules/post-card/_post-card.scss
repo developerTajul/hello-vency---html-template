@@ -188,9 +188,6 @@
   .wp-block-calendar {
     margin-bottom: 30px;
   }
-  .author-info{
-    margin-top: -5px;
-  }
 }
 // Blog Details End
 
@@ -353,7 +350,7 @@
     display: inline-flex;
     align-items: center;
     justify-content: space-between;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
     width: 100%;
     margin-top: 8px;
     padding-top: 32px;
@@ -451,7 +448,7 @@
     }
 
     img {
-      width: 100%;
+      // width: 100%;
       transform: scale(1);
       border-radius: 16px;
       @include transition;

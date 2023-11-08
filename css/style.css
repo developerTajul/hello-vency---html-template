@@ -6082,9 +6082,6 @@ button.testimonial-arrow-btn:hover:before {
 .blog-details-wrapper .wp-block-calendar {
   margin-bottom: 30px;
 }
-.blog-details-wrapper .author-info {
-  margin-top: -5px;
-}
 
 @media (max-width: 991px) {
   .blog-post {
@@ -6229,7 +6226,7 @@ button.testimonial-arrow-btn:hover:before {
   display: inline-flex;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
   width: 100%;
   margin-top: 8px;
   padding-top: 32px;
@@ -6323,7 +6320,6 @@ button.testimonial-arrow-btn:hover:before {
 .single-post-item .post-video img,
 .single-post-item .post-gallery img,
 .single-post-item .post-audio img {
-  width: 100%;
   transform: scale(1);
   border-radius: 16px;
   transition: all 0.5s ease-out;
