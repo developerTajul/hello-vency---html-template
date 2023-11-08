@@ -11769,10 +11769,15 @@ ul.children {
     min-width: 350px !important;
   }
 }
-@media only screen and (min-width: 0px) and (max-width: 768px) {
+@media only screen and (min-width: 768px) and (max-width: 991px) {
   .testimonial-slider-area.style-2 .testimonial-card.style-2.slick-slide {
     margin-left: 42px !important;
     margin-right: 42px !important;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .testimonial-slider-area.style-2 .testimonial-card.style-2.slick-slide {
+    margin: 0 12px 80px 12px;
   }
 }
 @media only screen and (min-width: 1200px) and (max-width: 1900px) {
