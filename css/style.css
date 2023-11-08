@@ -10099,7 +10099,7 @@ ul.children {
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .process-step-area.style-1 .section-title {
-    margin-bottom: 48px;
+    margin-bottom: 32px;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -11777,7 +11777,7 @@ ul.children {
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .testimonial-slider-area.style-2 .testimonial-card.style-2.slick-slide {
-    margin: 0 12px 80px 12px;
+    margin: 0;
   }
 }
 @media only screen and (min-width: 1200px) and (max-width: 1900px) {
