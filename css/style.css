@@ -6076,9 +6076,6 @@ button.testimonial-arrow-btn:hover:before {
   margin-bottom: 30px;
 }
 
-.blog-post {
-  padding-right: 28px;
-}
 @media (max-width: 991px) {
   .blog-post {
     padding-right: 12px;
