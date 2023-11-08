@@ -2446,6 +2446,13 @@ blockquote footer {
   display: flex;
   justify-content: space-between;
   align-items: end;
+  position: relative;
+}
+blockquote footer:after {
+  content: "";
+  width: 55px;
+  height: 40px;
+  background-image: url(../images/blog-detail/quote.png);
 }
 blockquote.wp-block-quote.is-style-large {
   padding: 16px;
@@ -6075,6 +6082,9 @@ button.testimonial-arrow-btn:hover:before {
 .blog-details-wrapper .wp-block-calendar {
   margin-bottom: 30px;
 }
+.blog-details-wrapper .author-info {
+  margin-top: -5px;
+}
 
 @media (max-width: 991px) {
   .blog-post {
@@ -6221,7 +6231,7 @@ button.testimonial-arrow-btn:hover:before {
   justify-content: space-between;
   margin-bottom: 20px;
   width: 100%;
-  margin-top: 23px;
+  margin-top: 8px;
   padding-top: 32px;
   border-top: 1px solid #E7E7E7;
 }

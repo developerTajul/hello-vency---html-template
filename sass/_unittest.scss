@@ -312,6 +312,14 @@ blockquote {
     display: flex;
     justify-content: space-between;
     align-items: end;
+    position: relative;
+    &:after{
+      content: '';
+      width: 55px;
+      height: 40px;
+      background-image: url(../images/blog-detail/quote.png);
+      
+    }
   }
   &.wp-block-quote{
     &.is-style-large{
