@@ -6153,9 +6153,19 @@ button.testimonial-arrow-btn:hover:before {
 }
 .single-post-item.format-quote blockquote {
   margin: 0;
+  padding: 32px;
 }
 .single-post-item.format-quote blockquote p {
   margin-top: 0;
+}
+.single-post-item.format-quote blockquote cite {
+  position: relative;
+}
+.single-post-item.format-quote blockquote cite:after {
+  content: "";
+  width: 55px;
+  height: 40px;
+  background-image: url(../images/blog-detail/quote.png);
 }
 .single-post-item.format-quote blockquote cite a {
   font-family: "Questrial", sans-serif;
@@ -6179,6 +6189,10 @@ button.testimonial-arrow-btn:hover:before {
 }
 .single-post-item.sticky .post-content p {
   margin-bottom: 0;
+}
+.single-post-item.tag-quote {
+  padding: 0;
+  border-color: transparent;
 }
 .single-post-item .post-title {
   font-size: 38px;

@@ -257,10 +257,19 @@
     }
     blockquote {
       margin: 0;
+      padding: 32px;
       p {
         margin-top: 0;
       }
       cite {
+        position: relative;
+        &:after{
+          content: '';
+          width: 55px;
+          height: 40px;
+          background-image: url(../images/blog-detail/quote.png);
+          
+        }
         a {
           font-family: $body-font;
           font-size: 16px;
@@ -289,6 +298,11 @@
         margin-bottom: 0;
       }
     }
+  }
+  // Tag-quote blockquote
+  &.tag-quote{
+    padding: 0;
+    border-color: transparent;
   }
 
   .post-title {
