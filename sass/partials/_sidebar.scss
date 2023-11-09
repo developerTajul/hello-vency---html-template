@@ -326,7 +326,7 @@
         @include transition;
 
         &:hover {
-          text-decoration: underline;
+          // text-decoration: underline;
           @include transition;
         }
 

@@ -6334,7 +6334,7 @@ button.testimonial-arrow-btn:hover:before {
   color: #161616;
   font-family: "Outfit", sans-serif;
   font-size: 20px;
-  font-weight: 500;
+  font-weight: 400;
   line-height: 28px;
   background-color: #FFCC7E;
   padding: 4px 12px;
@@ -8366,7 +8366,6 @@ button.testimonial-arrow-btn:hover:before {
 }
 .widget ul li a:hover,
 .widget ol li a:hover {
-  text-decoration: underline;
   transition: all 0.5s ease-out;
 }
 .widget ul li a.rsswidget,
