@@ -10801,6 +10801,9 @@ ul.children {
   border: 2px solid #ffb900;
   margin-top: 12px;
 }
+.subscribe-area .subscribe-inner-area .mc4wp-response p {
+  margin-bottom: 0;
+}
 .subscribe-area.style-2 {
   padding: 32px;
   background-color: #ffffff;
