@@ -6027,7 +6027,6 @@ button.testimonial-arrow-btn:hover:before {
 .blog-details-wrapper .single-post-item .post-gallery img,
 .blog-details-wrapper .single-post-item .postbox-audio img,
 .blog-details-wrapper .single-post-item .wp-block-post-featured-image img {
-  width: 100%;
   transform: scale(1);
   transition: all 0.5s ease-out;
 }
