@@ -6105,6 +6105,11 @@ button.testimonial-arrow-btn:hover:before {
     padding: 20px;
   }
 }
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .single-post-item {
+    padding: 20px;
+  }
+}
 .single-post-item:hover .post-thumbnail img,
 .single-post-item:hover .post-video img,
 .single-post-item:hover .post-gallery img,

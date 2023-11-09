@@ -209,6 +209,9 @@
   @include sm{
     padding: 20px;
   }
+  @include lg{
+    padding: 20px;
+  }
 
   &:hover {
     // Post Image
