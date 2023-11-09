@@ -571,7 +571,13 @@ figure.wp-block-embed {
       margin-top: 5px;
       position: absolute;
     }
-
+    .wpcf7-response-output{
+      margin-left: 26px;
+      margin-right: 0;
+      @media only screen and (min-width: 0px) and (max-width: 768px){
+        margin-left: unset;
+      }
+    }
     // Form Send Message
     &.sent {
       .wpcf7-response-output {
@@ -586,11 +592,6 @@ figure.wp-block-embed {
         background: #F4FFF5;
         border: 1px solid #CDF5C8 !important;
         border-radius: 10px;
-        margin-left: 26px;
-        margin-right: 0;
-        @media only screen and (min-width: 0px) and (max-width: 768px){
-          margin-left: unset;
-        }
       }
     }
     &.invalid {
@@ -606,11 +607,6 @@ figure.wp-block-embed {
         background: #FFF7F7;
         border: 1px solid #FED8D8 !important;
         border-radius: 10px;
-        margin-left: 26px;
-        margin-right: 0;
-        @media only screen and (min-width: 0px) and (max-width: 768px){
-          margin-left: unset;
-        }
       }
     }
   }
