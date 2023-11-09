@@ -6164,15 +6164,20 @@ button.testimonial-arrow-btn:hover:before {
 }
 .single-post-item.format-quote blockquote p {
   margin-top: 0;
+  padding-right: 0;
 }
 .single-post-item.format-quote blockquote cite {
   position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 .single-post-item.format-quote blockquote cite:after {
   content: "";
   width: 55px;
   height: 40px;
   background-image: url(../images/blog-detail/quote.png);
+  display: block;
 }
 .single-post-item.format-quote blockquote cite a {
   font-family: "Questrial", sans-serif;

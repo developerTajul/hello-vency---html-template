@@ -260,15 +260,19 @@
       padding: 32px;
       p {
         margin-top: 0;
+        padding-right: 0;
       }
       cite {
         position: relative;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
         &:after{
           content: '';
           width: 55px;
           height: 40px;
           background-image: url(../images/blog-detail/quote.png);
-          
+          display: block;
         }
         a {
           font-family: $body-font;
