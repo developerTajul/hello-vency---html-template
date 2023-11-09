@@ -206,7 +206,9 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-
+    .section-title-wrapper{
+      justify-content: center;
+    }
     .accordion{
       margin-top: 56px;
       .accordion-item{

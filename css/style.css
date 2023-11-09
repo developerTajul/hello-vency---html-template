@@ -5352,6 +5352,7 @@ body.admin-bar .header-menu-area.sticky_menu {
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .counter-up-area.style-2 .counter-card-wrapper {
+    border-color: transparent;
     grid-template-columns: repeat(1, 1fr);
   }
 }
@@ -9731,6 +9732,9 @@ ul.children {
   background-position: center;
   background-repeat: no-repeat;
 }
+.faq-area.style-1 .section-title-wrapper {
+  justify-content: center;
+}
 .faq-area.style-1 .accordion {
   margin-top: 56px;
 }
@@ -11345,6 +11349,16 @@ ul.children {
 @media only screen and (min-width: 1200px) and (max-width: 1900px) {
   .hero-area.style-2 .content-wrapper .hero-title p {
     padding-right: 0;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .hero-area.style-2 .content-wrapper .hero-title p {
+    padding-right: 70px;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .hero-area.style-2 .content-wrapper .hero-title p br {
+    display: none;
   }
 }
 .hero-area.style-2 .content-wrapper .btn-wrapper .video-popup-btn {

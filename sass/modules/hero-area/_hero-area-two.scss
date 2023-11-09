@@ -110,6 +110,14 @@
                     @include xl{
                         padding-right: 0;
                     }
+                    @include lg{
+                        padding-right: 70px;
+                    }
+                    br{
+                        @include lg{
+                            display: none;
+                        }
+                    }
                 }
             }
             .btn-wrapper{
