@@ -582,6 +582,8 @@
         font-weight: 500;
         line-height: 28px; 
         color: $black;
+        display: block;
+        text-align: center;
         @include transition;
         &:hover{
           background-color: $black;

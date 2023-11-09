@@ -573,6 +573,9 @@
       .latest-post-desc {
         max-height: 100px;
         overflow: hidden;
+        @include xl{
+          max-height: 112px;
+        }
         .latest-post-title {
           margin-bottom: 8px;
           font-size: 18px;

@@ -6448,6 +6448,8 @@ button.testimonial-arrow-btn:hover:before {
   font-weight: 500;
   line-height: 28px;
   color: #161616;
+  display: block;
+  text-align: center;
   transition: all 0.5s ease-out;
 }
 .single-post-item .content-header .tag a:hover,
@@ -8555,6 +8557,11 @@ button.testimonial-arrow-btn:hover:before {
   max-height: 100px;
   overflow: hidden;
 }
+@media only screen and (min-width: 1200px) and (max-width: 1900px) {
+  .widget_latest_post ul li .latest-post-desc {
+    max-height: 112px;
+  }
+}
 .widget_latest_post ul li .latest-post-desc .latest-post-title {
   margin-bottom: 8px;
   font-size: 18px;
@@ -9701,6 +9708,12 @@ ul.children {
 .why-choose-area.style-1 .about-info-card .desc {
   padding-right: 20px;
 }
+@media only screen and (min-width: 1200px) and (max-width: 1900px) {
+  .why-choose-area.style-1 .about-info-card {
+    padding-left: 60px;
+    margin: 0;
+  }
+}
 @media (max-width: 991px) {
   .why-choose-area.style-1 .about-info-card {
     margin-top: 40px;
@@ -9712,10 +9725,10 @@ ul.children {
     margin-right: 12px;
   }
 }
-@media only screen and (min-width: 1200px) and (max-width: 1900px) {
+@media only screen and (min-width: 768px) and (max-width: 991px) {
   .why-choose-area.style-1 .about-info-card {
-    padding-left: 60px;
     margin: 0;
+    padding-left: 24px;
   }
 }
 @media (max-width: 991px) {

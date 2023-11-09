@@ -159,6 +159,10 @@
       .desc{
         padding-right: 20px;
       }
+      @include xl{
+        padding-left: 60px;
+        margin: 0;
+      }
       @include rmaxwd(991){
         margin-top: 40px;
       }
@@ -166,10 +170,11 @@
         margin-left: 12px;
         margin-right: 12px;
       }
-      @include xl{
-        padding-left: 60px;
+      @include md{
         margin: 0;
+        padding-left: 24px;
       }
+      
     }
     .btn-wrapper{
       @include rmaxwd(991){
