@@ -2248,6 +2248,9 @@ table td#today a {
 .page-content-wrapper .page-content .post-comments-form:last-child .comment-respond {
   margin-bottom: 0;
 }
+.page-content-wrapper .page-content ol {
+  margin-bottom: -6px;
+}
 
 /* Text meant only for screen readers. */
 .screen-reader-text {
