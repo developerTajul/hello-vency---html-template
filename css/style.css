@@ -2251,6 +2251,9 @@ table td#today a {
 .page-content-wrapper .page-content ol {
   margin-bottom: -6px;
 }
+.page-content-wrapper .page-content .page-links {
+  margin-bottom: 0;
+}
 
 /* Text meant only for screen readers. */
 .screen-reader-text {
