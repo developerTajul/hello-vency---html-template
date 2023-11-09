@@ -2243,7 +2243,7 @@ table td#today a {
   margin-top: -9px;
 }
 .page-content-wrapper .page-content p:last-child {
-  margin-bottom: 0;
+  margin-bottom: -6px;
 }
 .page-content-wrapper .page-content .post-comments-form:last-child .comment-respond {
   margin-bottom: 0;
