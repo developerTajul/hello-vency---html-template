@@ -2691,6 +2691,7 @@ figure.wp-block-embed {
 .wpcf7-form .comment-respond .wpcf7-not-valid-tip {
   font-size: 16px;
   margin-top: 5px;
+  position: absolute;
 }
 .wpcf7-form .comment-respond.sent .wpcf7-response-output {
   font-weight: 500;
@@ -2704,6 +2705,13 @@ figure.wp-block-embed {
   background: #F4FFF5;
   border: 1px solid #CDF5C8 !important;
   border-radius: 10px;
+  margin-left: 26px;
+  margin-right: 0;
+}
+@media only screen and (min-width: 0px) and (max-width: 768px) {
+  .wpcf7-form .comment-respond.sent .wpcf7-response-output {
+    margin-left: unset;
+  }
 }
 .wpcf7-form .comment-respond.invalid .wpcf7-response-output {
   font-weight: 500;
