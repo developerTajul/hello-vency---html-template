@@ -10793,12 +10793,8 @@ ul.children {
   }
 }
 .subscribe-area .subscribe-inner-area .mc4wp-response {
-  position: absolute;
-  left: 50%;
-  transform: translate(-50%, 0px);
   text-align: center;
   padding: 0.2em 1em;
-  border: 2px solid #ffb900;
   margin-top: 12px;
 }
 .subscribe-area .subscribe-inner-area .mc4wp-response p {
