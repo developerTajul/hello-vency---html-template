@@ -2239,6 +2239,16 @@ table td#today a {
   margin-top: 80px;
 }
 
+.page-content-wrapper .page-content p:first-child {
+  margin-top: -9px;
+}
+.page-content-wrapper .page-content p:last-child {
+  margin-bottom: 0;
+}
+.page-content-wrapper .page-content .post-comments-form:last-child .comment-respond {
+  margin-bottom: 0;
+}
+
 /* Text meant only for screen readers. */
 .screen-reader-text {
   border: 0;

@@ -104,6 +104,27 @@ table {
   }
 }
 
+// page-content-wrapper
+.page-content-wrapper{
+  .page-content{
+    p{
+      &:first-child{
+        margin-top: -9px;
+      }
+      &:last-child{
+        margin-bottom: 0;
+      }
+    }
+    .post-comments-form{
+      &:last-child{
+        .comment-respond{
+         margin-bottom: 0; 
+        }
+      }
+    }
+  }
+}
+
 
 /* Text meant only for screen readers. */
 .screen-reader-text {
