@@ -556,6 +556,13 @@ figure.wp-block-embed {
 
 // Form Validation
 .wpcf7-form {
+  .wpcf7-response-output{
+    margin-left: 26px !important;
+    margin-right: 0 !important;
+    @media only screen and (min-width: 0px) and (max-width: 768px){
+      margin-left: unset;
+    }
+  }
   .comment-respond {
     &.style-two {
       .wpcf7-not-valid-tip {
@@ -571,13 +578,7 @@ figure.wp-block-embed {
       margin-top: 5px;
       position: absolute;
     }
-    .wpcf7-response-output{
-      margin-left: 26px !important;
-      margin-right: 0 !important;
-      @media only screen and (min-width: 0px) and (max-width: 768px){
-        margin-left: unset;
-      }
-    }
+    
     // Form Send Message
     &.sent {
       .wpcf7-response-output {

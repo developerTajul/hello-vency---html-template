@@ -2682,6 +2682,15 @@ figure.wp-block-embed {
   overflow: hidden;
 }
 
+.wpcf7-form .wpcf7-response-output {
+  margin-left: 26px !important;
+  margin-right: 0 !important;
+}
+@media only screen and (min-width: 0px) and (max-width: 768px) {
+  .wpcf7-form .wpcf7-response-output {
+    margin-left: unset;
+  }
+}
 .wpcf7-form .comment-respond.style-two .wpcf7-not-valid-tip {
   color: #d9c0b8 !important;
 }
@@ -2692,15 +2701,6 @@ figure.wp-block-embed {
   font-size: 16px;
   margin-top: 5px;
   position: absolute;
-}
-.wpcf7-form .comment-respond .wpcf7-response-output {
-  margin-left: 26px !important;
-  margin-right: 0 !important;
-}
-@media only screen and (min-width: 0px) and (max-width: 768px) {
-  .wpcf7-form .comment-respond .wpcf7-response-output {
-    margin-left: unset;
-  }
 }
 .wpcf7-form .comment-respond.sent .wpcf7-response-output {
   font-weight: 500;
