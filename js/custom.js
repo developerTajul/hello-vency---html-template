@@ -297,7 +297,7 @@ Slider
             infinite: true,
             autoplay: false,
             draggable: true,
-            arrows: false,
+            arrows: true,
             slidesToScroll: 1,
             loop: true,
             dots: false,
@@ -312,6 +312,8 @@ Slider
                     settings: {
                         autoplay: true,
                         slidesToShow: 2,
+                        arrows: false,
+                        dots: true
                     },
                 },
                 {
@@ -319,6 +321,8 @@ Slider
                     settings: {
                         autoplay: true,
                         slidesToShow: 1,
+                        arrows: false,
+                        dots: true
                     },
                 },
             ],
