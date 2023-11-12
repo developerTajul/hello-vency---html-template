@@ -73,27 +73,11 @@
             }
             .slick-dots {
                 display: flex;
+                justify-content: center;
+                align-items: center;
                 gap: 20px;
-                flex-direction: column;
-                position: absolute;
-                top: 50%;
-                right: 46px;
-                transform: translateY(-50%);
-                z-index: 2;
-                flex-direction: column;
-          
-                @include sm {
-                  position: relative;
-                  flex-direction: row;
-                  align-items: center;
-                  justify-content: center;
-                  margin-right: 30px;
-                  bottom: 0px;
-                  top: unset;
-                  left: unset;
-                  right: unset;
-                  transform: none;
-                }
+                margin-top: 40px;
+                margin-bottom: 0;
           
                 li {
                   display: inline-block;
