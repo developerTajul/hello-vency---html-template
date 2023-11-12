@@ -5860,26 +5860,17 @@ button.testimonial-arrow-btn:hover:before {
 .client-logo-area .client-logo-wrapper .slick-dots {
   display: flex;
   gap: 20px;
-  position: absolute;
   top: 50%;
-  transform: translateY(-50%);
   z-index: 2;
   flex-direction: row;
   justify-content: center;
   margin-top: 32px;
+  position: relative;
+  margin-bottom: 0;
 }
-@media only screen and (min-width: 0px) and (max-width: 767px) {
+@media (min-width: 992px) {
   .client-logo-area .client-logo-wrapper .slick-dots {
-    position: relative;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    margin-right: 30px;
-    bottom: 0px;
-    top: unset;
-    left: unset;
-    right: unset;
-    transform: none;
+    display: none !important;
   }
 }
 .client-logo-area .client-logo-wrapper .slick-dots li {
@@ -5901,7 +5892,7 @@ button.testimonial-arrow-btn:hover:before {
   transition: all 0.5s ease-out;
 }
 .client-logo-area .client-logo-wrapper .slick-dots li button:hover {
-  background-color: rgb(255, 103, 49);
+  background-color: #FFCC7E;
   transition: all 0.5s ease-out;
 }
 .client-logo-area .client-logo-wrapper .slick-dots li.slick-active {
@@ -5909,6 +5900,63 @@ button.testimonial-arrow-btn:hover:before {
   outline: 1px solid #161616;
 }
 .client-logo-area .client-logo-wrapper .slick-dots li.slick-active button {
+  transition: all 0.5s ease-out;
+}
+.client-logo-area .client-logo-wrapper button.client-slider-btn {
+  position: relative;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  transition: 0.3s;
+  z-index: 99;
+  background-color: #ffffff;
+  cursor: pointer;
+  bottom: 0;
+  overflow: hidden;
+  box-shadow: 0px 16px 32px rgba(0, 0, 0, 0.05);
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: -88px;
+  z-index: 10;
+}
+@media only screen and (min-width: 1200px) and (max-width: 1900px) {
+  .client-logo-area .client-logo-wrapper button.client-slider-btn {
+    right: -40px;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 991px) {
+  .client-logo-area .client-logo-wrapper button.client-slider-btn {
+    right: -40px;
+    display: none !important;
+  }
+}
+.client-logo-area .client-logo-wrapper button.client-slider-btn.prev-btn {
+  right: unset;
+  left: -88px;
+}
+@media only screen and (min-width: 1200px) and (max-width: 1900px) {
+  .client-logo-area .client-logo-wrapper button.client-slider-btn.prev-btn {
+    left: -40px;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .client-logo-area .client-logo-wrapper button.client-slider-btn.prev-btn {
+    left: -40px;
+  }
+}
+.client-logo-area .client-logo-wrapper button.client-slider-btn i {
+  color: #161616;
+  font-size: 21px;
+  transition: all 0.5s ease-out;
+}
+.client-logo-area .client-logo-wrapper button.client-slider-btn:hover {
+  transition: all 0.5s ease-out;
+  border-color: rgb(255, 103, 49);
+  background-color: #FFCC7E;
+}
+.client-logo-area .client-logo-wrapper button.client-slider-btn:hover:before {
+  width: 100%;
   transition: all 0.5s ease-out;
 }
 .client-logo-area.style-2 .client-title {
@@ -5937,7 +5985,6 @@ button.testimonial-arrow-btn:hover:before {
     justify-content: center;
   }
 }
-
 .page-header {
   border-left: 4px solid #dfe2e9;
   padding-left: 45px;
@@ -12001,28 +12048,11 @@ ul.children {
 }
 .testimonial-slider-area.style-2 .testimonial-slider-two .slick-dots {
   display: flex;
+  justify-content: center;
+  align-items: center;
   gap: 20px;
-  flex-direction: column;
-  position: absolute;
-  top: 50%;
-  right: 46px;
-  transform: translateY(-50%);
-  z-index: 2;
-  flex-direction: column;
-}
-@media only screen and (min-width: 0px) and (max-width: 767px) {
-  .testimonial-slider-area.style-2 .testimonial-slider-two .slick-dots {
-    position: relative;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    margin-right: 30px;
-    bottom: 0px;
-    top: unset;
-    left: unset;
-    right: unset;
-    transform: none;
-  }
+  margin-top: 48px;
+  margin-bottom: 0;
 }
 .testimonial-slider-area.style-2 .testimonial-slider-two .slick-dots li {
   display: inline-block;

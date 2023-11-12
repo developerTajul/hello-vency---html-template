@@ -159,17 +159,17 @@ Slider
             infinite: true,
             autoplay: false,
             draggable: true,
-            arrows: false,
+            arrows: true,
             slidesToScroll: 1,
             loop: true,
-            dots: false,
+            dots: true,
             swipeToSlide: true,
             speed: 1500,
             rtl: false,
             prevArrow:
-                "<button type='button' class='testimonial-arrow-btn prev-btn'><div class='swip'><div class='title-wrapper'><i class='icon-left-arrow title-1'></i><i class='icon-left-arrow title-2'></i></div></div></button>",
+                "<button type='button' class='client-slider-btn prev-btn'><i class='icon-left-arrow title-1'></i></button>",
             nextArrow:
-                "<button type='button' class='testimonial-arrow-btn next-btn active'><div class='swip'><div class='title-wrapper'><i class='icon-right-arrow title-1'></i><i class='icon-right-arrow title-2'></i></div></div></button>",
+                "<button type='button' class='client-slider-btn next-btn active'><i class='icon-right-arrow title-1'></i></button>",
             responsive: [
                 {
                     breakpoint: 1199,
