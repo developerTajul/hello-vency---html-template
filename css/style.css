@@ -9803,6 +9803,16 @@ ul.children {
 .why-choose-area.style-1 {
   position: relative;
 }
+.why-choose-area.style-1 .about-info-card-img-wrapper {
+  position: relative;
+}
+.why-choose-area.style-1 .about-info-card-img-wrapper .sketch {
+  bottom: 0;
+  right: 0;
+  transform: unset;
+  width: 124px !important;
+  height: 117px !important;
+}
 .why-choose-area.style-1 .sketch {
   position: absolute;
   bottom: 70px;
