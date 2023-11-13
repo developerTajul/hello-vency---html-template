@@ -5858,7 +5858,7 @@ button.testimonial-arrow-btn:hover:before {
   }
 }
 .client-logo-area .client-logo-wrapper .slick-dots {
-  display: flex;
+  display: flex !important;
   gap: 20px;
   top: 50%;
   z-index: 2;
@@ -5868,7 +5868,7 @@ button.testimonial-arrow-btn:hover:before {
   position: relative;
   margin-bottom: 0;
 }
-@media (min-width: 992px) {
+@media (min-width: 1024px) {
   .client-logo-area .client-logo-wrapper .slick-dots {
     display: none !important;
   }
@@ -5925,7 +5925,7 @@ button.testimonial-arrow-btn:hover:before {
     right: -40px;
   }
 }
-@media only screen and (min-width: 0px) and (max-width: 991px) {
+@media only screen and (min-width: 0px) and (max-width: 1024px) {
   .client-logo-area .client-logo-wrapper button.client-slider-btn {
     right: -40px;
     display: none !important;
@@ -5945,10 +5945,29 @@ button.testimonial-arrow-btn:hover:before {
     left: -40px;
   }
 }
+.client-logo-area .client-logo-wrapper button.client-slider-btn.prev-btn .swip {
+  height: 20px;
+}
+.client-logo-area .client-logo-wrapper button.client-slider-btn.prev-btn .swip .title-wrapper {
+  display: flex;
+  margin-left: 12px;
+  gap: 32px;
+}
+.client-logo-area .client-logo-wrapper button.client-slider-btn.prev-btn:hover .swip .title-wrapper {
+  transform: translateX(-54px);
+}
 .client-logo-area .client-logo-wrapper button.client-slider-btn i {
   color: #161616;
   font-size: 21px;
   transition: all 0.5s ease-out;
+}
+.client-logo-area .client-logo-wrapper button.client-slider-btn .swip {
+  height: 20px;
+}
+.client-logo-area .client-logo-wrapper button.client-slider-btn .swip .title-wrapper {
+  display: flex;
+  margin-left: -40px;
+  gap: 32px;
 }
 .client-logo-area .client-logo-wrapper button.client-slider-btn:hover {
   transition: all 0.5s ease-out;
@@ -5958,6 +5977,9 @@ button.testimonial-arrow-btn:hover:before {
 .client-logo-area .client-logo-wrapper button.client-slider-btn:hover:before {
   width: 100%;
   transition: all 0.5s ease-out;
+}
+.client-logo-area .client-logo-wrapper button.client-slider-btn:hover .swip .title-wrapper {
+  transform: translateX(54px);
 }
 .client-logo-area.style-2 .client-title {
   text-align: center;
@@ -9591,17 +9613,52 @@ ul.children {
   transition: all 0.5s ease-out;
 }
 .portfolio-slider-wrapper button.portfolio-arrow-btn {
-  position: absolute;
-  width: 30px;
-  height: 30px;
+  position: relative;
+  width: 60px;
+  height: 60px;
   border-radius: 50%;
+  transition: 0.3s;
   z-index: 99;
   background-color: #ffffff;
-  border: 1px solid rgb(255, 103, 49);
   cursor: pointer;
-  top: -90px;
+  bottom: 0;
+  overflow: hidden;
+  box-shadow: 0px 16px 32px rgba(0, 0, 0, 0.05);
+}
+.portfolio-slider-wrapper button.portfolio-arrow-btn i {
+  color: #161616;
+  font-size: 21px;
+  transition: all 0.5s ease-out;
+}
+.portfolio-slider-wrapper button.portfolio-arrow-btn .portfolio-swip {
+  height: 20px;
   overflow: hidden;
   transition: all 0.5s ease-out;
+}
+.portfolio-slider-wrapper button.portfolio-arrow-btn .portfolio-swip .title-wrapper {
+  transition: all 0.5s ease-out;
+}
+.portfolio-slider-wrapper button.portfolio-arrow-btn .portfolio-swip .title-1 {
+  transform-origin: right center;
+  transform: rotate(0deg);
+  display: block;
+}
+.portfolio-slider-wrapper button.portfolio-arrow-btn .portfolio-swip .title-2 {
+  transform-origin: left center;
+  transform: rotate(0deg);
+  display: block;
+}
+.portfolio-slider-wrapper button.portfolio-arrow-btn:hover {
+  transition: all 0.5s ease-out;
+  border-color: rgb(255, 103, 49);
+  background-color: #FFCC7E;
+}
+.portfolio-slider-wrapper button.portfolio-arrow-btn:hover:before {
+  width: 100%;
+  transition: all 0.5s ease-out;
+}
+.portfolio-slider-wrapper button.portfolio-arrow-btn:hover .portfolio-swip .title-wrapper {
+  transform: translateY(-20px);
 }
 @media (max-width: 991px) {
   .portfolio-slider-wrapper button.portfolio-arrow-btn {
@@ -9637,25 +9694,6 @@ ul.children {
     right: 30px;
     left: 50px;
   }
-}
-.portfolio-slider-wrapper button.portfolio-arrow-btn i {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: #BDEFFB;
-  font-size: 16px;
-  transition: all 0.5s ease-out;
-}
-.portfolio-slider-wrapper button.portfolio-arrow-btn:hover {
-  transition: all 0.5s ease-out;
-  background: rgb(227, 0, 8);
-  background: linear-gradient(45deg, rgb(227, 0, 8) 0%, rgb(250, 174, 0) 100%);
-  border-color: rgb(255, 103, 49);
-}
-.portfolio-slider-wrapper button.portfolio-arrow-btn:hover i {
-  color: #ffffff;
-  transition: all 0.5s ease-out;
 }
 
 .hero-area {
@@ -11627,7 +11665,7 @@ ul.children {
     margin: 0 5px;
   }
 }
-.portfolio-slider-area.style-1 .portfolio-slider button.testimonial-arrow-btn {
+.portfolio-slider-area.style-1 .portfolio-slider button.portfolio-arrow-btn {
   position: absolute;
   top: -23%;
   bottom: unset;
@@ -11636,41 +11674,41 @@ ul.children {
   right: calc(100% - 1298px);
 }
 @media only screen and (min-width: 1200px) and (max-width: 1900px) {
-  .portfolio-slider-area.style-1 .portfolio-slider button.testimonial-arrow-btn {
+  .portfolio-slider-area.style-1 .portfolio-slider button.portfolio-arrow-btn {
     right: calc(100% - 1080px);
   }
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
-  .portfolio-slider-area.style-1 .portfolio-slider button.testimonial-arrow-btn {
+  .portfolio-slider-area.style-1 .portfolio-slider button.portfolio-arrow-btn {
     right: calc(100% - 880px);
     top: -40%;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .portfolio-slider-area.style-1 .portfolio-slider button.testimonial-arrow-btn {
+  .portfolio-slider-area.style-1 .portfolio-slider button.portfolio-arrow-btn {
     right: calc(100% - 680px);
   }
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
-  .portfolio-slider-area.style-1 .portfolio-slider button.testimonial-arrow-btn {
+  .portfolio-slider-area.style-1 .portfolio-slider button.portfolio-arrow-btn {
     display: none !important;
   }
 }
-.portfolio-slider-area.style-1 .portfolio-slider button.testimonial-arrow-btn.prev-btn {
+.portfolio-slider-area.style-1 .portfolio-slider button.portfolio-arrow-btn.prev-btn {
   right: calc(100% - 1218px);
 }
 @media only screen and (min-width: 1200px) and (max-width: 1900px) {
-  .portfolio-slider-area.style-1 .portfolio-slider button.testimonial-arrow-btn.prev-btn {
+  .portfolio-slider-area.style-1 .portfolio-slider button.portfolio-arrow-btn.prev-btn {
     right: calc(100% - 1000px);
   }
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
-  .portfolio-slider-area.style-1 .portfolio-slider button.testimonial-arrow-btn.prev-btn {
+  .portfolio-slider-area.style-1 .portfolio-slider button.portfolio-arrow-btn.prev-btn {
     right: calc(100% - 800px);
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .portfolio-slider-area.style-1 .portfolio-slider button.testimonial-arrow-btn.prev-btn {
+  .portfolio-slider-area.style-1 .portfolio-slider button.portfolio-arrow-btn.prev-btn {
     right: calc(100% - 600px);
   }
 }
@@ -12018,6 +12056,11 @@ ul.children {
 .testimonial-slider-area.style-2 .testimonial-card.slick-slide {
   margin: 98px 20px 0 20px;
   transition: all 0.5s ease-out;
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .testimonial-slider-area.style-2 .testimonial-slider-two {
+    height: 500px;
+  }
 }
 .testimonial-slider-area.style-2 .testimonial-slider-two .slick-list {
   padding: 0 !important;

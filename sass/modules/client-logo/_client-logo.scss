@@ -43,7 +43,7 @@
       justify-content: center;
     }
     .slick-dots {
-      display: flex;
+      display: flex !important;
       gap: 20px;
       top: 50%;
       z-index: 2;
@@ -52,7 +52,7 @@
       margin-top: 32px;
       position: relative;
         margin-bottom: 0;
-        @include rwd(992){
+        @include rwd(1024){
           display: none !important;
         }
 
@@ -109,7 +109,7 @@
       @include xl{
         right: -40px;
       }
-      @media only screen and (min-width: 0px) and (max-width: 991px){
+      @media only screen and (min-width: 0px) and (max-width: 1024px){
         right: -40px;
         display: none !important;
       }
@@ -122,11 +122,34 @@
         @include lg{
           left: -40px;
         }
+        .swip{
+          height: 20px;
+          .title-wrapper{
+            display: flex;
+            margin-left: 12px;
+            gap: 32px;
+          }
+        }
+        &:hover{
+          .swip{
+            .title-wrapper{
+              transform: translateX(-54px);
+            }
+          }
+        }
       }
       i {
         color: $black;
         font-size: 21px;
         @include transition;
+      }
+      .swip{
+        height: 20px;
+        .title-wrapper{
+          display: flex;
+          margin-left: -40px;
+          gap: 32px;
+        }
       }
       &:hover {
         @include transition;
@@ -135,6 +158,11 @@
         &:before {
           width: 100%;
           @include transition;
+        }
+        .swip{
+          .title-wrapper{
+            transform: translateX(54px);
+          }
         }
       }
     }

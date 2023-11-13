@@ -167,9 +167,9 @@ Slider
             speed: 1500,
             rtl: false,
             prevArrow:
-                "<button type='button' class='client-slider-btn prev-btn'><i class='icon-left-arrow title-1'></i></button>",
+                "<button type='button' class='client-slider-btn prev-btn'><div class='swip'><div class='title-wrapper'><i class='icon-left-arrow title-1'></i><i class='icon-left-arrow title-2'></i></div></div></button>",
             nextArrow:
-                "<button type='button' class='client-slider-btn next-btn active'><i class='icon-right-arrow title-1'></i></button>",
+                "<button type='button' class='client-slider-btn next-btn active'><div class='swip'><div class='title-wrapper'><i class='icon-right-arrow title-1'></i><i class='icon-right-arrow title-2'></i></div></div></button>",
             responsive: [
                 {
                     breakpoint: 1199,
@@ -303,12 +303,12 @@ Slider
             dots: false,
             speed: 1500,
             prevArrow:
-                "<button type='button' class='testimonial-arrow-btn prev-btn'><i class='fa-solid fa-angle-left'></i></button>",
+                "<button type='button' class='portfolio-arrow-btn prev-btn'><div class='portfolio-swip'><div class='title-wrapper'><i class='fa-solid fa-angle-left title-1'></i><i class='fa-solid fa-angle-left title-2'></i></div></div></button>",
             nextArrow:
-                "<button type='button' class='testimonial-arrow-btn next-btn'><i class='fa-solid fa-angle-right'></i></button>",
+                "<button type='button' class='portfolio-arrow-btn next-btn'><div class='portfolio-swip'><div class='title-wrapper'><i class='fa-solid fa-angle-right title-1'></i><i class='fa-solid fa-angle-right title-2'></i></div></div></button>",
             responsive: [
                 {
-                    breakpoint: 991,
+                    breakpoint: 992,
                     settings: {
                         autoplay: true,
                         slidesToShow: 2,

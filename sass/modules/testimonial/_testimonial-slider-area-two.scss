@@ -123,6 +123,9 @@
             }
         }
         .testimonial-slider-two{
+          @include sm{
+            height: 500px;
+          }
             .slick-list{
                 padding: 0 !important;
             }

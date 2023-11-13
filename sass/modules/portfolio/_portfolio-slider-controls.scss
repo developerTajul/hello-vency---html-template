@@ -15,17 +15,57 @@
   }
   // Slick Nav Arrow Button
   button.portfolio-arrow-btn {
-    position: absolute;
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-    z-index: 99;
-    background-color: #ffffff;
-    border: 1px solid $orange-color;
-    cursor: pointer;
-    top: -90px;
+    position: relative;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  transition: 0.3s;
+  z-index: 99;
+  background-color: $white;
+  cursor: pointer;
+  bottom: 0;
+  overflow: hidden;
+  box-shadow: 0px 16px 32px rgba(0, 0, 0, 0.05);
+
+  i {
+    color: $black;
+    font-size: 21px;
+    @include transition;
+  }
+  .portfolio-swip{
+    height: 20px;
     overflow: hidden;
     @include transition;
+    .title-wrapper{
+      @include transition;
+    }
+    .title-1{
+      transform-origin: right center;
+      transform: rotate(0deg);
+      // transform: translate(-50%, -50%);
+      display: block;
+    }
+    .title-2{
+      transform-origin: left center;
+      transform: rotate(0deg);
+      // transform: translate(-50%, -50%);
+      display: block;
+    }
+}
+  &:hover {
+    @include transition;
+    border-color: $orange-color;
+    background-color: $primary-color;
+    &:before {
+      width: 100%;
+      @include transition;
+    }
+    .portfolio-swip{
+      .title-wrapper{
+        transform: translateY(-20px);
+      }
+    }
+  }
 
     @include rmaxwd(991) {
       top: unset;
@@ -53,25 +93,6 @@
       @include rmaxwd(767) {
         right: 30px;
         left: 50px;
-      }
-    }
-    i{
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      color: $secondary-color;
-      font-size: 16px;
-      @include transition;
-    }
-    &:hover{
-      @include transition;
-      @include gradient-color-red;
-      border-color: $orange-color;
-
-      i{
-        color: $white;
-        @include transition;
       }
     }
   }
