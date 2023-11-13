@@ -12327,24 +12327,7 @@ ul.children {
     padding-bottom: 80px;
   }
 }
-.service-area.style-2 .content-wrapper {
-  position: relative;
-}
-.service-area.style-2 .content-wrapper .section-title {
-  margin-bottom: 42px;
-}
-@media only screen and (min-width: 0px) and (max-width: 768px) {
-  .service-area.style-2 .content-wrapper .service-btn {
-    text-align: start;
-    margin-top: 0;
-  }
-}
-@media only screen and (min-width: 769px) and (max-width: 991px) {
-  .service-area.style-2 .content-wrapper .service-btn {
-    text-align: start;
-  }
-}
-.service-area.style-2 .content-wrapper .sketch-2 {
+.service-area.style-2 .sketch-2 {
   position: absolute;
   bottom: 0;
   right: 0;
@@ -12368,8 +12351,25 @@ ul.children {
   }
 }
 @media (max-width: 1199px) {
-  .service-area.style-2 .content-wrapper .sketch-2 {
+  .service-area.style-2 .sketch-2 {
     display: none;
+  }
+}
+.service-area.style-2 .content-wrapper {
+  position: relative;
+}
+.service-area.style-2 .content-wrapper .section-title {
+  margin-bottom: 42px;
+}
+@media only screen and (min-width: 0px) and (max-width: 768px) {
+  .service-area.style-2 .content-wrapper .service-btn {
+    text-align: start;
+    margin-top: 0;
+  }
+}
+@media only screen and (min-width: 769px) and (max-width: 991px) {
+  .service-area.style-2 .content-wrapper .service-btn {
+    text-align: start;
   }
 }
 .service-area.style-2 .icon-card-wrapper {

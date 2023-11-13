@@ -7,6 +7,24 @@
         @include md{
             padding-bottom: 80px;
         }
+        .sketch-2{
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            transform: translate(0, 50%);
+            animation: ServiceLeftRight 2s linear infinite alternate;
+            @-webkit-keyframes ServiceLeftRight {
+                0% { transform: translate(0, 50%); }
+                100% { transform: translate(15px, 50%); }
+              }
+              @keyframes ServiceLeftRight {
+                0% { transform: translate(0, 50%); }
+                100% { transform: translate(15px, 50%); }
+              }
+            @include rmaxwd(1199){
+                display: none;
+            }
+        }
         .content-wrapper{
             position: relative;
             .section-title{
@@ -20,24 +38,6 @@
                 }
                 @media only screen and (min-width: 769px) and (max-width: 991px){
                     text-align: start;
-                }
-            }
-            .sketch-2{
-                position: absolute;
-                bottom: 0;
-                right: 0;
-                transform: translate(0, 50%);
-                animation: ServiceLeftRight 2s linear infinite alternate;
-                @-webkit-keyframes ServiceLeftRight {
-                    0% { transform: translate(0, 50%); }
-                    100% { transform: translate(15px, 50%); }
-                  }
-                  @keyframes ServiceLeftRight {
-                    0% { transform: translate(0, 50%); }
-                    100% { transform: translate(15px, 50%); }
-                  }
-                @include rmaxwd(1199){
-                    display: none;
                 }
             }
         }
