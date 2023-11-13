@@ -90,68 +90,6 @@ Slider
         });
 
         /*
-       Info Card Slider
-       ============================*/
-        $("#info_card_slider_wrapper").slick({
-            slidesToShow: 3,
-            infinite: true,
-            autoplay: true,
-            draggable: true,
-            arrows: true,
-            slidesToScroll: 1,
-            loop: true,
-            dots: false,
-            speed: 1500,
-            prevArrow:
-                "<button type='button' class='info-card-arrow-btn prev-btn'><i class='fa-solid fa-angle-left'></i></button>",
-            nextArrow:
-                "<button type='button' class='info-card-arrow-btn next-btn'><i class='fa-solid fa-angle-right'></i></button>",
-            responsive: [
-                {
-                    breakpoint: 992,
-                    settings: {
-                        slidesToShow: 2,
-                    },
-                },
-                {
-                    breakpoint: 768,
-                    settings: {
-                        slidesToShow: 1,
-                    },
-                },
-            ],
-        });
-
-        /*
-       Team Slider
-       ============================*/
-        $("#team_slider_wrapper").slick({
-            slidesToShow: 3,
-            infinite: true,
-            autoplay: true,
-            draggable: true,
-            arrows: false,
-            slidesToScroll: 1,
-            loop: true,
-            dots: true,
-            speed: 1500,
-            responsive: [
-                {
-                    breakpoint: 992,
-                    settings: {
-                        slidesToShow: 2,
-                    },
-                },
-                {
-                    breakpoint: 768,
-                    settings: {
-                        slidesToShow: 1,
-                    },
-                },
-            ],
-        });
-
-        /*
        Client-Slider
        ============================*/
         $(".client-logo-wrapper").slick({
@@ -248,48 +186,6 @@ Slider
             $(this).addClass("active");
         });
 
-        // Review-slider-area button trigger
-        $('#review-prev').on('click', function (e) {
-            e.preventDefault();
-            $('.prev-btn').trigger('click');
-        });
-        $('#review-next').on('click', function (e) {
-            e.preventDefault();
-            $('.next-btn').trigger('click');
-        });
-
-        /*
-       Related Portfolio Slider
-       ============================*/
-        $("#related_portfolio").slick({
-            slidesToShow: 3,
-            infinite: true,
-            autoplay: true,
-            draggable: true,
-            arrows: true,
-            slidesToScroll: 1,
-            loop: true,
-            dots: false,
-            speed: 1500,
-            prevArrow:
-                "<button type='button' class='portfolio-arrow-btn prev-btn'><i class='fa-solid fa-angle-left'></i></button>",
-            nextArrow:
-                "<button type='button' class='portfolio-arrow-btn next-btn'><i class='fa-solid fa-angle-right'></i></button>",
-            responsive: [
-                {
-                    breakpoint: 767,
-                    settings: {
-                        slidesToShow: 2,
-                    },
-                },
-                {
-                    breakpoint: 460,
-                    settings: {
-                        slidesToShow: 1,
-                    },
-                },
-            ],
-        });
 
         // portfolio-area slider style-1
         $(".portfolio-slider").slick({

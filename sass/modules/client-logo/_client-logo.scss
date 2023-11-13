@@ -53,7 +53,7 @@
       position: relative;
         margin-bottom: 0;
         @include rwd(1024){
-          display: none !important;
+          // display: none !important;
         }
 
       li {
