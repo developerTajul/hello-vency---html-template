@@ -9975,15 +9975,15 @@ ul.children {
     text-align: start;
   }
 }
-.faq-area.style-2 .content-wrapper .sketch {
+.faq-area.style-2 .section-title {
+  margin-bottom: 40px;
+  position: relative;
+}
+.faq-area.style-2 .sketch {
   position: absolute;
   bottom: 0;
   right: 0;
   transform: translate(0, 50%);
-}
-.faq-area.style-2 .section-title {
-  margin-bottom: 40px;
-  position: relative;
 }
 
 .why-choose-area.style-3 {

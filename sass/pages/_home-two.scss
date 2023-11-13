@@ -134,17 +134,17 @@
           text-align: start;
         }
       }
-      .sketch{
-        position: absolute;
-        bottom: 0;
-        right: 0;
-        transform: translate(0, 50%);
-        
-      }
     }
     .section-title{
       margin-bottom: 40px;
       position: relative;
+    }
+    .sketch{
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      transform: translate(0, 50%);
+      
     }
   }
 }
