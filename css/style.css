@@ -12541,7 +12541,6 @@ ul.children {
 .review-slider {
   margin-top: 8px;
   margin-left: calc((100% - 1320px) / 2);
-  overflow: hidden;
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .review-slider {
@@ -12594,15 +12593,78 @@ ul.children {
     width: 350px !important;
   }
 }
-.review-slider .testimonial-arrow-btn {
+.review-slider .review-btn {
   position: absolute;
   top: -70px;
-  right: 312px;
-  display: none !important;
+  right: calc(100% - 1298px);
 }
-.review-slider .testimonial-arrow-btn.prev-btn {
-  right: 384px;
+@media only screen and (min-width: 1200px) and (max-width: 1900px) {
+  .review-slider .review-btn {
+    right: calc(100% - 1080px);
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .review-slider .review-btn {
+    right: calc(100% - 880px);
+    top: -40%;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .review-slider .review-btn {
+    right: calc(100% - 680px);
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .review-slider .review-btn {
+    display: none !important;
+  }
+}
+.review-slider .review-btn.prev-btn {
+  right: calc(100% - 1218px);
   transform: translate(0px);
+}
+@media only screen and (min-width: 1200px) and (max-width: 1900px) {
+  .review-slider .review-btn.prev-btn {
+    right: calc(100% - 1000px);
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .review-slider .review-btn.prev-btn {
+    right: calc(100% - 800px);
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .review-slider .review-btn.prev-btn {
+    right: calc(100% - 600px);
+  }
+}
+.review-slider .slick-dots {
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  margin-top: 64px;
+  margin-bottom: 0;
+  list-style: none;
+}
+@media (max-width: 767px) {
+  .review-slider .slick-dots {
+    margin-top: 40px;
+  }
+}
+.review-slider .slick-dots li {
+  line-height: 0;
+}
+.review-slider .slick-dots li button {
+  width: 14px;
+  height: 14px;
+  font-size: 0;
+  border-radius: 50px;
+  padding: unset;
+  background-color: #bdbdbd;
+}
+.review-slider .slick-dots li.slick-active button {
+  background: #161616;
 }
 
 .review-btn-wrapper {

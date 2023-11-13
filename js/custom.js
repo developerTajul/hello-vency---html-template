@@ -372,9 +372,9 @@ Slider
             speed: 1500,
             variableWidth: true,
             prevArrow:
-                "<button type='button' class='testimonial-arrow-btn prev-btn'><i class='fa-solid fa-angle-left'></i></button>",
+                "<button type='button' class='review-btn prev-btn'><div class='review-swip'><div class='title-wrapper'><i class='fa-solid fa-angle-left title-1'></i><i class='fa-solid fa-angle-left title-2'></i></div></div></button>",
             nextArrow:
-                "<button type='button' class='testimonial-arrow-btn next-btn'><i class='fa-solid fa-angle-right'></i></button>",
+                "<button type='button' class='review-btn next-btn'><div class='review-swip'><div class='title-wrapper'><i class='fa-solid fa-angle-right title-1'></i><i class='fa-solid fa-angle-right title-2'></i></div></div></button>",
             responsive: [
                 {
                     breakpoint: 1199,
@@ -391,10 +391,17 @@ Slider
                     },
                 },
                 {
+                    breakpoint: 768,
+                    settings: {
+                        dots: true,
+                    },
+                },
+                {
                     breakpoint: 554,
                     settings: {
                         autoplay: true,
                         slidesToShow: 1,
+                        dots: true,
                     },
                 },
             ],
